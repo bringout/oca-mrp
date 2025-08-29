@@ -1,0 +1,1963 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* event_session
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__mail_count_done
+msgid "# Sent"
+msgstr "# Poslano"
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/models/event_session.py:0
+#, python-format
+msgid "- \"%(event_name)s\": Missing %(nb_too_many)i seats."
+msgstr "- \"%(event_name)s\": Nedostaje %(nb_too_many)i mjesta."
+
+#. module: event_session
+#: model:event.event,name:event_session.event_event_007
+msgid "007: No Time to Die"
+msgstr "007: Nema vremena za smrt"
+
+#. module: event_session
+#: model:mail.template,body_html:event_session.event_session_registration_mail_template_badge
+msgid ""
+"<div>\n"
+"    Dear <t t-out=\"object.name or ''\">Oscar Morgan</t>,<br>\n"
+"    Thank you for your inquiry.<br>\n"
+"    Here is your badge for the event <t t-out=\"object.session_id.name or ''\">OpenWood Collection Online Reveal</t>.<br>\n"
+"    If you have any questions, please let us know.\n"
+"    <br><br>\n"
+"    Thank you,\n"
+"    <t t-if=\"object.session_id.user_id.signature\">\n"
+"        <br>\n"
+"        <t t-out=\"object.session_id.user_id.signature or ''\">--<br>Mitchell Admin</t>\n"
+"    </t>\n"
+"</div>"
+msgstr ""
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_kanban
+msgid "<i class=\"fa fa-arrow-right o_event_fontsize_09\" title=\"End date\"/>"
+msgstr "<i class=\"fa fa-arrow-right o_event_fontsize_09\" title=\"Datum završetka\"/>"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_kanban
+msgid "<i class=\"fa fa-level-up fa-rotate-90\" title=\"Confirmed\"/>"
+msgstr "<i class=\"fa fa-level-up fa-rotate-90\" title=\"Potvrđeno\"/>"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_form
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_form_quick_create
+#: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
+msgid ""
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
+"title=\"Arrow\"/>"
+msgstr ""
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_kanban
+msgid "<i class=\"fa fa-map-marker\" title=\"Location\"/>"
+msgstr "<i class=\"fa fa-map-marker\" title=\"Lokacija\"/>"
+
+#. module: event_session
+#: model:mail.template,body_html:event_session.event_session_reminder
+msgid ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
+"<t t-set=\"date_begin\" t-value=\"format_datetime(object.session_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"></t>\n"
+"<t t-set=\"date_end\" t-value=\"format_datetime(object.session_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"></t>\n"
+"<t t-set=\"is_online\" t-value=\"'is_published' in object.session_id and object.session_id.is_published\"></t>\n"
+"<t t-set=\"event_organizer\" t-value=\"object.session_id.organizer_id\"></t>\n"
+"<t t-set=\"event_address\" t-value=\"object.session_id.address_id\"></t>\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">Your registration</span><br>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.name or ''\">Oscar Morgan</span>\n"
+"                </td><td valign=\"middle\" align=\"right\">\n"
+"                    <t t-if=\"is_online\">\n"
+"                        <a t-attf-href=\"{{ object.session_id.website_url }}\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+"                            View Event\n"
+"                        </a>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        <img t-att-src=\"'/logo.png?company=%s' % object.company_id.id\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"'%s' % object.company_id.name\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- EVENT DESCRIPTION -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <div>\n"
+"                        Hello <t t-out=\"object.name or ''\">Oscar Morgan</t>,<br>\n"
+"                        We are excited to remind you that the event\n"
+"                        <t t-if=\"is_online\">\n"
+"                            <a t-att-href=\"object.session_id.website_url\" style=\"color:#875A7B;text-decoration:none;\" t-out=\"object.session_id.name or ''\">OpenWood Collection Online Reveal</a>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <strong t-out=\"object.session_id.name or ''\">OpenWood Collection Online Reveal</strong>\n"
+"                        </t>\n"
+"                        is starting <strong t-out=\"object.get_date_range_str() or ''\">today</strong>.\n"
+"                    </div>\n"
+"                    <div>\n"
+"                        <br>\n"
+"                        <strong>Add this event to your calendar</strong>\n"
+"                        <a t-attf-href=\"https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.session_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\" target=\"new\"><img src=\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"> Google</a>\n"
+"                        <a t-attf-href=\"/event/session/{{ slug(object.session_id) }}/ics\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\"><img src=\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"> iCal/Outlook</a>\n"
+"                        <a t-attf-href=\"https://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;title={{ object.session_id.name }}&amp;in_loc={{ location }}&amp;st={{ format_datetime(object.session_id.date_begin, tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}&amp;et={{ format_datetime(object.session_id.date_end, tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\" target=\"new\">\n"
+"                            <img src=\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"> Yahoo\n"
+"                        </a>\n"
+"                        <br><br>\n"
+"                    </div>\n"
+"                    <div>\n"
+"                        We confirm your registration and hope to meet you there,<br>\n"
+"                        <span style=\"color: #454748;\">\n"
+"                        -- <br>\n"
+"                        <t t-if=\"event_organizer\">\n"
+"                            <t t-out=\"event_organizer.name or ''\">YourCompany</t>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            The <t t-out=\"object.session_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
+"                        </t>\n"
+"                        </span>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- DETAILS -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <table style=\"width:100%;\">\n"
+"                        <tr>\n"
+"                            <td style=\"vertical-align:top;\">\n"
+"                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\">\n"
+"                            </td>\n"
+"                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
+"                                <div><strong>From</strong> <t t-out=\"object.session_id.date_begin_located or ''\">May 4, 2021, 7:00:00 AM</t></div>\n"
+"                                <div><strong>To</strong> <t t-out=\"object.session_id.date_end_located or ''\">May 6, 2021, 5:00:00 PM</t></div>\n"
+"                                <div style=\"font-size:12px;color:#9e9e9e\"><i><strong>TZ</strong> <t t-out=\"object.session_id.date_tz or ''\">Europe/Brussels</t></i></div>\n"
+"                            </td>\n"
+"                            <td style=\"vertical-align:top;\">\n"
+"                                <t t-if=\"event_address\">\n"
+"                                    <img src=\"/web_editor/font_to_img/61505/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\">\n"
+"                                </t>\n"
+"                            </td>\n"
+"                            <td style=\"padding: 0px 10px 0px 10px;width:50%;vertical-align:top;\">\n"
+"                                <t t-if=\"event_address\">\n"
+"                                    <t t-set=\"location\" t-value=\"''\"></t>\n"
+"                                    <t t-if=\"object.session_id.address_id.name\">\n"
+"                                        <div t-out=\"object.session_id.address_id.name or ''\">Teksa SpA</div>\n"
+"                                    </t>\n"
+"                                    <t t-if=\"object.session_id.address_id.street\">\n"
+"                                        <div t-out=\"object.session_id.address_id.street or ''\">Puerto Madero 9710</div>\n"
+"                                        <t t-set=\"location\" t-value=\"object.session_id.address_id.street\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-if=\"object.session_id.address_id.street2\">\n"
+"                                        <div t-out=\"object.session_id.address_id.street2 or ''\">Of A15, Santiago (RM)</div>\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.session_id.address_id.street2)\"></t>\n"
+"                                    </t>\n"
+"                                    <div>\n"
+"                                    <t t-if=\"object.session_id.address_id.city\">\n"
+"                                        <t t-out=\"object.session_id.address_id.city or ''\">Pudahuel</t>,\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.session_id.address_id.city)\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-if=\"object.session_id.address_id.state_id.name\">\n"
+"                                        <t t-out=\"object.session_id.address_id.state_id.name or ''\">C1</t>,\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.session_id.address_id.state_id.name)\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-if=\"object.session_id.address_id.zip\">\n"
+"                                        <t t-out=\"object.session_id.address_id.zip or ''\">98450</t>\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.session_id.address_id.zip)\"></t>\n"
+"                                    </t>\n"
+"                                    </div>\n"
+"                                    <t t-if=\"object.session_id.address_id.country_id.name\">\n"
+"                                        <div t-out=\"object.session_id.address_id.country_id.name or ''\">Argentina</div>\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.session_id.address_id.country_id.name)\"></t>\n"
+"                                    </t>\n"
+"                                </t>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <t t-if=\"event_organizer\">\n"
+"                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- CONTACT ORGANIZER -->\n"
+"                    <t t-if=\"event_organizer\">\n"
+"                        <div>\n"
+"                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
+"                            <div>Please contact the organizer:</div>\n"
+"                            <ul>\n"
+"                                <li t-out=\"event_organizer.name or ''\">YourCompany</li>\n"
+"                                <t t-if=\"event_organizer.email\">\n"
+"                                    <li>Mail: <a t-attf-href=\"mailto:{{ event_organizer.email }}\" style=\"text-decoration:none;color:#875A7B;\" t-out=\"event_organizer.email or ''\"></a></li>\n"
+"                                </t>\n"
+"                                <t t-if=\"event_organizer.phone\">\n"
+"                                    <li>Phone: <t t-out=\"event_organizer.phone or ''\"></t></li>\n"
+"                                </t>\n"
+"                            </ul>\n"
+"                        </div>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <!-- CONTACT ORGANIZER SEPARATION -->\n"
+"                    <hr t-if=\"is_online or event_address\" width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- PWA MARKGETING -->\n"
+"                    <div t-if=\"is_online\">\n"
+"                        <strong>Get the best mobile experience.</strong>\n"
+"                        <a href=\"/event\">Install our mobile app</a>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <!-- PWA MARKGETING SEPARATION-->\n"
+"                    <hr t-if=\"is_online and event_address\" width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- GOOGLE MAPS LINK -->\n"
+"                    <table t-if=\"event_address\" style=\"width:100%;\"><tr><td>\n"
+"                        <div>\n"
+"                            <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
+"                                <img t-attf-src=\"http://maps.googleapis.com/maps/api/staticmap?autoscale=1&amp;size=598x200&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xa5117d%7Clabel:%7C{{ location }}\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\">\n"
+"                            </a>\n"
+"                        </div>\n"
+"                    </td></tr></table>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>\n"
+"<!-- FOOTER BY -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    <table t-if=\"object.company_id\" width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
+"      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
+"        Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
+"        <t t-if=\"'website_url' in object.session_id and object.session_id.website_url\">\n"
+"            <br>\n"
+"            Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
+"        </t>\n"
+"      </td></tr>\n"
+"    </table>\n"
+"</td></tr>\n"
+"</table>\n"
+"        "
+msgstr ""
+
+#. module: event_session
+#: model:mail.template,body_html:event_session.event_session_subscription
+msgid ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
+"<t t-set=\"date_begin\" t-value=\"format_datetime(object.session_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"></t>\n"
+"<t t-set=\"date_end\" t-value=\"format_datetime(object.session_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"></t>\n"
+"<t t-set=\"is_online\" t-value=\"'is_published' in object.session_id and object.session_id.is_published\"></t>\n"
+"<t t-set=\"event_organizer\" t-value=\"object.session_id.organizer_id\"></t>\n"
+"<t t-set=\"event_address\" t-value=\"object.session_id.address_id\"></t>\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">Your registration</span><br>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
+"                        <t t-out=\"object.name or ''\">Oscar Morgan</t>\n"
+"                    </span>\n"
+"                </td><td valign=\"middle\" align=\"right\">\n"
+"                    <t t-if=\"is_online\">\n"
+"                        <a t-att-href=\"object.session_id.website_url\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+"                            View Event\n"
+"                        </a>\n"
+"                    </t>\n"
+"                    <t t-else=\"\">\n"
+"                        <img t-att-src=\"'/logo.png?company=%s' % object.company_id.id\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"'%s' % object.company_id.name\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- EVENT DESCRIPTION -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <div>\n"
+"                        Hello <t t-out=\"object.name or ''\">Oscar Morgan</t>,<br>\n"
+"                        We are happy to confirm your registration to the event\n"
+"                        <t t-if=\"is_online\">\n"
+"                            <a t-att-href=\"object.session_id.website_url\" style=\"color:#875A7B;text-decoration:none;\" t-out=\"object.session_id.name or ''\">OpenWood Collection Online Reveal</a>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <strong t-out=\"object.session_id.name or ''\">OpenWood Collection Online Reveal</strong>\n"
+"                        </t>\n"
+"                        for attendee <t t-out=\"object.name or ''\">Oscar Morgan</t>.\n"
+"                    </div>\n"
+"                    <div>\n"
+"                        <br>\n"
+"                        <strong>Add this event to your calendar</strong>\n"
+"                        <a t-attf-href=\"https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.session_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\" target=\"new\"><img src=\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"> Google</a>\n"
+"                        <a t-attf-href=\"/event/session/{{ slug(object.session_id) }}/ics\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\"><img src=\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"> iCal/Outlook</a>\n"
+"                        <a t-attf-href=\"https://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;title={{ object.session_id.name }}&amp;in_loc={{ location }}&amp;st={{ format_datetime(object.session_id.date_begin, tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}&amp;et={{ format_datetime(object.session_id.date_end, tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;\" target=\"new\">\n"
+"                            <img src=\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"> Yahoo\n"
+"                        </a>\n"
+"                        <br><br>\n"
+"                    </div>\n"
+"                    <div>\n"
+"                        See you soon,<br>\n"
+"                        <span style=\"color: #454748;\">\n"
+"                        -- <br>\n"
+"                        <t t-if=\"event_organizer\">\n"
+"                            <t t-out=\"event_organizer.name or ''\">YourCompany</t>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            The <t t-out=\"object.session_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
+"                        </t>\n"
+"                        </span>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- DETAILS -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <table style=\"width:100%;\">\n"
+"                        <tr>\n"
+"                            <td style=\"vertical-align:top;\">\n"
+"                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\">\n"
+"                            </td>\n"
+"                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
+"                                <div><strong>From</strong> <t t-out=\"object.session_id.date_begin_located or ''\">May 4, 2021, 7:00:00 AM</t></div>\n"
+"                                <div><strong>To</strong> <t t-out=\"object.session_id.date_end_located or ''\">May 6, 2021, 5:00:00 PM</t></div>\n"
+"                                <div style=\"font-size:12px;color:#9e9e9e\"><i><strong>TZ</strong> <t t-out=\"object.session_id.date_tz or ''\">Europe/Brussels</t></i></div>\n"
+"                            </td>\n"
+"                            <td style=\"vertical-align:top;\">\n"
+"                                <t t-if=\"event_address\">\n"
+"                                    <img src=\"/web_editor/font_to_img/61505/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\">\n"
+"                                </t>\n"
+"                            </td>\n"
+"                            <td style=\"padding: 0px 10px 0px 10px;width:50%;vertical-align:top;\">\n"
+"                                <t t-if=\"event_address\">\n"
+"                                    <t t-set=\"location\" t-value=\"''\"></t>\n"
+"                                    <t t-if=\"object.session_id.address_id.name\">\n"
+"                                        <div t-out=\"object.session_id.address_id.name or ''\">Teksa SpA</div>\n"
+"                                    </t>\n"
+"                                    <t t-if=\"object.session_id.address_id.street\">\n"
+"                                        <div t-out=\"object.session_id.address_id.street or ''\">Puerto Madero 9710</div>\n"
+"                                        <t t-set=\"location\" t-value=\"object.session_id.address_id.street\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-if=\"object.session_id.address_id.street2\">\n"
+"                                        <div t-out=\"object.session_id.address_id.street2 or ''\">Of A15, Santiago (RM)</div>\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.session_id.address_id.street2)\"></t>\n"
+"                                    </t>\n"
+"                                    <div>\n"
+"                                    <t t-if=\"object.session_id.address_id.city\">\n"
+"                                        <t t-out=\"object.session_id.address_id.city or ''\">Pudahuel</t>,\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.session_id.address_id.city)\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-if=\"object.session_id.address_id.state_id.name\">\n"
+"                                        <t t-out=\"object.session_id.address_id.state_id.name or ''\">C1</t>,\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.session_id.address_id.state_id.name)\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-if=\"object.session_id.address_id.zip\">\n"
+"                                        <t t-out=\"object.session_id.address_id.zip or ''\">98450</t>\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.session_id.address_id.zip)\"></t>\n"
+"                                    </t>\n"
+"                                    </div>\n"
+"                                    <t t-if=\"object.session_id.address_id.country_id.name\">\n"
+"                                        <div t-out=\"object.session_id.address_id.country_id.name or ''\">Argentina</div>\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.session_id.address_id.country_id.name)\"></t>\n"
+"                                    </t>\n"
+"                                </t>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <t t-if=\"event_organizer\">\n"
+"                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- CONTACT ORGANIZER -->\n"
+"                    <t t-if=\"event_organizer\">\n"
+"                        <div>\n"
+"                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
+"                            <div>Please contact the organizer:</div>\n"
+"                            <ul>\n"
+"                                <li><t t-out=\"event_organizer.name or ''\">YourCompany</t></li>\n"
+"                                <t t-if=\"event_organizer.email\">\n"
+"                                    <li>Mail: <a t-attf-href=\"mailto:{{ event_organizer.email }}\" style=\"text-decoration:none;color:#875A7B;\" t-out=\"event_organizer.email or ''\">info@yourcompany.com</a></li>\n"
+"                                </t>\n"
+"                                <t t-if=\"event_organizer.phone\">\n"
+"                                    <li>Phone: <t t-out=\"event_organizer.phone or ''\">+1 650-123-4567</t></li>\n"
+"                                </t>\n"
+"                            </ul>\n"
+"                        </div>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <!-- CONTACT ORGANIZER SEPARATION -->\n"
+"                    <t t-if=\"is_online or event_address\">\n"
+"                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- PWA MARKGETING -->\n"
+"                    <t t-if=\"is_online\">\n"
+"                        <div>\n"
+"                            <strong>Get the best mobile experience.</strong>\n"
+"                            <a href=\"/event\">Install our mobile app</a>\n"
+"                        </div>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <!-- PWA MARKGETING SEPARATION-->\n"
+"                    <t t-if=\"is_online and event_address\">\n"
+"                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- GOOGLE MAPS LINK -->\n"
+"                    <t t-if=\"event_address\">\n"
+"                        <table style=\"width:100%;\"><tr><td>\n"
+"                            <div>\n"
+"                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
+"                                    <img t-attf-src=\"http://maps.googleapis.com/maps/api/staticmap?autoscale=1&amp;size=598x200&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xa5117d%7Clabel:%7C{{ location }}\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\">\n"
+"                                </a>\n"
+"                            </div>\n"
+"                        </td></tr></table>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>\n"
+"<!-- FOOTER BY -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    <t t-if=\"object.company_id\">\n"
+"        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
+"        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
+"            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
+"            <t t-if=\"is_online\">\n"
+"                <br>\n"
+"                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
+"            </t>\n"
+"        </td></tr>\n"
+"        </table>\n"
+"    </t>\n"
+"</td></tr>\n"
+"</table>\n"
+"        "
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__message_needaction
+msgid "Action Needed"
+msgstr "Potrebna akcija"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__active
+msgid "Active"
+msgstr "Aktivan"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__activity_ids
+msgid "Activities"
+msgstr "Aktivnosti"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Dekoracija iznimke aktivnosti"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__activity_state
+msgid "Activity State"
+msgstr "Status aktivnosti"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ikona tipa aktivnosti"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__address_search
+msgid "Address"
+msgstr "Adresa"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__event_session__session_update__all
+msgid "All event sessions"
+msgstr "Sve sesije događaja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__sale_order_lines_ids
+msgid "All sale order lines pointing to this session"
+msgstr "Sve linije prodajne narudžbe koje pokazuju na ovu sesiju"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__registration_multi_qty
+msgid "Allow multiple attendees per registration"
+msgstr "Dozvoliti više učesnika po registraciji"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__website_menu
+msgid "Allows to display and manage event-specific menus on website."
+msgstr "Omogućava prikaz i upravljanje menijima specifičnim za događaj na web stranici."
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_form
+msgid "Applies to the following fields:"
+msgstr "Primjenjuje se na sljedeća polja:"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_form
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Archived"
+msgstr "Arhivirano"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
+msgid "At"
+msgstr "U"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__message_attachment_count
+msgid "Attachment Count"
+msgstr "Broj priloga"
+
+#. module: event_session
+#: model:ir.actions.act_window,name:event_session.act_event_registration_from_event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__registration_ids
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_form
+msgid "Attendees"
+msgstr "Učesnici"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__auto_confirm
+msgid ""
+"Autoconfirm Registrations. Registrations will automatically be confirmed "
+"upon creation."
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__auto_confirm
+msgid "Autoconfirmation"
+msgstr "Automatska potvrda"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__seats_available
+msgid "Available Seats"
+msgstr "Raspoloživa mjesta"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_tree
+msgid "Available seats not expected"
+msgstr "Dostupna mjesta se ne očekuju"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__byday
+msgid "By day"
+msgstr "Po danu"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__can_publish
+msgid "Can Publish"
+msgstr "Može objaviti"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
+msgid "Cancel"
+msgstr "Otkaži"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__session_update
+msgid "Choose what to do with other event sessions"
+msgstr "Izaberite šta učiniti sa drugim sesijama događaja"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_form
+msgid "Communication"
+msgstr "Komunikacija"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__community_menu
+msgid "Community Menu"
+msgstr "Meni zajednice"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__company_id
+msgid "Company"
+msgstr "Preduzeće"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_kanban
+msgid "Confirmed"
+msgstr "Potvrđeno"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__contact_ids
+msgid "Contacts"
+msgstr "Kontakti"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__country_id
+msgid "Country"
+msgstr "Država"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__cover_properties
+msgid "Cover Properties"
+msgstr "Svojstva naslovne slike"
+
+#. module: event_session
+#: model:ir.actions.act_window,name:event_session.act_wizard_event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_form_create_sessions
+#: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
+msgid "Create Sessions"
+msgstr "Kreiraj sesije"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__create_uid
+#: model:ir.model.fields,field_description:event_session.field_event_session__create_uid
+#: model:ir.model.fields,field_description:event_session.field_event_session_timeslot__create_uid
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__create_date
+#: model:ir.model.fields,field_description:event_session.field_event_session__create_date
+#: model:ir.model.fields,field_description:event_session.field_event_session_timeslot__create_date
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__currency_id
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_form
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_form_quick_create
+msgid "Date"
+msgstr "Datum"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__month_by__date
+msgid "Date of month"
+msgstr "Dan u mjesecu"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__day
+msgid "Day"
+msgstr "Dan"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
+msgid "Day of Month"
+msgstr "Dan u mjesecu"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__month_by__day
+msgid "Day of month"
+msgstr "Dan u mjesecu"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__description
+msgid "Description"
+msgstr "Opis"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__display_name
+#: model:ir.model.fields,field_description:event_session.field_event_session__display_name
+#: model:ir.model.fields,field_description:event_session.field_event_session_timeslot__display_name
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__date_tz
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__date_tz
+msgid "Display Timezone"
+msgstr "Prikaži vremensku zonu"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__community_menu
+msgid "Display community tab on website"
+msgstr "Prikaži tab zajednice na web stranici"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__sequence
+msgid "Display order"
+msgstr "Redoslijed prikaza"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__duration
+msgid "Duration"
+msgstr "Trajanje"
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/wizards/wizard_event_session.py:0
+#, python-format
+msgid "Duration is required."
+msgstr "Trajanje je obavezno."
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_wizard_event_session__duration
+msgid "Duration of the sessions in hours"
+msgstr "Trajanje sesija u satima"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_form
+msgid "Edit sessions"
+msgstr "Uredi sesije"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_event__date_end
+#: model:ir.model.fields,field_description:event_session.field_event_session__date_end
+msgid "End Date"
+msgstr "Datum završetka"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__date_end_located
+msgid "End Date Located"
+msgstr "Završni datum lociran"
+
+#. module: event_session
+#: model:ir.model,name:event_session.model_event_event
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__event_id
+#: model:ir.model.fields,field_description:event_session.field_event_session__name
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__event_id
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Event"
+msgstr "Dogadaj"
+
+#. module: event_session
+#: model:ir.model,name:event_session.model_event_mail
+msgid "Event Automated Mailing"
+msgstr "Automatizovano slanje pošte događaja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__community_menu_ids
+msgid "Event Community Menus"
+msgstr "Meniji zajednice događaja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_registration__event_end_date
+msgid "Event End Date"
+msgstr "Datum završetka događaja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__scheduler_id
+msgid "Event Mail Scheduler"
+msgstr "Planer mailova za događaj"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__menu_id
+msgid "Event Menu"
+msgstr "Izbornik događaja"
+
+#. module: event_session
+#: model:ir.model,name:event_session.model_event_registration
+msgid "Event Registration"
+msgstr "Registracija događaja"
+
+#. module: event_session
+#: model:ir.model,name:event_session.model_event_mail_session
+msgid "Event Session Automated Mailing"
+msgstr "Automatizovano slanje pošte sesije događaja"
+
+#. module: event_session
+#: model:ir.model,name:event_session.model_event_session_timeslot
+msgid "Event Session Timeslot"
+msgstr "Vremenski slot sesije događaja"
+
+#. module: event_session
+#: model:mail.template,name:event_session.event_session_subscription
+msgid "Event Session: Registration"
+msgstr "Sesija događaja: Registracija"
+
+#. module: event_session
+#: model:mail.template,name:event_session.event_session_registration_mail_template_badge
+msgid "Event Session: Registration Badge"
+msgstr "Sesija događaja: Značka registracije"
+
+#. module: event_session
+#: model:mail.template,name:event_session.event_session_reminder
+msgid "Event Session: Reminder"
+msgstr "Sesija događaja: Podsjetnik"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_event__use_sessions
+#: model:ir.model.fields,field_description:event_session.field_event_mail__use_sessions
+#: model:ir.model.fields,field_description:event_session.field_event_mail_scheduler_template__use_sessions
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__use_sessions
+#: model:ir.model.fields,field_description:event_session.field_event_registration__use_sessions
+#: model:ir.model.fields,field_description:event_session.field_event_session__use_sessions
+#: model:ir.model.fields,field_description:event_session.field_event_type__use_sessions
+msgid "Event Sessions"
+msgstr "Sesije događaja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_registration__event_begin_date
+msgid "Event Start Date"
+msgstr "Početni datum događaja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__subtitle
+msgid "Event Subtitle"
+msgstr "Podnaslov događaja"
+
+#. module: event_session
+#: model:ir.model,name:event_session.model_event_type
+msgid "Event Template"
+msgstr "Predložak događaja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__event_ticket_ids
+msgid "Event Ticket"
+msgstr "Ulaznica za događaj"
+
+#. module: event_session
+#: model:ir.model,name:event_session.model_event_session
+msgid "Event session"
+msgstr "Sesija događaja"
+
+#. module: event_session
+#: model_terms:event.event,description:event_session.event_event_007
+msgid ""
+"Every year we invite our community, partners and end-users to come and meet us! It's the ideal event to get together and present new features, roadmap of future versions, achievements of the software, workshops, training sessions, etc...\n"
+"            This event is also an opportunity to showcase our partners' case studies, methodology or developments. Be there and see directly from the source the features of the new version!"
+msgstr ""
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_tree
+msgid "Expected Attendees"
+msgstr "Očekivani sudionici"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_kanban
+msgid "Expected attendees"
+msgstr "Očekivani sudionici"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__menu_register_cta
+msgid "Extra Register Button"
+msgstr "Dodatni gumb za registraciju"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__byday__1
+msgid "First"
+msgstr "Prvi"
+
+#. module: event_session
+#: model:mail.template,report_name:event_session.event_session_registration_mail_template_badge
+msgid ""
+"Foldable Badge - {{ (object.session_id.name or 'Event').replace('/','_') }}"
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__message_follower_ids
+msgid "Followers"
+msgstr "Pratioci"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Pratioci (Partneri)"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font awesome ikona npr. fa-tasks"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__seats_max
+msgid ""
+"For each event you can define a maximum registration of seats(number of "
+"attendees), above this numbers the registrations are not accepted."
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__byday__4
+msgid "Fourth"
+msgstr "Četvrti"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__fri
+msgid "Fri"
+msgstr "Pet"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__weekday__fri
+msgid "Friday"
+msgstr "Petak"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
+msgid "From"
+msgstr "Od"
+
+#. module: event_session
+#: model:mail.template,report_name:event_session.event_session_subscription
+msgid ""
+"Full Page Ticket - {{ (object.session_id.name or 'Event').replace('/','') }}"
+msgstr ""
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Future Activities"
+msgstr "Buduće aktivnosti"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__general_question_ids
+msgid "General Questions"
+msgstr "Opća pitanja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__mail_state
+msgid "Global communication Status"
+msgstr "Globalni status komunikacije"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Group By"
+msgstr "Grupiši po"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__has_message
+msgid "Has Message"
+msgstr "Ima poruku"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__id
+#: model:ir.model.fields,field_description:event_session.field_event_session__id
+#: model:ir.model.fields,field_description:event_session.field_event_session_timeslot__id
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__id
+msgid "ID"
+msgstr "ID"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__activity_exception_icon
+msgid "Icon"
+msgstr "Ikona"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Ikona za prikaz iznimki."
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__start_sale_datetime
+msgid ""
+"If ticketing is used, contains the earliest starting sale date of tickets."
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__date_tz
+msgid ""
+"Indicates the timezone in which the event dates/times will be displayed on "
+"the website."
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__interval_nbr
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__interval
+msgid "Interval"
+msgstr "Razdoblje"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__introduction_menu
+msgid "Introduction Menu"
+msgstr "Uvodni meni"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__introduction_menu_ids
+msgid "Introduction Menus"
+msgstr "Uvodni meniji"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__is_done
+msgid "Is Done"
+msgstr "Je završeno"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__is_finished
+msgid "Is Finished"
+msgstr "Je završeno"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__message_is_follower
+msgid "Is Follower"
+msgstr "Pratilac"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__is_one_day
+msgid "Is One Day"
+msgstr "Je jedan dan"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__is_ongoing
+msgid "Is Ongoing"
+msgstr "Je u toku"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__is_participating
+msgid "Is Participating"
+msgstr "Sudjeluje"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__is_published
+msgid "Is Published"
+msgstr "je objavljeno"
+
+#. module: event_session
+#: model_terms:event.event,description:event_session.event_event_007
+msgid "Join us for this 24 hours Event"
+msgstr "Pridružite nam se za ovaj 24-časovni događaj"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__legend_blocked
+msgid "Kanban Blocked Explanation"
+msgstr "Kanban blokirano objašnjenje"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__legend_normal
+msgid "Kanban Ongoing Explanation"
+msgstr "Kanban objašnjenje u tijeku"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__kanban_state
+msgid "Kanban State"
+msgstr "Kanban status"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__kanban_state_label
+msgid "Kanban State Label"
+msgstr "Labela statusa u kanbanu"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__legend_done
+msgid "Kanban Valid Explanation"
+msgstr "Kanban potvrđeno objašnjenje"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__byday__-1
+msgid "Last"
+msgstr "Zadnji"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session____last_update
+#: model:ir.model.fields,field_description:event_session.field_event_session____last_update
+#: model:ir.model.fields,field_description:event_session.field_event_session_timeslot____last_update
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__write_uid
+#: model:ir.model.fields,field_description:event_session.field_event_session__write_uid
+#: model:ir.model.fields,field_description:event_session.field_event_session_timeslot__write_uid
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__write_date
+#: model:ir.model.fields,field_description:event_session.field_event_session__write_date
+#: model:ir.model.fields,field_description:event_session.field_event_session_timeslot__write_date
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Late Activities"
+msgstr "Aktivnosti u kašnjenju"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__seats_limited
+msgid "Limit Attendees"
+msgstr "Ograniči učesnike"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__location_menu
+msgid "Location Menu"
+msgstr "Meni lokacije"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__location_menu_ids
+msgid "Location Menus"
+msgstr "Meniji lokacije"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__mail_registration_ids
+msgid "Mail Registration"
+msgstr "Registracija pošte"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__event_mail_ids
+msgid "Mail Schedule"
+msgstr "Raspored mailova"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__event_mail_template_id
+msgid "Mail Template Scheduler"
+msgstr "Planer predloška pošte"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Glavna zakačka"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_event__use_sessions
+#: model:ir.model.fields,help:event_session.field_event_mail__use_sessions
+#: model:ir.model.fields,help:event_session.field_event_mail_scheduler_template__use_sessions
+#: model:ir.model.fields,help:event_session.field_event_mail_session__use_sessions
+#: model:ir.model.fields,help:event_session.field_event_registration__use_sessions
+#: model:ir.model.fields,help:event_session.field_event_session__use_sessions
+#: model:ir.model.fields,help:event_session.field_event_type__use_sessions
+msgid "Manage multiple sessions per event"
+msgstr "Upravljaj više sesija po događaju"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__seats_max
+msgid "Maximum Attendees"
+msgstr "Maksimalno sudionika"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_tree
+msgid "Maximum Seats"
+msgstr "Maksimalno mjesta"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__message_has_error
+msgid "Message Delivery error"
+msgstr "Greška pri isporuci poruke"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__message_ids
+msgid "Messages"
+msgstr "Poruke"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__mon
+msgid "Mon"
+msgstr "Pon"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__weekday__mon
+msgid "Monday"
+msgstr "Ponedjeljak"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__month_by
+msgid "Month By"
+msgstr "Mjesec po"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__rrule_type__monthly
+msgid "Months"
+msgstr "Mjeseci"
+
+#. module: event_session
+#: model:event.tag,name:event_session.event_tag_movie
+msgid "Movie"
+msgstr "Film"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Rok za moju aktivnost"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "My Events"
+msgstr "Moji događaji"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Krajnji rok za sljedeću aktivnost"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__activity_summary
+msgid "Next Activity Summary"
+msgstr "Pregled sljedeće aktivnosti"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tip sljedeće aktivnosti"
+
+#. module: event_session
+#: model_terms:ir.actions.act_window,help:event_session.act_event_registration_from_event_session
+msgid "No Attendees yet!"
+msgstr "Još nema učesnika!"
+
+#. module: event_session
+#: model_terms:ir.actions.act_window,help:event_session.action_event_session_pivot
+msgid "No Sessions data yet!"
+msgstr "Još nema podataka o sesijama!"
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/models/event_registration.py:0
+#, python-format
+msgid "No more seats available for this session."
+msgstr "Nema više dostupnih mjesta za ovu sesiju."
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_tree
+msgid "Not allocated seats"
+msgstr "Nedodijeljena mjesta"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__note
+msgid "Note"
+msgstr "Zabilješka"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Broj akcija"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__seats_expected
+msgid "Number of Expected Attendees"
+msgstr "Broj očekivanih sudionika"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__seats_used
+msgid "Number of Participants"
+msgstr "Broj učesnika"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__message_has_error_counter
+msgid "Number of errors"
+msgstr "Broj grešaka"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Broj poruka koje zahtijevaju aktivnost"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Broj poruka sa greškama pri isporuci"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__seats_available_unexpected
+msgid "Number of seats non allocated by an attendee of any kind"
+msgstr "Broj mjesta koja nisu dodijeljena od strane učesnika bilo kojeg tipa"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__organizer_id
+msgid "Organizer"
+msgstr "Organizator"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__legend_blocked
+msgid ""
+"Override the default value displayed for the blocked state for kanban "
+"selection."
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__legend_done
+msgid ""
+"Override the default value displayed for the done state for kanban "
+"selection."
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__legend_normal
+msgid ""
+"Override the default value displayed for the normal state for kanban "
+"selection."
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__event_id
+msgid "Parent Event"
+msgstr "Roditeljski događaj"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__contact_ids
+msgid "Partners available to attend attendees requests for this event."
+msgstr "Partneri dostupni za prisustvovanje zahtjevima učesnika za ovaj događaj."
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__question_ids
+msgid "Questions"
+msgstr "Pitanja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__rrule_type
+msgid "Recurrence"
+msgstr "Ponavljanje"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__register_menu
+msgid "Register Menu"
+msgstr "Meni registracije"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__register_menu_ids
+msgid "Register Menus"
+msgstr "Meniji registracije"
+
+#. module: event_session
+#: model:ir.model,name:event_session.model_event_mail_registration
+msgid "Registration Mail Scheduler"
+msgstr "Planer pošte registracije"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__event_registrations_open
+msgid "Registration open"
+msgstr "Registracija otvorena"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__event_registrations_started
+msgid "Registrations started"
+msgstr "Registracije počete"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__start_remaining
+msgid "Remaining before start"
+msgstr "Preostalo prije početka"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__start_remaining
+msgid "Remaining time before event starts (minutes)"
+msgstr "Preostalo vrijeme prije početka događaja (minuti)"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
+msgid "Repeat Every"
+msgstr "Ponavljaj svakih"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__seats_reserved
+msgid "Reserved Seats"
+msgstr "Rezervirana mjesta"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__user_id
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Responsible"
+msgstr "Odgovoran"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__activity_user_id
+msgid "Responsible User"
+msgstr "Odgovorni korisnik"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__website_id
+msgid "Restrict publishing to this website."
+msgstr "Ograniči objavljivanje na ovu web stranicu."
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__is_seo_optimized
+msgid "SEO optimized"
+msgstr "SEO optimizirana"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__sale_price_subtotal
+msgid "Sales (Tax Excluded)"
+msgstr "Prodaja (isključen porez)"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__sat
+msgid "Sat"
+msgstr "Sub"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__weekday__sat
+msgid "Saturday"
+msgstr "Subota"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
+msgid "Schedule"
+msgstr "Zakaži"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__scheduled_date
+msgid "Scheduled Date"
+msgstr "Zakazani datum"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__byday__2
+msgid "Second"
+msgstr "Sekunda"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__notification_type
+msgid "Send"
+msgstr "Pošalji"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__mail_done
+msgid "Sent"
+msgstr "Poslano"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__seo_name
+msgid "Seo name"
+msgstr "SEO naziv"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__session_id
+#: model:ir.model.fields,field_description:event_session.field_event_registration__session_id
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Session"
+msgstr "Sesija"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_registration__session_scheduler_id
+msgid "Session Mail"
+msgstr "Pošta sesije"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail__session_scheduler_ids
+#: model:ir.model.fields,field_description:event_session.field_event_mail_scheduler_template__session_scheduler_ids
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__session_scheduler_ids
+msgid "Session Mails"
+msgstr "Pošte sesije"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__session_update
+msgid "Session Update"
+msgstr "Ažuriranje sesije"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__session_update_message
+msgid "Session Update Message"
+msgstr "Poruka ažuriranja sesije"
+
+#. module: event_session
+#: model:ir.actions.act_window,name:event_session.act_event_session_event_form
+#: model:ir.actions.act_window,name:event_session.action_event_session
+#: model:ir.model.fields,field_description:event_session.field_event_event__session_ids
+#: model:ir.model.fields,field_description:event_session.field_event_session__session_ids
+#: model:ir.ui.menu,name:event_session.event_session_menu
+#: model:ir.ui.menu,name:event_session.event_session_menu_report
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_form
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_kanban
+msgid "Sessions"
+msgstr "Sesije"
+
+#. module: event_session
+#: model:ir.actions.act_window,name:event_session.action_event_session_pivot
+msgid "Sessions Analysis"
+msgstr "Analiza sesija"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_event__session_count
+#: model:ir.model.fields,field_description:event_session.field_event_session__session_count
+msgid "Sessions Count"
+msgstr "Broj sesija"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_form
+msgid "Sessions available for this event"
+msgstr "Sesije dostupne za ovaj događaj"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_wizard_event_session__date_tz
+msgid ""
+"Set it up in the event configurationSessions will be generated up to this "
+"date"
+msgstr ""
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Show all records which has next action date is before today"
+msgstr "Prikaži sve zapise koji imaju datum sljedeće akcije prije danas"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__event_registrations_sold_out
+msgid "Sold Out"
+msgstr "Rasprodano"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__specific_question_ids
+msgid "Specific Questions"
+msgstr "Specifična pitanja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__stage_id
+msgid "Stage"
+msgstr "Faza"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__start
+msgid "Start"
+msgstr "Započni"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_event__date_begin
+#: model:ir.model.fields,field_description:event_session.field_event_session__date_begin
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Start Date"
+msgstr "Početni datum"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__date_begin_located
+msgid "Start Date Located"
+msgstr "Početni datum lociran"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__start_today
+msgid "Start Today"
+msgstr "Počinje danas"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__start_sale_datetime
+msgid "Start sale date"
+msgstr "Datum početka prodaje"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__sun
+msgid "Sun"
+msgstr "Ned"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__weekday__sun
+msgid "Sunday"
+msgstr "Nedjelja"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__tag_ids
+msgid "Tags"
+msgstr "Oznake"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__template_ref
+#: model:ir.model.fields,field_description:event_session.field_event_session__event_type_id
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Template"
+msgstr "Prijedlog"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__template_model_id
+msgid "Template Model"
+msgstr "Model predloška"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
+msgid "The"
+msgstr "!"
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/models/event_session.py:0
+#, python-format
+msgid "The closing date cannot be earlier than the beginning date."
+msgstr "Datum zatvaranja ne može biti prije početnog datuma."
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__website_url
+msgid "The full URL to access the document through the website."
+msgstr "Kompletan URL za pristup dokumentu putem website-a."
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/wizards/wizard_event_session.py:0
+#, python-format
+msgid "The interval cannot be negative."
+msgstr "Interval ne može biti negativan."
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/models/event_session_timeslot.py:0
+#, python-format
+msgid "The timeslot has to be defined in HH:MM format"
+msgstr "Vremenski slot mora biti definisan u HH:MM formatu"
+
+#. module: event_session
+#: model:ir.model.constraint,message:event_session.constraint_event_session_timeslot_unique_time
+msgid "The timeslot has to be unique"
+msgstr "Vremenski slot mora biti jedinstven"
+
+#. module: event_session
+#: model:event.type,name:event_session.event_type_theater
+msgid "Theater"
+msgstr "Pozorište"
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/models/event_session.py:0
+#, python-format
+msgid "There are not enough seats available for:"
+msgstr "Nema dovoljno dostupnih mjesta za:"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__byday__3
+msgid "Third"
+msgstr "Treći"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__event_session__session_update__subsequent
+msgid "This and following event sessions"
+msgstr "Ova i sljedeće sesije događaja"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__ticket_instructions
+msgid "This information will be printed on your tickets."
+msgstr "Ova informacija će biti ispisana na vašim kartama."
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/models/event_session.py:0
+#: code:addons/event_session/models/event_session.py:0
+#, python-format
+msgid "This operator is not supported"
+msgstr "Ovaj operator nije podržan"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__event_session__session_update__this
+msgid "This session"
+msgstr "Ova sesija"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__thu
+msgid "Thu"
+msgstr "Čet"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__weekday__thu
+msgid "Thursday"
+msgstr "Četvrtak"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__ticket_instructions
+msgid "Ticket Instructions"
+msgstr "Instrukcije karte"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session_timeslot__time
+msgid "Time"
+msgstr "Vrijeme"
+
+#. module: event_session
+#: model:ir.model.constraint,message:event_session.constraint_event_session_timeslot_valid_time
+msgid "Time has to be between 0:00 and 23:59"
+msgstr "Vrijeme mora biti između 0:00 i 23:59"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__timeslot_ids
+msgid "Time slots"
+msgstr "Vremenski slotovi"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Today Activities"
+msgstr "Današnje aktivnosti"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_tree
+msgid "Total"
+msgstr "Ukupno"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_form
+msgid "Total Registrations for this Session"
+msgstr "Ukupno registracija za ovu sesiju"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__interval_type
+msgid "Trigger "
+msgstr "Okidač "
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__tue
+msgid "Tue"
+msgstr "Uto"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__weekday__tue
+msgid "Tuesday"
+msgstr "Utorak"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Vrsta aktivnosti iznimke na zapisu."
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__seats_unconfirmed
+msgid "Unconfirmed Seat Reservations"
+msgstr "Nepotvrđene rezervacije mjesta"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_tree
+msgid "Unconfirmed Seats"
+msgstr "Nepotvrđene ulaznice"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_mail_session__interval_unit
+msgid "Unit"
+msgstr "Jedinica"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Unread Messages"
+msgstr "Nepročitane poruke"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__until
+msgid "Until"
+msgstr "Dok"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Upcoming events from today"
+msgstr "Nadolazeći današnji događaji"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
+msgid "Upcoming/Running"
+msgstr "Predstojeći/Tekući"
+
+#. module: event_session
+#: model_terms:ir.actions.act_window,help:event_session.action_event_session_pivot
+msgid "Use this report to compare or aggregate sessions performances."
+msgstr "Koristite ovaj izvještaj za poređenje ili agregiranje performansi sesija."
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/models/event_session.py:0
+#: code:addons/event_session/models/event_session.py:0
+#, python-format
+msgid "Value should be True or False (not %s)"
+msgstr "Vrijednost treba biti True ili False (ne %s)"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__address_id
+msgid "Venue"
+msgstr "Mjesto"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__address_inline
+msgid "Venue (formatted for one line uses)"
+msgstr "Mjesto (formatirano za jednolinijsku upotrebu)"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__website_published
+msgid "Visible on current website"
+msgstr "Vidljivo na trenutnoj web stranicama"
+
+#. module: event_session
+#: model_terms:ir.actions.act_window,help:event_session.act_event_registration_from_event_session
+msgid ""
+"Wait until Attendees register to your Event or create their registrations "
+"manually."
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__website_id
+msgid "Website"
+msgstr "Web stranica"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__website_menu
+msgid "Website Menu"
+msgstr "Website Meni"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__website_message_ids
+msgid "Website Messages"
+msgstr "Poruke sa website-a"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__website_url
+msgid "Website URL"
+msgstr "Website URL"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__website_message_ids
+msgid "Website communication history"
+msgstr "Povijest komunikacije Web stranice"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__website_meta_description
+msgid "Website meta description"
+msgstr "Website meta opis"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__website_meta_keywords
+msgid "Website meta keywords"
+msgstr "Website meta ključne riječi"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__website_meta_title
+msgid "Website meta title"
+msgstr "Website meta naslov"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_event_session__website_meta_og_img
+msgid "Website opengraph image"
+msgstr "OpenGraph slika web stranice"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__wed
+msgid "Wed"
+msgstr "Sri"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__weekday__wed
+msgid "Wednesday"
+msgstr "Srijeda"
+
+#. module: event_session
+#: model:ir.model.fields,field_description:event_session.field_wizard_event_session__weekday
+msgid "Weekday"
+msgstr "Dan u sedmici"
+
+#. module: event_session
+#: model:ir.model.fields.selection,name:event_session.selection__wizard_event_session__rrule_type__weekly
+msgid "Weeks"
+msgstr "Sedmice"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_event__date_begin
+msgid ""
+"When the event is scheduled to take place (expressed in your local timezone "
+"on the form view)."
+msgstr ""
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__start_today
+msgid "Whether event is going to start today if still not ongoing"
+msgstr "Da li će događaj početi danas ako još uvijek nije u toku"
+
+#. module: event_session
+#: model_terms:ir.ui.view,arch_db:event_session.view_event_search
+msgid "With sessions"
+msgstr "Sa sesijama"
+
+#. module: event_session
+#: model:ir.model,name:event_session.model_wizard_event_session
+msgid "Wizard for ease sessions creation"
+msgstr "Čarobnjak za lako kreiranje sesija"
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/models/event_event.py:0
+#, python-format
+msgid "You can't enable/disable sessions on events with registrations."
+msgstr "Ne možete omogućiti/onemogućiti sesije na događajima sa registracijama."
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/models/event_session.py:0
+#, python-format
+msgid "You cannot use session_update when writing on recordsets"
+msgstr "Ne možete koristiti session_update kada pišete na recordsetove"
+
+#. module: event_session
+#. odoo-python
+#: code:addons/event_session/wizards/wizard_event_session.py:0
+#, python-format
+msgid "You have to choose at least one day in the week"
+msgstr "Morate odabrati barem jedan dan u tjednu"
+
+#. module: event_session
+#: model:mail.template,subject:event_session.event_session_registration_mail_template_badge
+msgid "Your badge for {{ object.session_id.name }}"
+msgstr "Vaša značka za {{ object.session_id.name }}"
+
+#. module: event_session
+#: model:mail.template,subject:event_session.event_session_subscription
+msgid "Your registration at {{ object.session_id.name }}"
+msgstr "Vaša registracija na {{ object.session_id.name }}"
+
+#. module: event_session
+#: model:ir.model.fields,help:event_session.field_event_session__event_registrations_started
+msgid ""
+"registrations have started if the current datetime is after the earliest "
+"starting date of tickets."
+msgstr ""
+
+#. module: event_session
+#: model:mail.template,subject:event_session.event_session_reminder
+msgid "{{ object.session_id.name }}: {{ object.get_date_range_str() }}"
+msgstr "{{ object.session_id.name }}: {{ object.get_date_range_str() }}"

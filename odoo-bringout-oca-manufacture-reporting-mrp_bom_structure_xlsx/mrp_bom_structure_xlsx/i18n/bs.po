@@ -1,0 +1,80 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_bom_structure_xlsx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mrp_bom_structure_xlsx
+#. odoo-python
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "BOM Name"
+msgstr "Naziv sastavnice"
+
+#. module: mrp_bom_structure_xlsx
+#. odoo-python
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "BOM Structure"
+msgstr "Struktura sastavnice"
+
+#. module: mrp_bom_structure_xlsx
+#: model:ir.model,name:mrp_bom_structure_xlsx.model_report_mrp_bom_structure_xlsx_bom_structure_xlsx
+msgid "BOM Structure XLSX Report"
+msgstr "XLSX izvještaj strukture sastavnice"
+
+#. module: mrp_bom_structure_xlsx
+#: model:ir.actions.report,name:mrp_bom_structure_xlsx.bom_structure_xlsx
+msgid "Export BoM Structure to Excel"
+msgstr "Izvezi strukturu sastavnice u Excel"
+
+#. module: mrp_bom_structure_xlsx
+#. odoo-python
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Level"
+msgstr "Nivo"
+
+#. module: mrp_bom_structure_xlsx
+#. odoo-python
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Product Name"
+msgstr "Naziv artikla"
+
+#. module: mrp_bom_structure_xlsx
+#. odoo-python
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Product Reference"
+msgstr "Referenca proizvoda"
+
+#. module: mrp_bom_structure_xlsx
+#. odoo-python
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Quantity"
+msgstr "Količina"
+
+#. module: mrp_bom_structure_xlsx
+#. odoo-python
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Reference"
+msgstr "Referenca"
+
+#. module: mrp_bom_structure_xlsx
+#. odoo-python
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Unit of Measure"
+msgstr "Jedinica mjere"

@@ -1,0 +1,212 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* event_mail
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__mail_count_done
+msgid "# Sent"
+msgstr "# Poslano"
+
+#. module: event_mail
+#: model_terms:ir.ui.view,arch_db:event_mail.res_config_settings_view_form
+msgid ""
+"<span class=\"o_form_label\">Template Mail Scheduler</span>\n"
+"                            <span class=\"fa fa-lg fa-envelope\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+
+#. module: event_mail
+#: model:ir.model.fields,help:event_mail.field_event_mail_scheduler_template__mail_registration_ids
+msgid "Communication related to event registrations"
+msgstr "Komunikacija vezana za registracije događaja"
+
+#. module: event_mail
+#: model:ir.model,name:event_mail.model_res_company
+msgid "Companies"
+msgstr "Kompanije"
+
+#. module: event_mail
+#: model:ir.model,name:event_mail.model_res_config_settings
+msgid "Config Settings"
+msgstr "Postavke"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__create_uid
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__create_date
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__display_name
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__sequence
+msgid "Display order"
+msgstr "Redoslijed prikaza"
+
+#. module: event_mail
+#: model:ir.model,name:event_mail.model_event_event
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__event_id
+msgid "Event"
+msgstr "Dogadaj"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__event_mail_template_id
+#: model_terms:ir.ui.view,arch_db:event_mail.view_event_mail_template_form
+msgid "Event Mail Template"
+msgstr "Predložak pošte događaja"
+
+#. module: event_mail
+#: model:ir.model,name:event_mail.model_event_type
+msgid "Event Template"
+msgstr "Predložak događaja"
+
+#. module: event_mail
+#: model:ir.model,name:event_mail.model_event_mail_scheduler_template
+msgid "Event mail scheduler template"
+msgstr "Predložak planera pošte događaja"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__mail_state
+msgid "Global communication Status"
+msgstr "Globalni status komunikacije"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__id
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__interval_nbr
+msgid "Interval"
+msgstr "Razdoblje"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template____last_update
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_template____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__write_uid
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__write_date
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__mail_registration_ids
+msgid "Mail Registration"
+msgstr "Registracija pošte"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__scheduler_template_ids
+msgid "Mail Schedule"
+msgstr "Raspored mailova"
+
+#. module: event_mail
+#: model_terms:ir.ui.view,arch_db:event_mail.view_event_mail_template_form
+msgid "Mail Scheduler"
+msgstr "Planer mailova"
+
+#. module: event_mail
+#: model:ir.actions.act_window,name:event_mail.act_event_mail_template
+msgid "Mail Scheduler Template"
+msgstr "Predložak planera pošte"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_res_company__event_mail_template_id
+#: model:ir.model.fields,field_description:event_mail.field_res_config_settings__event_mail_template_id
+msgid "Mail Template"
+msgstr "Predložak maila"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_event__event_mail_template_id
+msgid "Mail Template Scheduler"
+msgstr "Planer predloška pošte"
+
+#. module: event_mail
+#: model:ir.ui.menu,name:event_mail.menu_event_mail_template
+msgid "Mail Templates"
+msgstr "Predlošci pošte"
+
+#. module: event_mail
+#: model_terms:ir.ui.view,arch_db:event_mail.res_config_settings_view_form
+msgid "Mail options"
+msgstr "Opcije pošte"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__name
+msgid "Name"
+msgstr "Naziv:"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__scheduled_date
+msgid "Schedule Date"
+msgstr "Zakazani datum"
+
+#. module: event_mail
+#: model:ir.model,name:event_mail.model_event_mail_template
+msgid "Scheduling templates for events"
+msgstr "Predlošci planiranja za događaje"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__notification_type
+msgid "Send"
+msgstr "Pošalji"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__mail_done
+msgid "Sent"
+msgstr "Poslano"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__template_ref
+#: model_terms:ir.ui.view,arch_db:event_mail.res_config_settings_view_form
+msgid "Template"
+msgstr "Prijedlog"
+
+#. module: event_mail
+#: model_terms:ir.ui.view,arch_db:event_mail.res_config_settings_view_form
+msgid "Template Mail Scheduler"
+msgstr "Planer predloška pošte"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__template_model_id
+msgid "Template Model"
+msgstr "Model predloška"
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__interval_type
+msgid "Trigger "
+msgstr "Okidač "
+
+#. module: event_mail
+#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__interval_unit
+msgid "Unit"
+msgstr "Jedinica"
