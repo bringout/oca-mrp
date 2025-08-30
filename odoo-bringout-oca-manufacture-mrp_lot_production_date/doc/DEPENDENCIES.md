@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mrp](https://github.com/bringout/oca-ocb-mrp/tree/9a98a954badbed600c34241c3523e8b177878602/odoo-bringout-oca-ocb-mrp)
+- [mrp](https://github.com/bringout/oca-ocb-mrp/tree/2dc6666c095704600c4e81b45237acee794fec20/odoo-bringout-oca-ocb-mrp)
 - [stock_lot_production_date](https://github.com/bringout/oca-workflow-process)
