@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [mrp_account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-mrp_account)
+- [mrp_account](https://github.com/bringout/oca-ocb-accounting)

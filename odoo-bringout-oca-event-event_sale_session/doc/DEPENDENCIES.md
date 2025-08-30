@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [event_sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-event_sale)
-- [event_session](../../../../odoo-bringout-oca-event-event_session)
+- [event_sale](https://github.com/bringout/oca-ocb-sale)
+- [event_session](https://github.com/bringout/oca-mrp)

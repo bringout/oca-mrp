@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [hr_timesheet](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr_timesheet)
-- [project_timesheet_time_control](../../../../../oca-workflow-process/odoo-bringout-oca-project-project_timesheet_time_control)
+- [hr_timesheet](https://github.com/bringout/oca-ocb-hr)
+- [project_timesheet_time_control](https://github.com/bringout/oca-workflow-process)

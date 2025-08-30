@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [report_xlsx](../../../../../oca-report/odoo-bringout-oca-reporting-engine-report_xlsx)
-- [mrp](../../../../../oca-ocb-mrp/odoo-bringout-oca-ocb-mrp)
+- [report_xlsx](https://github.com/bringout/oca-report)
+- [mrp](https://github.com/bringout/oca-ocb-mrp)

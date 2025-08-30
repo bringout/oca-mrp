@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock_restrict_lot](../../../../../oca-workflow-process/odoo-bringout-oca-stock-logistics-workflow-stock_restrict_lot)
-- [mrp](../../../../../oca-ocb-mrp/odoo-bringout-oca-ocb-mrp)
+- [stock_restrict_lot](https://github.com/bringout/oca-workflow-process)
+- [mrp](https://github.com/bringout/oca-ocb-mrp)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [website_event_sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-website_event_sale)
-- [website_event_questions](../../../../../oca-ocb-website/odoo-bringout-oca-ocb-website_event_questions)
+- [website_event_sale](https://github.com/bringout/oca-ocb-sale)
+- [website_event_questions](https://github.com/bringout/oca-ocb-website)

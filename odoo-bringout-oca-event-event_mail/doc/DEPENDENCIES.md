@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [event](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-event)
+- [event](https://github.com/bringout/oca-ocb-core)

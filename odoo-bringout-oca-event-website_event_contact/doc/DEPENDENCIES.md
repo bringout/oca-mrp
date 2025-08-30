@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [website_event](../../../../../oca-ocb-website/odoo-bringout-oca-ocb-website_event)
-- [event_contact](../../../../odoo-bringout-oca-event-event_contact)
+- [website_event](https://github.com/bringout/oca-ocb-website)
+- [event_contact](https://github.com/bringout/oca-mrp)

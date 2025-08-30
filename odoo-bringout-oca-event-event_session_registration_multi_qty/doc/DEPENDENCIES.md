@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [event_session](../../../../odoo-bringout-oca-event-event_session)
-- [event_registration_multi_qty](../../../../odoo-bringout-oca-event-event_registration_multi_qty)
+- [event_session](https://github.com/bringout/oca-mrp)
+- [event_registration_multi_qty](https://github.com/bringout/oca-mrp)

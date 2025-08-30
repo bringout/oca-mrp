@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mrp](../../../../../oca-ocb-mrp/odoo-bringout-oca-ocb-mrp)
-- [stock_warehouse_calendar](../../../../../oca-workflow-process/odoo-bringout-oca-stock-logistics-warehouse-stock_warehouse_calendar)
+- [mrp](https://github.com/bringout/oca-ocb-mrp)
+- [stock_warehouse_calendar](https://github.com/bringout/oca-workflow-process)

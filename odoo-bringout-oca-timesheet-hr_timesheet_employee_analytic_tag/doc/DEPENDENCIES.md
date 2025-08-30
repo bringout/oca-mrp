@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [hr_timesheet](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr_timesheet)
-- [account_analytic_tag](../../../../../oca-financial/odoo-bringout-oca-account-analytic-account_analytic_tag)
+- [hr_timesheet](https://github.com/bringout/oca-ocb-hr)
+- [account_analytic_tag](https://github.com/bringout/oca-financial)

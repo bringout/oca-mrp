@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [mrp_stock_owner_restriction](../../../../odoo-bringout-oca-manufacture-mrp_stock_owner_restriction)
+- [mrp_stock_owner_restriction](https://github.com/bringout/oca-mrp)

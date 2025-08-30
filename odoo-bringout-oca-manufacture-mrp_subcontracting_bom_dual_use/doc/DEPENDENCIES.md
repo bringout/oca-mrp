@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [mrp_subcontracting](../../../../../oca-ocb-mrp/odoo-bringout-oca-ocb-mrp_subcontracting)
+- [mrp_subcontracting](https://github.com/bringout/oca-ocb-mrp)
