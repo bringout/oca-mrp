@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mrp](../../odoo-bringout-oca-ocb-mrp)
-- [account](../../odoo-bringout-oca-ocb-account)
+- [mrp](../../../../../oca-ocb-mrp/odoo-bringout-oca-ocb-mrp)
+- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)

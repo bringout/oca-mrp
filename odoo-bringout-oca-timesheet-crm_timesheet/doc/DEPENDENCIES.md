@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [crm](../../odoo-bringout-oca-ocb-crm)
-- [project_timesheet_time_control](../../odoo-bringout-oca-project-project_timesheet_time_control)
+- [crm](../../../../../oca-ocb-crm/odoo-bringout-oca-ocb-crm)
+- [project_timesheet_time_control](../../../../../oca-workflow-process/odoo-bringout-oca-project-project_timesheet_time_control)

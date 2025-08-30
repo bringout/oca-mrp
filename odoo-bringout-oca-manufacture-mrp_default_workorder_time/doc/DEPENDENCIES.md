@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mrp](../../odoo-bringout-oca-ocb-mrp)
-- [stock](../../odoo-bringout-oca-ocb-stock)
+- [mrp](../../../../../oca-ocb-mrp/odoo-bringout-oca-ocb-mrp)
+- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)

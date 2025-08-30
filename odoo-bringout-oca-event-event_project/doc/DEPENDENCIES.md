@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [event](../../odoo-bringout-oca-ocb-event)
-- [project](../../odoo-bringout-oca-ocb-project)
+- [event](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-event)
+- [project](../../../../../oca-ocb-project/odoo-bringout-oca-ocb-project)
