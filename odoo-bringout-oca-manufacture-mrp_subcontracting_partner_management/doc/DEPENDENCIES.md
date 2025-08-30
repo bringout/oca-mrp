@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [purchase_stock](https://github.com/bringout/oca-ocb-warehouse/tree/f7f834405e26b3f1b9786c04a4a652fd978abd14/odoo-bringout-oca-ocb-purchase_stock)
-- [mrp_subcontracting](https://github.com/bringout/oca-ocb-mrp/tree/2829be3138755add397c1199488f39925393daaf/odoo-bringout-oca-ocb-mrp_subcontracting)
-- [sale_stock](https://github.com/bringout/oca-ocb-sale/tree/3531a720906f8e17d5fa4dafe32471b2aada3721/odoo-bringout-oca-ocb-sale_stock)
+- [purchase_stock](https://github.com/bringout/oca-ocb-warehouse/tree/3e067eb100be2ddf743af8f74cbee58df4eb6bb0/odoo-bringout-oca-ocb-purchase_stock)
+- [mrp_subcontracting](https://github.com/bringout/oca-ocb-mrp/tree/a9922818dc8c042d608e806bb98ba5cabc0e778a/odoo-bringout-oca-ocb-mrp_subcontracting)
+- [sale_stock](https://github.com/bringout/oca-ocb-sale/tree/c17ba68cff0610f4dfb2f6dd7d61af76671084cf/odoo-bringout-oca-ocb-sale_stock)
