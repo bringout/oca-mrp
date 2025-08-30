@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [hr_timesheet](https://github.com/bringout/oca-ocb-hr/tree/eb4b035c2ae30a52ff9d18cecd2b898328021028/odoo-bringout-oca-ocb-hr_timesheet)
+- [hr_timesheet](https://github.com/bringout/oca-ocb-hr/tree/fd0ec9fb231394028ae822d432cba192b5602deb/odoo-bringout-oca-ocb-hr_timesheet)
 - [hr_timesheet_time_type](https://github.com/bringout/oca-mrp)
 - [sale_timesheet_line_exclude](https://github.com/bringout/oca-mrp)
 - helpdesk_mgmt_timesheet
