@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [project](https://github.com/bringout/oca-ocb-project/tree/27b3742514a1541fac2ba0448f600d678b604e85/odoo-bringout-oca-ocb-project)
-- [hr_timesheet](https://github.com/bringout/oca-ocb-hr/tree/aa000c65134cd084402a3f35a3bfc3672d5c1d57/odoo-bringout-oca-ocb-hr_timesheet)
-- [sale_timesheet](https://github.com/bringout/oca-ocb-sale/tree/c17ba68cff0610f4dfb2f6dd7d61af76671084cf/odoo-bringout-oca-ocb-sale_timesheet)
+- [project](https://github.com/bringout/oca-ocb-project/tree/b274636f3c96bbfe6c249bb36d4e102bcda60825/odoo-bringout-oca-ocb-project)
+- [hr_timesheet](https://github.com/bringout/oca-ocb-hr/tree/417ca4f968fa38a2bd44dee27c7f5d9f1591d720/odoo-bringout-oca-ocb-hr_timesheet)
+- [sale_timesheet](https://github.com/bringout/oca-ocb-sale/tree/d85ae419535f3bb204d666806d83849c7cf0b3b0/odoo-bringout-oca-ocb-sale_timesheet)
