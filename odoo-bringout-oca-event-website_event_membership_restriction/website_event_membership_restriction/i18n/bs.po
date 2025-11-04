@@ -25,10 +25,12 @@ msgid ""
 "                                <span style=\"font-size: 48px;\">Membership Information</span>\n"
 "                            </font>"
 msgstr ""
+"<font style=\"font-size: 62px;\" class=\"o_default_snippet_text\">\n"
+"                                <span style=\"font-size: 48px;\">Informacije o članstvu</span>\n"
+"                            </font>"
 
 #. module: website_event_membership_restriction
 #: model:ir.model.fields,help:website_event_membership_restriction.field_event_event__registration_membership_only
-#: model:ir.model.fields,help:website_event_membership_restriction.field_event_session__registration_membership_only
 msgid "Allow registration only to members"
 msgstr "Dozvoli registraciju samo članovima"
 
@@ -38,6 +40,8 @@ msgid ""
 "Contact the Association staff in case of further questions or troubles.\n"
 "                            <br/>"
 msgstr ""
+"Kontaktirajte osoblje udruge u slučaju dodatnih pitanja ili problema.\n"
+"                            <br/>"
 
 #. module: website_event_membership_restriction
 #: model:ir.model,name:website_event_membership_restriction.model_event_event
@@ -56,7 +60,6 @@ msgstr "Registracija"
 
 #. module: website_event_membership_restriction
 #: model:ir.model.fields,field_description:website_event_membership_restriction.field_event_event__registration_membership_only
-#: model:ir.model.fields,field_description:website_event_membership_restriction.field_event_session__registration_membership_only
 msgid "Registration Membership Only"
 msgstr "Registracija samo za članove"
 

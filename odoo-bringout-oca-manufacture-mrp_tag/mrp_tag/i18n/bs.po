@@ -100,15 +100,12 @@ msgstr "Naziv oznake već postoji!"
 
 #. module: mrp_tag
 #: model:ir.actions.act_window,name:mrp_tag.mrp_tag_action
-#: model:ir.model.fields,field_description:mrp_tag.field_mrp_production__tag_ids
-#: model:ir.ui.menu,name:mrp_tag.menu_mrp_tag_config
-#: model_terms:ir.ui.view,arch_db:mrp_tag.mrp_tag_view_form
 msgid "Tags"
 msgstr "Oznake"
 
 #. module: mrp_tag
 #. odoo-python
-#: code:addons/mrp_tag/models/mrp_tag.py:0
+#: code:addons/mrp_tag/models/mrp_tag.py
 #, python-format
 msgid "Tags cannot be recursive."
 msgstr "Oznake ne mogu biti rekurzivne"

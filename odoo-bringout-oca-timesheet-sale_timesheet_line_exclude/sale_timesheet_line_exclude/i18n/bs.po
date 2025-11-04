@@ -21,7 +21,9 @@ msgstr "Analitička stavka"
 #. module: sale_timesheet_line_exclude
 #: model:ir.model.fields,help:sale_timesheet_line_exclude.field_account_analytic_line__exclude_from_sale_order
 msgid "Checking this would exclude this timesheet entry from Sale Order"
-msgstr "Označavanjem ovog bi se isključio ovaj unos evidencije radnog vremena iz prodajnog naloga"
+msgstr ""
+"Označavanjem ovog bi se isključio ovaj unos evidencije radnog vremena iz "
+"prodajnog naloga"
 
 #. module: sale_timesheet_line_exclude
 #: model:res.groups,name:sale_timesheet_line_exclude.group_exclude_from_sale_order
@@ -45,9 +47,11 @@ msgstr "Nenaplatno"
 
 #. module: sale_timesheet_line_exclude
 #. odoo-python
-#: code:addons/sale_timesheet_line_exclude/models/account_analytic_line.py:0
+#: code:addons/sale_timesheet_line_exclude/models/account_analytic_line.py
 #, python-format
 msgid ""
 "You can not modify timesheets in a way that would affect invoices since "
 "these timesheets were already invoiced."
 msgstr ""
+"Ne možete mijenjati evidencije radnog vremena na način koji bi uticao na "
+"račune jer su te evidencije već fakturisane."

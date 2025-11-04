@@ -30,7 +30,6 @@ msgstr "Tiket pomoći"
 
 #. module: hr_timesheet_type_non_billable
 #: model:ir.model.fields,field_description:hr_timesheet_type_non_billable.field_account_analytic_line__non_billable
-#: model:ir.model.fields,field_description:hr_timesheet_type_non_billable.field_project_time_type__non_billable
 msgid "Non Billable"
 msgstr "Nenaplatljivo"
 

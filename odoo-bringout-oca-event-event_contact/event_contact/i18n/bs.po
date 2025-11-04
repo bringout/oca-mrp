@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: event_contact
 #: model:ir.model.fields,field_description:event_contact.field_event_event__contact_ids
-#: model:ir.model.fields,field_description:event_contact.field_event_type__contact_ids
 msgid "Contacts"
 msgstr "Kontakti"
 
@@ -35,8 +34,11 @@ msgid ""
 "Partners available to attend attendees requests by default for events of "
 "this type."
 msgstr ""
+"Partneri dostupni za prisustvovanje zahtjevima učesnika po defaultu za "
+"događaje ovog tipa."
 
 #. module: event_contact
 #: model:ir.model.fields,help:event_contact.field_event_event__contact_ids
 msgid "Partners available to attend attendees requests for this event."
-msgstr "Partneri dostupni za prisustvovanje zahtjevima učesnika za ovaj događaj."
+msgstr ""
+"Partneri dostupni za prisustvovanje zahtjevima učesnika za ovaj događaj."

@@ -15,10 +15,11 @@ msgstr ""
 
 #. module: mrp_production_back_to_draft
 #. odoo-python
-#: code:addons/mrp_production_back_to_draft/models/mrp_production.py:0
+#: code:addons/mrp_production_back_to_draft/models/mrp_production.py
 #, python-format
 msgid "Could not set the production order back to draft"
-msgstr "[PREVOD POTREBAN: Could not set the production order back to draft...]"
+msgstr ""
+"[PREVOD POTREBAN: Could not set the production order back to draft...]"
 
 #. module: mrp_production_back_to_draft
 #: model:ir.model,name:mrp_production_back_to_draft.model_mrp_production
@@ -32,9 +33,11 @@ msgstr "[PREVOD: Return to Draft]"
 
 #. module: mrp_production_back_to_draft
 #. odoo-python
-#: code:addons/mrp_production_back_to_draft/models/mrp_production.py:0
+#: code:addons/mrp_production_back_to_draft/models/mrp_production.py
 #, python-format
 msgid ""
 "You cannot return to draft the following MO: %s. Only confirmed or cancelled"
 " MO can be returned to draft."
 msgstr ""
+"[PREVOD POTREBAN: You cannot return to draft the following MO: %s. Only "
+"confir...]"

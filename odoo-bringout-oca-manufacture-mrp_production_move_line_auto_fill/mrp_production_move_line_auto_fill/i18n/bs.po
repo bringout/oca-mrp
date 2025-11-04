@@ -30,12 +30,14 @@ msgstr "[PREVOD: AutoFill]"
 
 #. module: mrp_production_move_line_auto_fill
 #. odoo-python
-#: code:addons/mrp_production_move_line_auto_fill/models/mrp_production.py:0
+#: code:addons/mrp_production_move_line_auto_fill/models/mrp_production.py
 #, python-format
 msgid ""
 "Filling the operations automatically is not possible. Perhaps the "
 "productions are not in the right state."
 msgstr ""
+"[PREVOD POTREBAN: Filling the operations automatically is not possible. "
+"Perhap...]"
 
 #. module: mrp_production_move_line_auto_fill
 #: model:ir.model,name:mrp_production_move_line_auto_fill.model_mrp_production
@@ -54,3 +56,5 @@ msgid ""
 "- If checked, auto fill done quantity automatically\n"
 "- If unchecked, show button AutoFill for user to do the auto fill manually"
 msgstr ""
+"[PREVOD POTREBAN: To auto fill done quantity in picking document.\n"
+"- If checked...]"

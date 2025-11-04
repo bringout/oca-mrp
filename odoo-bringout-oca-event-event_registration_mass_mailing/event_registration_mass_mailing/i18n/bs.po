@@ -20,7 +20,6 @@ msgstr "Dodaj na mailing listu"
 
 #. module: event_registration_mass_mailing
 #: model:ir.model,name:event_registration_mass_mailing.model_event_registration_mail_list_wizard
-#: model_terms:ir.ui.view,arch_db:event_registration_mass_mailing.event_registration_mail_list_wizard_form
 msgid "Create contact mailing list"
 msgstr "Kreiraj mailing listu kontakata"
 

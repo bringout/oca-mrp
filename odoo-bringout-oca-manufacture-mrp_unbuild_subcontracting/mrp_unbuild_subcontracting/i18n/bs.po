@@ -19,6 +19,8 @@ msgid ""
 "An unbuild order is used to break down a finished product into its "
 "components."
 msgstr ""
+"Sve komponente nisu mogle biti rezervisane. Kliknite na dugme \"Proveri "
+"dostupnost\" da pokušate da rezervišete komponente."
 
 #. module: mrp_unbuild_subcontracting
 #: model:ir.model.fields,field_description:mrp_unbuild_subcontracting.field_mrp_unbuild__is_subcontracted
@@ -27,12 +29,14 @@ msgstr "Da li je podugovarano?"
 
 #. module: mrp_unbuild_subcontracting
 #. odoo-python
-#: code:addons/mrp_unbuild_subcontracting/models/stock_picking.py:0
+#: code:addons/mrp_unbuild_subcontracting/models/stock_picking.py
 #, python-format
 msgid ""
 "It's not possible to create the subcontracting unbuild order\n"
 "The subcontract move %(smn)s is linked with more than one manufacturing order: %(jmm)s"
 msgstr ""
+"Nije moguće kreirati radni nalog za demontažu podugovaranja\n"
+"Kretanje podugovaranja %(smn)s je povezano sa više od jednog radnog naloga proizvodnje: %(jmm)s"
 
 #. module: mrp_unbuild_subcontracting
 #: model_terms:ir.actions.act_window,help:mrp_unbuild_subcontracting.mrp_unbuild_subcontracted
@@ -56,14 +60,13 @@ msgstr "Podugovarane demontaže"
 
 #. module: mrp_unbuild_subcontracting
 #. odoo-python
-#: code:addons/mrp_unbuild_subcontracting/models/stock_move.py:0
+#: code:addons/mrp_unbuild_subcontracting/models/stock_move.py
 #, python-format
 msgid "To subcontract, use a planned transfer."
 msgstr "Za podugovaranje, koristite planiran transfer"
 
 #. module: mrp_unbuild_subcontracting
 #: model:ir.model,name:mrp_unbuild_subcontracting.model_stock_picking
-#: model:ir.model.fields,field_description:mrp_unbuild_subcontracting.field_mrp_unbuild__picking_id
 msgid "Transfer"
 msgstr "Prijenos"
 

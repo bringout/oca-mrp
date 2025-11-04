@@ -15,12 +15,14 @@ msgstr ""
 
 #. module: mrp_workcenter_cost
 #: model:ir.model.fields,help:mrp_workcenter_cost.field_product_product__mrp_workcenter_cost
-#: model:ir.model.fields,help:mrp_workcenter_cost.field_product_template__mrp_workcenter_cost
 msgid ""
 "Controls how to compute the workcenter cost for manufactured products.\n"
 "* Theoretical: The cost is computed based on the theoretical duration of the workcenter.\n"
 "* Effective: The cost is computed based on the real duration of the workcenter."
 msgstr ""
+"Kontroliše kako da se izračuna trošak radnog centra za proizvedene proizvode.\n"
+"* Teoretski: Trošak se izračunava na osnovu teoretskog trajanja radnog centra.\n"
+"* Efikasno: Trošak se izračunava na osnovu stvarnog trajanja radnog centra"
 
 #. module: mrp_workcenter_cost
 #: model:ir.model.fields.selection,name:mrp_workcenter_cost.selection__product_template__mrp_workcenter_cost__effective
@@ -44,6 +46,5 @@ msgstr "Teoretski"
 
 #. module: mrp_workcenter_cost
 #: model:ir.model.fields,field_description:mrp_workcenter_cost.field_product_product__mrp_workcenter_cost
-#: model:ir.model.fields,field_description:mrp_workcenter_cost.field_product_template__mrp_workcenter_cost
 msgid "Workcenter Cost Duration"
 msgstr "Trajanje troška radnog centra"

@@ -30,7 +30,6 @@ msgstr "Radni nalog"
 
 #. module: mrp_workcenter_workorder_link
 #: model:ir.model.fields,field_description:mrp_workcenter_workorder_link.field_mrp_workcenter__pending_order_ids
-#: model_terms:ir.ui.view,arch_db:mrp_workcenter_workorder_link.mrp_workcenter_view
 msgid "Work Orders"
 msgstr "Radni nalozi"
 
@@ -46,7 +45,6 @@ msgstr "Radni Centar"
 
 #. module: mrp_workcenter_workorder_link
 #: model_terms:ir.ui.view,arch_db:mrp_workcenter_workorder_link.mrp_workcenter_tree_view
-#: model_terms:ir.ui.view,arch_db:mrp_workcenter_workorder_link.mrp_workcenter_view
 msgid "Workorders"
 msgstr "Radni nalozi"
 

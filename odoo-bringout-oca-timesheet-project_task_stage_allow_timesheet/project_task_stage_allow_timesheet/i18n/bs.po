@@ -35,9 +35,11 @@ msgstr "Faza zadatka"
 
 #. module: project_task_stage_allow_timesheet
 #. odoo-python
-#: code:addons/project_task_stage_allow_timesheet/models/account_analytic_line.py:0
+#: code:addons/project_task_stage_allow_timesheet/models/account_analytic_line.py
 #, python-format
 msgid ""
 "You can't link a timesheet line to a task if its stage doesn't allow it. "
 "(Task: %(task_name)s, Stage: %(stage_name)s)"
 msgstr ""
+"You can't link a timesheet line to a task if its stage doesn't allow it. "
+"(Zadatak: %(task_name)s, Stage: %(stage_name)s)"

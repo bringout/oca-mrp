@@ -19,6 +19,8 @@ msgid ""
 "Checking this would exclude any timesheet entries logged towards this task "
 "from Sale Order"
 msgstr ""
+"Označavanjem ovoga isključićete sve stavke evidencije radnog vremena "
+"zabilježene za ovaj zadatak iz prodajne narudžbe."
 
 #. module: sale_timesheet_task_exclude
 #: model:ir.model.fields,field_description:sale_timesheet_task_exclude.field_project_task__exclude_from_sale_order

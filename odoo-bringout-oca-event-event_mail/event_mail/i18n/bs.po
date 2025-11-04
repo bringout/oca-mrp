@@ -24,6 +24,8 @@ msgid ""
 "<span class=\"o_form_label\">Template Mail Scheduler</span>\n"
 "                            <span class=\"fa fa-lg fa-envelope\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
+"<span class=\"o_form_label\">Planer predloška pošte</span>\n"
+"                            <span class=\"fa fa-lg fa-envelope\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 
 #. module: event_mail
 #: model:ir.model.fields,help:event_mail.field_event_mail_scheduler_template__mail_registration_ids
@@ -42,19 +44,16 @@ msgstr "Postavke"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__create_uid
-#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__create_date
-#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__display_name
-#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -65,13 +64,11 @@ msgstr "Redoslijed prikaza"
 
 #. module: event_mail
 #: model:ir.model,name:event_mail.model_event_event
-#: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__event_id
 msgid "Event"
 msgstr "Dogadaj"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__event_mail_template_id
-#: model_terms:ir.ui.view,arch_db:event_mail.view_event_mail_template_form
 msgid "Event Mail Template"
 msgstr "Predložak pošte događaja"
 
@@ -92,7 +89,6 @@ msgstr "Globalni status komunikacije"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__id
-#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__id
 msgid "ID"
 msgstr "ID"
 
@@ -103,19 +99,16 @@ msgstr "Razdoblje"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template____last_update
-#: model:ir.model.fields,field_description:event_mail.field_event_mail_template____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__write_uid
-#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__write_date
-#: model:ir.model.fields,field_description:event_mail.field_event_mail_template__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -141,7 +134,6 @@ msgstr "Predložak planera pošte"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_res_company__event_mail_template_id
-#: model:ir.model.fields,field_description:event_mail.field_res_config_settings__event_mail_template_id
 msgid "Mail Template"
 msgstr "Predložak maila"
 
@@ -187,7 +179,6 @@ msgstr "Poslano"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__template_ref
-#: model_terms:ir.ui.view,arch_db:event_mail.res_config_settings_view_form
 msgid "Template"
 msgstr "Prijedlog"
 

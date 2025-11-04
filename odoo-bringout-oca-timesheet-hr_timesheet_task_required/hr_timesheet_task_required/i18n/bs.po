@@ -20,6 +20,9 @@ msgid ""
 "specific.\" role=\"img\" aria-label=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Ove vrijednosti su specifične"
+" za svaku tvrtku.\" role=\"img\" aria-label=\"Ove vrijednosti su specifične "
+"za svaku tvrtku.\" groups=\"base.group_multi_company\"/>"
 
 #. module: hr_timesheet_task_required
 #: model:ir.model,name:hr_timesheet_task_required.model_account_analytic_line
@@ -48,8 +51,6 @@ msgstr "Projekat"
 
 #. module: hr_timesheet_task_required
 #: model:ir.model.fields,field_description:hr_timesheet_task_required.field_project_project__is_timesheet_task_required
-#: model:ir.model.fields,field_description:hr_timesheet_task_required.field_res_company__is_timesheet_task_required
-#: model:ir.model.fields,field_description:hr_timesheet_task_required.field_res_config_settings__is_timesheet_task_required
 msgid "Require Tasks on Timesheets"
 msgstr "Zahtijeva zadatke na radnim listovima"
 
@@ -65,7 +66,7 @@ msgstr "Postavi zadatke na radnom listu kao obavezno polje"
 
 #. module: hr_timesheet_task_required
 #. odoo-python
-#: code:addons/hr_timesheet_task_required/models/account_analytic_line.py:0
+#: code:addons/hr_timesheet_task_required/models/account_analytic_line.py
 #, python-format
 msgid "You must specify a task for timesheet lines."
 msgstr "Morate specificirati zadatak za linije radnih listova."

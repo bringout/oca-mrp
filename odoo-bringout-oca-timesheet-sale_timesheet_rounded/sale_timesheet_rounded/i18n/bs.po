@@ -22,6 +22,11 @@ msgid ""
 "            0.017 ~= 1 min\n"
 "            "
 msgstr ""
+"1.0 = sat\n"
+"            0.25 = 15 min\n"
+"            0.084 ~= 5 min\n"
+"            0.017 ~= 1 min\n"
+"            "
 
 #. module: sale_timesheet_rounded
 #: model_terms:ir.ui.view,arch_db:sale_timesheet_rounded.account_analytic_line_kanban_inherit
@@ -29,6 +34,8 @@ msgid ""
 "<br/>\n"
 "                <strong>Rounded: </strong>"
 msgstr ""
+"<br/>\n"
+"                <strong>Zaokruženo: </strong>"
 
 #. module: sale_timesheet_rounded
 #: model:ir.model,name:sale_timesheet_rounded.model_account_analytic_line
@@ -56,6 +63,8 @@ msgid ""
 "If you activate the rounding of timesheet lines, only new entries will be "
 "rounded (i.e. existing lines will not be rounded automatically)."
 msgstr ""
+"Ako aktivirate zaokruživanje stavki evidencije radnog vremena, samo nove "
+"unose će biti zaokružene (postojeće stavke se neće automatski zaokružiti)."
 
 #. module: sale_timesheet_rounded
 #: model:ir.model,name:sale_timesheet_rounded.model_account_move
@@ -79,7 +88,6 @@ msgstr "Količina zaokružena"
 
 #. module: sale_timesheet_rounded
 #: model:ir.model.fields,field_description:sale_timesheet_rounded.field_account_analytic_line__unit_amount_rounded
-#: model_terms:ir.ui.view,arch_db:sale_timesheet_rounded.account_analytic_line_tree_inherit
 msgid "Quantity rounded"
 msgstr "Količina zaokružena"
 
@@ -118,6 +126,8 @@ msgstr "Faktor zaokruživanja evidencije radnog vremena u postocima"
 msgid ""
 "Timesheet rounding factor should stay between 0 and 500, endpoints included."
 msgstr ""
+"Faktor zaokruživanja evidencije radnog vremena treba ostati između 0 i 500, "
+"uključujući granične vrijednosti."
 
 #. module: sale_timesheet_rounded
 #: model_terms:ir.ui.view,arch_db:sale_timesheet_rounded.account_analytic_line_tree_inherit

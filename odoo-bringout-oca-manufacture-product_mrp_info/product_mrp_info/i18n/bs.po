@@ -15,19 +15,16 @@ msgstr ""
 
 #. module: product_mrp_info
 #: model:ir.model.fields,field_description:product_mrp_info.field_product_product__mo_count
-#: model:ir.model.fields,field_description:product_mrp_info.field_product_template__mo_count
 msgid "# Manufacturing Orders"
 msgstr "# Manufacturing Orders"
 
 #. module: product_mrp_info
 #: model_terms:ir.ui.view,arch_db:product_mrp_info.product_normal_form_view
-#: model_terms:ir.ui.view,arch_db:product_mrp_info.product_template_only_form_view
 msgid "MO's"
 msgstr "MO's"
 
 #. module: product_mrp_info
 #: model_terms:ir.ui.view,arch_db:product_mrp_info.product_normal_form_view
-#: model_terms:ir.ui.view,arch_db:product_mrp_info.product_template_only_form_view
 msgid "Manufactured Orders"
 msgstr "Manufactured Orders"
 

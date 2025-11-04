@@ -20,6 +20,9 @@ msgid ""
 "specific.\" role=\"img\" aria-label=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Ove vrijednosti su specifične"
+" za svaku tvrtku.\" role=\"img\" aria-label=\"Ove vrijednosti su specifične "
+"za svaku tvrtku.\" groups=\"base.group_multi_company\"/>"
 
 #. module: hr_timesheet_sheet_autodraft
 #: model:ir.model,name:hr_timesheet_sheet_autodraft.model_account_analytic_line
@@ -42,12 +45,16 @@ msgid ""
 "Auto-draft Timesheet Sheets whenever a Timesheet entry is created or "
 "modified to ensure it's covered by a relevant Timesheet Sheet"
 msgstr ""
+"Auto-nacrt listova radnih listova kad god se kreira ili modificira unos "
+"radnog lista da se osigura da je pokriven relevantnim listom radnih listova"
 
 #. module: hr_timesheet_sheet_autodraft
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_autodraft.res_config_settings_view_form
 msgid ""
 "Check to enable Timesheet Sheet(s) auto-drafting on Timesheet altering."
 msgstr ""
+"Označite da omogućite auto-nacrte lista/listova radnih listova prilikom "
+"izmjene radnih listova."
 
 #. module: hr_timesheet_sheet_autodraft
 #: model:ir.model,name:hr_timesheet_sheet_autodraft.model_res_company
@@ -61,6 +68,5 @@ msgstr "Postavke"
 
 #. module: hr_timesheet_sheet_autodraft
 #: model:ir.model.fields,field_description:hr_timesheet_sheet_autodraft.field_res_company__timesheet_sheets_autodraft
-#: model:ir.model.fields,field_description:hr_timesheet_sheet_autodraft.field_res_config_settings__timesheet_sheets_autodraft
 msgid "Timesheet Sheets Auto-draft"
 msgstr "Auto-nacrt listova radnih listova"

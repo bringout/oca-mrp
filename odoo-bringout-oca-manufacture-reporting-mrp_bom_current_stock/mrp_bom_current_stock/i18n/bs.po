@@ -15,15 +15,13 @@ msgstr ""
 
 #. module: mrp_bom_current_stock
 #. odoo-python
-#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py:0
-#: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.report_mrpbom_current_stock_pdf
+#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py
 #, python-format
 msgid "BOM Current Stock Report"
 msgstr "Izvještaj trenutnih zaliha sastavnice"
 
 #. module: mrp_bom_current_stock
 #: model:ir.actions.act_window,name:mrp_bom_current_stock.mrp_bom_current_stock_action
-#: model:ir.ui.menu,name:mrp_bom_current_stock.mrp_bom_current_stock_menu
 msgid "BoM Current Stock Explosion"
 msgstr "Razlaganje trenutnih zaliha sastavnice"
 
@@ -34,7 +32,7 @@ msgstr "Nivo sastavnice"
 
 #. module: mrp_bom_current_stock
 #. odoo-python
-#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py:0
+#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py
 #, python-format
 msgid "BoM Reference"
 msgstr "Referenca sastavnice"
@@ -57,7 +55,9 @@ msgstr "Sastavnica: Izvještaj trenutnih zaliha XLSX"
 #. module: mrp_bom_current_stock
 #: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.mrp_bom_current_stock_view_form
 msgid "Cancel"
-msgstr "Inventarsko vrednovanje nekih proizvoda %s je automatizovano. Možete ažurirati njihov trošak samo iz forme proizvoda."
+msgstr ""
+"Inventarsko vrednovanje nekih proizvoda %s je automatizovano. Možete "
+"ažurirati njihov trošak samo iz forme proizvoda."
 
 #. module: mrp_bom_current_stock
 #: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.mrp_bom_current_stock_view_form2
@@ -66,19 +66,16 @@ msgstr "Zatvori"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__create_uid
-#: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock_line__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__create_date
-#: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock_line__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__display_name
-#: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock_line__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -104,32 +101,27 @@ msgstr "Izvoz XLSX"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__id
-#: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock_line__id
 msgid "ID"
 msgstr "ID"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock____last_update
-#: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock_line____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__write_uid
-#: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock_line__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__write_date
-#: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock_line__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: mrp_bom_current_stock
 #. odoo-python
-#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py:0
-#: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.report_mrpbom_current_stock_pdf
+#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py
 #, python-format
 msgid "Level"
 msgstr "Nivo"
@@ -141,8 +133,7 @@ msgstr "Linija"
 
 #. module: mrp_bom_current_stock
 #. odoo-python
-#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py:0
-#: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.report_mrpbom_current_stock_pdf
+#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py
 #, python-format
 msgid "Location"
 msgstr "Lokacija"
@@ -174,14 +165,14 @@ msgstr "Nadređena sastavnica"
 
 #. module: mrp_bom_current_stock
 #. odoo-python
-#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py:0
+#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py
 #, python-format
 msgid "Parent BoM Ref"
 msgstr "Ref. nadređene sastavnice"
 
 #. module: mrp_bom_current_stock
 #. odoo-python
-#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py:0
+#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py
 #, python-format
 msgid "Parent Product Ref"
 msgstr "Ref. nadređenog proizvoda"
@@ -203,7 +194,7 @@ msgstr "Količina proizvoda"
 
 #. module: mrp_bom_current_stock
 #. odoo-python
-#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py:0
+#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py
 #, python-format
 msgid "Product Reference"
 msgstr "Referenca proizvoda"
@@ -220,14 +211,12 @@ msgstr "JMJ artikla"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__product_id
-#: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock_line__product_id
 msgid "Product Variant"
 msgstr "Varijanta proizvoda"
 
 #. module: mrp_bom_current_stock
 #. odoo-python
-#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py:0
-#: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.report_mrpbom_current_stock_pdf
+#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py
 #, python-format
 msgid "Qty Available (Location)"
 msgstr "Dostupna količina (Lokacija)"
@@ -239,9 +228,7 @@ msgstr "Dostupna količina u izvoru"
 
 #. module: mrp_bom_current_stock
 #. odoo-python
-#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py:0
-#: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__product_qty
-#: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.report_mrpbom_current_stock_pdf
+#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py
 #, python-format
 msgid "Quantity"
 msgstr "Količina"
@@ -278,6 +265,9 @@ msgid ""
 "If the BOM contains operations, make sure the work center capacity is "
 "accurate."
 msgstr ""
+"Ovo bi trebala biti najmanja količina u kojoj se ovaj proizvod može "
+"proizvesti. Ako BOM sadrži operacije, provjerite da li je kapacitet radnog "
+"centra točan."
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__product_uom_id
@@ -289,11 +279,11 @@ msgstr "Jedinica mjere"
 msgid ""
 "Unit of Measure (Unit of Measure) is the unit of measurement for the "
 "inventory control"
-msgstr ""
+msgstr "Jedinica mjere je jedinica mjere za kontrolu inventure"
 
 #. module: mrp_bom_current_stock
 #. odoo-python
-#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py:0
+#: code:addons/mrp_bom_current_stock/reports/report_mrpcurrentstock_xlsx.py
 #, python-format
 msgid "UoM"
 msgstr "JMJ"

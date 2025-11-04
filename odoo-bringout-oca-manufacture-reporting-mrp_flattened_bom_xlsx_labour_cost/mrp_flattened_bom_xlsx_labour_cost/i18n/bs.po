@@ -20,21 +20,21 @@ msgstr "Sastavnica"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Cost per hour"
 msgstr "Trošak po satu"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Currency"
 msgstr "Valuta"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Duration (hours)"
 msgstr "Trajanje (sati)"
@@ -46,85 +46,84 @@ msgstr "XLSX spološtena sastavnica"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Internal Reference"
 msgstr "Interna oznaka"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
-#: model:ir.model.fields,field_description:mrp_flattened_bom_xlsx_labour_cost.field_mrp_bom__labour_cost
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Labour Cost"
 msgstr "Trošak rada"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Labour Costs"
 msgstr "Troškovi rada"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Labour Unit Cost"
 msgstr "Jedinični trošak rada"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Level"
 msgstr "Nivo"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Main BOM"
 msgstr "Glavna sastavnica"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Operation"
 msgstr "Operacija"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Product Name"
 msgstr "Naziv artikla"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Quantity"
 msgstr "Količina"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Sub BOMs"
 msgstr "Pod-sastavnice"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Unit of Measure"
 msgstr "Jedinica mjere"
 
 #. module: mrp_flattened_bom_xlsx_labour_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_labour_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Work Center"
 msgstr "Radni centar"

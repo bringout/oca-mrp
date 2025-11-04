@@ -35,31 +35,32 @@ msgstr "Vremenski listovi"
 
 #. module: hr_timesheet_sheet_policy_project_manager
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py:0
+#: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py
 #, python-format
 msgid "Only a Project Manager can review the sheet."
 msgstr "Samo menadžer projekta može pregledati list."
 
 #. module: hr_timesheet_sheet_policy_project_manager
 #: model:ir.model.fields,field_description:hr_timesheet_sheet_policy_project_manager.field_hr_timesheet_sheet__project_id
-#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_policy_project_manager.view_hr_timesheet_sheet_filter
 msgid "Project"
 msgstr "Projekat"
 
 #. module: hr_timesheet_sheet_policy_project_manager
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py:0
+#: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py
 #, python-format
 msgid "Review policy \"By Project Manager\" requires Project to be set"
-msgstr "Politika pregleda \"Od menadžera projekta\" zahtijeva da projekt bude postavljen"
+msgstr ""
+"Politika pregleda \"Od menadžera projekta\" zahtijeva da projekt bude "
+"postavljen"
 
 #. module: hr_timesheet_sheet_policy_project_manager
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py:0
+#: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py
 #, python-format
 msgid ""
 "The Company in the Timesheet Sheet and in the Project must be the same."
-msgstr ""
+msgstr "Kompanija u listu radnih listova i u projektu mora biti ista."
 
 #. module: hr_timesheet_sheet_policy_project_manager
 #: model:ir.model,name:hr_timesheet_sheet_policy_project_manager.model_hr_timesheet_sheet

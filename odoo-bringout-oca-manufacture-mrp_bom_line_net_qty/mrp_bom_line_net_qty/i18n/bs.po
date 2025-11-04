@@ -50,21 +50,27 @@ msgstr "Količina nakon procesa"
 
 #. module: mrp_bom_line_net_qty
 #. odoo-python
-#: code:addons/mrp_bom_line_net_qty/models/mrp_bom_line.py:0
+#: code:addons/mrp_bom_line_net_qty/models/mrp_bom_line.py
 #, python-format
 msgid ""
 "Setting gross quantity with 100% loss makes no sense.\n"
 "Change this value."
 msgstr ""
+"Postavljanje bruto količine sa 100% gubitkom nema smisla.\n"
+"Promijenite ovu vrijednost."
 
 #. module: mrp_bom_line_net_qty
 #: model_terms:ir.ui.view,arch_db:mrp_bom_line_net_qty.view_mrp_bom_form
 msgid ""
 "This will set product gross quantity with net quantity and loss percentage"
 msgstr ""
+"Ovo će postaviti bruto količinu proizvoda sa neto količinom i postotkom "
+"gubitka"
 
 #. module: mrp_bom_line_net_qty
 #: model_terms:ir.ui.view,arch_db:mrp_bom_line_net_qty.view_mrp_bom_form
 msgid ""
 "This will set product net quantity with gross quantity and loss percentage"
 msgstr ""
+"Ovo će postaviti neto količinu proizvoda sa bruto količinom i postotkom "
+"gubitka"

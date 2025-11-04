@@ -15,12 +15,14 @@ msgstr ""
 
 #. module: mrp_lot_number_propagation
 #. odoo-python
-#: code:addons/mrp_lot_number_propagation/models/product_template.py:0
+#: code:addons/mrp_lot_number_propagation/models/product_template.py
 #, python-format
 msgid ""
 "A BoM propagating serial numbers requires this product to be tracked as "
 "such."
 msgstr ""
+"Sastavnica koja propagira serijske brojevi zahtijeva da ovaj proizvod bude "
+"praćen kao takav."
 
 #. module: mrp_lot_number_propagation
 #: model:ir.model.fields,help:mrp_lot_number_propagation.field_mrp_bom__lot_number_propagation
@@ -28,6 +30,7 @@ msgid ""
 "Allow to propagate the lot/serial number from a component to the finished "
 "product."
 msgstr ""
+"Omogući propagaciju broja serije/šarže iz komponente u gotov proizvod."
 
 #. module: mrp_lot_number_propagation
 #: model:ir.model,name:mrp_lot_number_propagation.model_mrp_bom
@@ -41,21 +44,25 @@ msgstr "Stavka sastavnice"
 
 #. module: mrp_lot_number_propagation
 #. odoo-python
-#: code:addons/mrp_lot_number_propagation/models/mrp_production.py:0
+#: code:addons/mrp_lot_number_propagation/models/mrp_production.py
 #, python-format
 msgid ""
 "Bill of material is marked for lot number propagation, but there are "
 "multiple components propagating lot number. Please check BOM configuration."
 msgstr ""
+"Sastavnica je označena za propagaciju broja serije, ali ima više komponenti "
+"koje propagiraju broj serije. Molimo provjerite konfiguraciju sastavnice."
 
 #. module: mrp_lot_number_propagation
 #. odoo-python
-#: code:addons/mrp_lot_number_propagation/models/mrp_production.py:0
+#: code:addons/mrp_lot_number_propagation/models/mrp_production.py
 #, python-format
 msgid ""
 "Bill of material is marked for lot number propagation, but there are no "
 "components propagating lot number. Please check BOM configuration."
 msgstr ""
+"Sastavnica je označena za propagaciju broja serije, ali nema komponenti koje"
+" propagiraju broj serije. Molimo provjerite konfiguraciju sastavnice."
 
 #. module: mrp_lot_number_propagation
 #: model:ir.model.fields,field_description:mrp_lot_number_propagation.field_mrp_bom__display_lot_number_propagation
@@ -84,36 +91,42 @@ msgstr "Lot/Serijski broj"
 
 #. module: mrp_lot_number_propagation
 #. odoo-python
-#: code:addons/mrp_lot_number_propagation/models/mrp_production.py:0
+#: code:addons/mrp_lot_number_propagation/models/mrp_production.py
 #, python-format
 msgid ""
 "Lot/Serial number %s already exists and has been used. Unable to propagate "
 "it."
 msgstr ""
+"Broj serije/šarže %s već postoji i bio je korišćen. Nije moguće ga "
+"propagirati."
 
 #. module: mrp_lot_number_propagation
 #. odoo-python
-#: code:addons/mrp_lot_number_propagation/models/mrp_production.py:0
+#: code:addons/mrp_lot_number_propagation/models/mrp_production.py
 #, python-format
 msgid ""
 "Lot/Serial number is propagated from a component, you are not allowed to "
 "change it."
 msgstr ""
+"Broj serije/šarže se propagira iz komponente, nije vam dozvoljeno da ga "
+"mijenjate."
 
 #. module: mrp_lot_number_propagation
 #: model:ir.model.fields,help:mrp_lot_number_propagation.field_mrp_production__is_lot_number_propagated
 msgid ""
 "Lot/serial number is propagated from a component to the finished product."
-msgstr ""
+msgstr "Broj serije/šarže se propagira iz komponente u gotov proizvod."
 
 #. module: mrp_lot_number_propagation
 #. odoo-python
-#: code:addons/mrp_lot_number_propagation/models/mrp_bom_line.py:0
+#: code:addons/mrp_lot_number_propagation/models/mrp_bom_line.py
 #, python-format
 msgid ""
 "Only components tracked by serial number can propagate its lot/serial number"
 " to the finished product."
 msgstr ""
+"Samo komponente praćene po serijskom broju mogu propagirati svoj broj "
+"serije/šarže u gotov proizvod."
 
 #. module: mrp_lot_number_propagation
 #: model:ir.model,name:mrp_lot_number_propagation.model_product_template
@@ -132,7 +145,6 @@ msgstr "Proizvodni nalog"
 
 #. module: mrp_lot_number_propagation
 #: model:ir.model.fields,field_description:mrp_lot_number_propagation.field_mrp_bom_line__propagate_lot_number
-#: model:ir.model.fields,field_description:mrp_lot_number_propagation.field_stock_move__propagate_lot_number
 msgid "Propagate Lot Number"
 msgstr "Propagiraj broj šarže"
 
@@ -153,21 +165,28 @@ msgid ""
 " one of its components. The value will be computed once the corresponding "
 "component is selected."
 msgstr ""
+"Sastavnica korišćena u ovom proizvodnom nalogu je postavljena da propagira "
+"broj šarže iz jedne od svojih komponenti. Vrijednost će biti izračunata kada"
+" se odabere odgovarajuća komponenta."
 
 #. module: mrp_lot_number_propagation
 #. odoo-python
-#: code:addons/mrp_lot_number_propagation/models/product_template.py:0
+#: code:addons/mrp_lot_number_propagation/models/product_template.py
 #, python-format
 msgid ""
 "This component is configured to propagate its serial number in the following"
 " Bill of Materials:{boms}'"
 msgstr ""
+"Ova komponenta je konfigurirana za propagaciju svog serijskog broja u "
+"sljedećim sastavnicama:{boms}'"
 
 #. module: mrp_lot_number_propagation
 #. odoo-python
-#: code:addons/mrp_lot_number_propagation/models/mrp_bom.py:0
+#: code:addons/mrp_lot_number_propagation/models/mrp_bom.py
 #, python-format
 msgid ""
 "With 'Lot Number Propagation' enabled, a line has to be configured with the "
 "'Propagate Lot Number' option."
 msgstr ""
+"Sa omogućenom 'Propagacijom broja šarže', linija mora biti konfigurirana sa "
+"opcijom 'Propagiraj broj šarže'."

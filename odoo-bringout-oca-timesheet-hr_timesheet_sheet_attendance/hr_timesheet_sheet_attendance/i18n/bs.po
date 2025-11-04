@@ -25,8 +25,6 @@ msgstr "Broj prisustva"
 
 #. module: hr_timesheet_sheet_attendance
 #: model:ir.actions.act_window,name:hr_timesheet_sheet_attendance.hr_timesheet_sheet_action_sheet_attendance
-#: model:ir.model.fields,field_description:hr_timesheet_sheet_attendance.field_hr_timesheet_sheet__attendances_ids
-#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_attendance.hr_timesheet_sheet_form
 msgid "Attendances"
 msgstr "Prisutnosti"
 
@@ -57,12 +55,14 @@ msgstr "List"
 
 #. module: hr_timesheet_sheet_attendance
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_attendance/models/hr_timesheet_sheet.py:0
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_timesheet_sheet.py
 #, python-format
 msgid ""
 "The timesheet cannot be validated as it does not contain an equal number of "
 "sign ins and sign outs."
 msgstr ""
+"List radnih listova ne može biti validiran jer ne sadrži jednak broj "
+"prijavljivanja i odjavljivanja."
 
 #. module: hr_timesheet_sheet_attendance
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_attendance.hr_timesheet_sheet_form
@@ -86,24 +86,27 @@ msgstr "Ukupno prisustvo"
 
 #. module: hr_timesheet_sheet_attendance
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py:0
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py
 #, python-format
 msgid ""
 "You can not enter an attendance date outside the current timesheet dates."
 msgstr ""
+"Ne možete unijeti datum prisustva van trenutnih datuma radnih listova."
 
 #. module: hr_timesheet_sheet_attendance
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py:0
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py
 #, python-format
 msgid ""
 "You can not enter an attendance in a submitted timesheet. Ask your manager "
 "to reset it before adding attendance."
 msgstr ""
+"Ne možete unijeti prisustvo u poslani list radnih listova. Zamolite vašeg "
+"menadžera da ga resetuje prije dodavanja prisustva."
 
 #. module: hr_timesheet_sheet_attendance
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py:0
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py
 #, python-format
 msgid "You cannot modify an entry in a confirmed timesheet"
 msgstr "Ne možete modificirati unos u potvrđenom listu radnih listova"

@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py:0
+#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py
 #, python-format
 msgid "Allowed days must be a non-negative integer."
 msgstr "Dozvoljeni dani moraju biti ne-negativan cijeli broj."
@@ -37,7 +37,7 @@ msgstr "Postavke"
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py:0
+#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py
 #, python-format
 msgid "Invalid date value for timesheet record."
 msgstr "Neispravna vrijednost datuma za zapis radnog lista."
@@ -48,6 +48,8 @@ msgid ""
 "Maximum number of days before today allowed for a timesheet. Set to 0 to "
 "disable project‑level restriction."
 msgstr ""
+"Maksimalan broj dana prije danas dozvoljen za radni list. Postavite na 0 da "
+"onemogućite ograničenje na nivou projekta."
 
 #. module: hr_timesheet_time_restriction
 #: model:res.groups,name:hr_timesheet_time_restriction.group_timesheet_time_manager
@@ -61,14 +63,14 @@ msgstr "Projekat"
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/res_config_settings.py:0
+#: code:addons/hr_timesheet_time_restriction/models/res_config_settings.py
 #, python-format
 msgid "The day of the timesheet restriction must not be negative."
 msgstr "Dan ograničenja radnih listova ne smije biti negativan."
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/project_project.py:0
+#: code:addons/hr_timesheet_time_restriction/models/project_project.py
 #, python-format
 msgid "The number of days for timesheet restriction must not be negative."
 msgstr "Broj dana za ograničenje radnih listova ne smije biti negativan."
@@ -90,13 +92,11 @@ msgstr "Ograničenje radnih listova (dani):"
 
 #. module: hr_timesheet_time_restriction
 #: model:ir.model.fields,field_description:hr_timesheet_time_restriction.field_project_project__timesheet_restriction_days
-#: model:ir.model.fields,field_description:hr_timesheet_time_restriction.field_res_config_settings__timesheet_restriction_days
 msgid "Timesheet Restriction Days"
 msgstr "Dani ograničenja radnih listova"
 
 #. module: hr_timesheet_time_restriction
 #: model:ir.model.fields,field_description:hr_timesheet_time_restriction.field_project_project__use_timesheet_restriction
-#: model:ir.model.fields,field_description:hr_timesheet_time_restriction.field_res_config_settings__use_timesheet_restriction
 msgid "Use Timesheet Restriction"
 msgstr "Koristi ograničenje radnih listova"
 
@@ -107,7 +107,7 @@ msgstr "Koristi ograničenje radnih listova"
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/res_config_settings.py:0
+#: code:addons/hr_timesheet_time_restriction/models/res_config_settings.py
 #, python-format
 msgid "Warning!"
 msgstr "Upozorenje!"
@@ -118,17 +118,20 @@ msgid ""
 "Whether to enforce date restriction for this project based on the global "
 "setting."
 msgstr ""
+"Da li forsirati ograničenje datuma za ovaj projekt na osnovu globalnih "
+"postavki."
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py:0
+#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py
 #, python-format
 msgid "You cannot set a timesheet for a date different from current date."
 msgstr "Ne možete postaviti radni list za datum različit od trenutnog datuma."
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py:0
+#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py
 #, python-format
 msgid "You cannot set a timesheet more than %(days)s days from current date."
-msgstr "Ne možete postaviti radni list više od %(days)s dana od trenutnog datuma."
+msgstr ""
+"Ne možete postaviti radni list više od %(days)s dana od trenutnog datuma."

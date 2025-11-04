@@ -25,7 +25,7 @@ msgstr "Prijenos"
 
 #. module: mrp_subcontracting_skip_no_negative
 #. odoo-python
-#: code:addons/mrp_subcontracting_skip_no_negative/models/stock_move.py:0
+#: code:addons/mrp_subcontracting_skip_no_negative/models/stock_move.py
 #, python-format
 msgid ""
 "You cannot validate this stock operation because the stock level of the "
@@ -33,3 +33,6 @@ msgid ""
 "location '{location}' and negative stock is not allowed for this product "
 "and/or location."
 msgstr ""
+"Ne možete validirati ovu skladišnu operaciju jer bi nivo zaliha komponente "
+"'{name}' postao negativan ({qty}) na skladišnoj lokaciji '{location}' a "
+"negativne zalihe nisu dozvoljene za ovaj proizvod i/ili lokaciju"

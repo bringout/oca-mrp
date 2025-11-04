@@ -45,6 +45,9 @@ msgid ""
 "your tasks. Tasks in a folded stage are considered as closed (not applicable"
 " to personal stages)."
 msgstr ""
+"Ako je omogućeno, ova faza će biti prikazana kao složena u Kanban prikazu "
+"vaših zadataka. Zadaci u složenoj fazi se smatraju zatvorenima (ne "
+"primjenjuje se na lične faze)."
 
 #. module: hr_timesheet_task_stage
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_task_stage.account_analytic_line_tree
@@ -53,14 +56,14 @@ msgstr "Otvori zadatak"
 
 #. module: hr_timesheet_task_stage
 #. odoo-python
-#: code:addons/hr_timesheet_task_stage/models/account_analytic_line.py:0
+#: code:addons/hr_timesheet_task_stage/models/account_analytic_line.py
 #, python-format
 msgid "There isn't any stage with \"Closed\" checked. Please mark any."
 msgstr "Nema faze sa \"Zatvoreno\" označenim. Molimo označite bilo koju."
 
 #. module: hr_timesheet_task_stage
 #. odoo-python
-#: code:addons/hr_timesheet_task_stage/models/account_analytic_line.py:0
+#: code:addons/hr_timesheet_task_stage/models/account_analytic_line.py
 #, python-format
 msgid "There isn't any stage with \"Closed\" unchecked. Please unmark any."
 msgstr "Nema faze sa \"Zatvoreno\" neoznačenim. Molimo odznačite bilo koju."

@@ -30,7 +30,6 @@ msgstr "Uredi liniju učesnika na potvrdi prodaje"
 
 #. module: event_sale_session
 #: model:ir.model.fields,field_description:event_sale_session.field_sale_report__event_id
-#: model_terms:ir.ui.view,arch_db:event_sale_session.view_order_product_search
 msgid "Event"
 msgstr "Dogadaj"
 
@@ -51,20 +50,16 @@ msgstr "Izvještaj prodaje događaja"
 
 #. module: event_sale_session
 #: model:ir.model.fields,field_description:event_sale_session.field_event_sale_report__event_session_id
-#: model:ir.model.fields,field_description:event_sale_session.field_sale_report__event_session_id
 msgid "Event Session"
 msgstr "Sesija događaja"
 
 #. module: event_sale_session
 #: model:ir.model.fields,field_description:event_sale_session.field_event_event_configurator__event_use_sessions
-#: model:ir.model.fields,field_description:event_sale_session.field_sale_order_line__event_use_sessions
-#: model_terms:ir.ui.view,arch_db:event_sale_session.event_sale_report_view_search
 msgid "Event Sessions"
 msgstr "Sesije događaja"
 
 #. module: event_sale_session
 #: model:ir.model.fields,field_description:event_sale_session.field_sale_report__event_ticket_id
-#: model_terms:ir.ui.view,arch_db:event_sale_session.view_order_product_search
 msgid "Event Ticket"
 msgstr "Ulaznica za događaj"
 
@@ -85,7 +80,6 @@ msgstr "Besplatan ulaz !"
 
 #. module: event_sale_session
 #: model:ir.model.fields,help:event_sale_session.field_event_event_configurator__event_use_sessions
-#: model:ir.model.fields,help:event_sale_session.field_sale_order_line__event_use_sessions
 msgid "Manage multiple sessions per event"
 msgstr "Upravljaj više sesija po događaju"
 
@@ -111,14 +105,11 @@ msgstr "Stavka prodajne narudžbe"
 
 #. module: event_sale_session
 #: model:ir.model.fields,field_description:event_sale_session.field_event_event_configurator__event_session_id
-#: model:ir.model.fields,field_description:event_sale_session.field_registration_editor_line__session_id
-#: model:ir.model.fields,field_description:event_sale_session.field_sale_order_line__event_session_id
 msgid "Session"
 msgstr "Sesija"
 
 #. module: event_sale_session
 #: model:event.event.ticket,description:event_sale_session.event_ticket_007_standard
-#: model:event.event.ticket,name:event_sale_session.event_ticket_007_standard
 msgid "Standard"
 msgstr "Standardno"
 

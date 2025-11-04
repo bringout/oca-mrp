@@ -34,6 +34,8 @@ msgid ""
 ").<br/>\n"
 "                  Product sale price:"
 msgstr ""
+").\n"
+"                  Prodajna cijena proizvoda:"
 
 #. module: mrp_bom_product_price_margin
 #: model_terms:ir.ui.view,arch_db:mrp_bom_product_price_margin.view_mrp_bom_sale_product_margin_form
@@ -41,6 +43,8 @@ msgid ""
 "<br/>\n"
 "                  Product cost :"
 msgstr ""
+"\n"
+" Trošak proizvoda :"
 
 #. module: mrp_bom_product_price_margin
 #: model_terms:ir.ui.view,arch_db:mrp_bom_product_price_margin.view_mrp_bom_sale_product_margin_form
@@ -48,6 +52,8 @@ msgid ""
 "<br/>\n"
 "                  Product sale price:"
 msgstr ""
+"\n"
+" Prodajna cijena proizvoda:"
 
 #. module: mrp_bom_product_price_margin
 #: model:ir.model,name:mrp_bom_product_price_margin.model_mrp_bom
@@ -66,14 +72,15 @@ msgstr "Trošak sastavnice:"
 
 #. module: mrp_bom_product_price_margin
 #: model:ir.model.fields,field_description:mrp_bom_product_price_margin.field_mrp_bom__standard_price
-#: model_terms:ir.ui.view,arch_db:mrp_bom_product_price_margin.view_mrp_bom_sale_product_margin_form
 msgid "BoM Unit Cost"
 msgstr "Jedinični trošak sastavnice"
 
 #. module: mrp_bom_product_price_margin
 #: model:ir.model.fields,help:mrp_bom_product_price_margin.field_mrp_bom__standard_price
 msgid "Calculated with raw components cost divided by the BoM quantity."
-msgstr "Izračunata sa troškovima sirovih komponenti podijeljenim sa količinom sastavnice."
+msgstr ""
+"Izračunata sa troškovima sirovih komponenti podijeljenim sa količinom "
+"sastavnice."
 
 #. module: mrp_bom_product_price_margin
 #: model:ir.model.fields,field_description:mrp_bom_product_price_margin.field_product_template__standard_price
@@ -82,7 +89,6 @@ msgstr "Trošak"
 
 #. module: mrp_bom_product_price_margin
 #: model:ir.model.fields,field_description:mrp_bom_product_price_margin.field_mrp_bom__currency_id
-#: model:ir.model.fields,field_description:mrp_bom_product_price_margin.field_mrp_bom_line__currency_id
 msgid "Currency"
 msgstr "Valuta"
 
@@ -104,10 +110,13 @@ msgid ""
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
+"U standardnoj cijeni i AVCO: vrijednost proizvoda (automatski izračunata u AVCO).\n"
+"        U FIFO: vrijednost sljedeće jedinice koja će napustiti zalihe (automatski izračunata).\n"
+"        Koristi se za vrednovanje proizvoda kada nabavni trošak nije poznat (npr. prilagođavanje zaliha).\n"
+"        Koristi se za računanje marži na prodajnim narudžbama."
 
 #. module: mrp_bom_product_price_margin
 #: model_terms:ir.ui.view,arch_db:mrp_bom_product_price_margin.view_mrp_bom_sale_product_margin_form
-#: model_terms:ir.ui.view,arch_db:mrp_bom_product_price_margin.view_mrp_bom_tree
 msgid "It will set Product's standard price with this price"
 msgstr "Postavit će standardnu cijenu proizvoda na ovu cijenu"
 
@@ -123,6 +132,9 @@ msgid ""
 "based on historical values).Take care of tax include and exclude.. If no "
 "sale price set, will display 999.0"
 msgstr ""
+"Stopa marže je [ Marža / prodajna cijena (bez poreza) ] iz forme proizvoda "
+"(ne bazirana na historijskim vrijednostima). Pazite na porez uključen i "
+"isključen. Ako prodajna cijena nije postavljena, prikazat će se 999.0"
 
 #. module: mrp_bom_product_price_margin
 #: model:ir.model.fields,help:mrp_bom_product_price_margin.field_mrp_bom__product_sale_price
@@ -175,6 +187,8 @@ msgid ""
 "Technical field used to display or hide button 'Apply this cost to Product "
 "standard price' in the form view"
 msgstr ""
+"Tehničko polje korišćeno za prikazivanje ili skrivanje dugmeta 'Primijeni "
+"ovaj trošak na standardnu cijenu proizvoda' u formi"
 
 #. module: mrp_bom_product_price_margin
 #: model_terms:ir.ui.view,arch_db:mrp_bom_product_price_margin.view_mrp_bom_sale_product_margin_form

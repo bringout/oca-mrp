@@ -20,7 +20,7 @@ msgstr "Sastavnica"
 
 #. module: mrp_flattened_bom_xlsx_direct_materials_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_direct_materials_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_direct_materials_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Currency"
 msgstr "Valuta"
@@ -32,7 +32,7 @@ msgstr "Trošak direktnog materijala"
 
 #. module: mrp_flattened_bom_xlsx_direct_materials_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_direct_materials_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_direct_materials_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Direct Materials"
 msgstr "Direktni materijali"
@@ -44,14 +44,14 @@ msgstr "XLSX spološtena sastavnica"
 
 #. module: mrp_flattened_bom_xlsx_direct_materials_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_direct_materials_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_direct_materials_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Material Cost"
 msgstr "Trošak materijala"
 
 #. module: mrp_flattened_bom_xlsx_direct_materials_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_direct_materials_cost/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx_direct_materials_cost/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Material Unit Cost"
 msgstr "Jedinični trošak materijala"

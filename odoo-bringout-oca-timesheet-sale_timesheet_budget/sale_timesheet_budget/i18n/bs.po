@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget__amount
-#: model_terms:ir.ui.view,arch_db:sale_timesheet_budget.view_project_project_budget_tree
 msgid "Amount"
 msgstr "Iznos"
 
@@ -32,6 +31,10 @@ msgid ""
 "This analytic account can be changed on each task individually if necessary.\n"
 "An analytic account is required in order to use timesheets."
 msgstr ""
+"Analitički račun na koji su povezani ovaj projekt, njegovi zadaci i radni listovi. \n"
+"Pratite troškove i prihode vašeg projekta postavljanjem ovog analitičkog računa na vaše povezane dokumente (npr. prodajne narudžbe, fakture, narudžbe nabave, račune dobavljača, troškove itd.).\n"
+"Ovaj analitički račun može biti promijenjen na svakom zadatku pojedinačno ako je potrebno.\n"
+"Analitički račun je potreban za korištenje radnih listova."
 
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project__budget_amount
@@ -40,9 +43,7 @@ msgstr "Iznos budžeta"
 
 #. module: sale_timesheet_budget
 #. odoo-python
-#: code:addons/sale_timesheet_budget/models/project_project.py:0
-#: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project__budget_ids
-#: model_terms:ir.ui.view,arch_db:sale_timesheet_budget.project_project_view_form
+#: code:addons/sale_timesheet_budget/models/project_project.py
 #, python-format
 msgid "Budgets"
 msgstr "Budžeti"
@@ -99,7 +100,6 @@ msgstr "Cijena proizvoda"
 
 #. module: sale_timesheet_budget
 #: model:ir.model,name:sale_timesheet_budget.model_project_project
-#: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget__project_id
 msgid "Project"
 msgstr "Projekat"
 

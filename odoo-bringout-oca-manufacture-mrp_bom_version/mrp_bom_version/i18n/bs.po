@@ -15,23 +15,21 @@ msgstr ""
 
 #. module: mrp_bom_version
 #: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
 msgid "Activate"
 msgstr "Aktiviraj"
 
+# taken from hr.po
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__active
-#: model:ir.model.fields.selection,name:mrp_bom_version.selection__mrp_bom__state__active
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_search_view
 msgid "Active"
 msgstr "Aktivno"
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_res_config_settings__group_mrp_bom_version
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_config_settings_versioning
 msgid "Allow to re-edit BoMs"
 msgstr "Dozvoli ponovno uređivanje sastavnica"
 
+# taken from hr.po
 #. module: mrp_bom_version
 #: model:ir.model,name:mrp_bom_version.model_mrp_bom
 msgid "Bill of Material"
@@ -71,11 +69,15 @@ msgid ""
 "  Note that in the case of component Manual Consumption, where consumption is registered manually exclusively, consumption warnings will still be issued when appropriate also.\n"
 "  * Blocked: only a manager can close a manufacturing order when the BoM consumption is not respected."
 msgstr ""
+"Definiše da li možete trošiti više ili manje komponenti od količine definisane u sastavnici:\n"
+" * Dozvoljeno: dozvoljeno za sve proizvodne korisnike.\n"
+" * Dozvoljeno sa upozorenjem: dozvoljeno za sve proizvodne korisnike sa sažetkom razlika u potrošnji prilikom zatvaranja proizvodnog naloga.\n"
+" Imajte na umu da će se u slučaju ručne potrošnje komponenti, gdje se potrošnja registruje isključivo ručno, upozorenja o potrošnji i dalje izdavati kada je to potrebno.\n"
+" * Blokiran: samo menadžer može zatvoriti proizvodni nalog kada se ne poštuje potrošnja sastavnice."
 
+# taken from hr.po
 #. module: mrp_bom_version
 #: model:ir.model.fields.selection,name:mrp_bom_version.selection__mrp_bom__state__draft
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
 msgid "Draft"
 msgstr "U pripremi"
 
@@ -86,8 +88,6 @@ msgstr "Fleksibilni utrošak"
 
 #. module: mrp_bom_version
 #: model:ir.model.fields.selection,name:mrp_bom_version.selection__mrp_bom__state__historical
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
 msgid "Historical"
 msgstr "Historijski"
 
@@ -101,16 +101,16 @@ msgstr "Historijski datum"
 msgid ""
 "If a product variant is defined the BOM is available only for this product."
 msgstr ""
+"Ako je varijanta proizvoda definisana sastavnica je dostupna samo za ovu "
+"varijantu proizvoda."
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_res_config_settings__active_draft
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_config_settings_versioning
 msgid "Keep re-editing BoM active"
 msgstr "Zadrži ponovnoređivanje sastavnice aktivno"
 
 #. module: mrp_bom_version
 #: model:mail.message.subtype,description:mrp_bom_version.mt_active
-#: model:mail.message.subtype,name:mrp_bom_version.mt_active
 msgid "MRP BoM Active"
 msgstr "MRP aktivna sastavnica"
 
@@ -126,7 +126,6 @@ msgstr "Proizvodna spremnost"
 
 #. module: mrp_bom_version
 #: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
 msgid "New version"
 msgstr "Nova verzija"
 
@@ -177,7 +176,6 @@ msgstr "Sekvenca"
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__state
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_search_view
 msgid "Status"
 msgstr "Status"
 
@@ -193,6 +191,9 @@ msgid ""
 "If the BOM contains operations, make sure the work center capacity is "
 "accurate."
 msgstr ""
+"Ovo bi trebala biti najmanja količina u kojoj se ovaj proizvod može "
+"proizvesti. Ako BOM sadrži operacije, provjerite da li je kapacitet radnog "
+"centra točan."
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,help:mrp_bom_version.field_res_config_settings__active_draft
@@ -200,6 +201,8 @@ msgid ""
 "This will allow you to define if those BoM passed back to draft are still "
 "activated or not"
 msgstr ""
+"Ovo će vam omogućiti da definirate da li su sastavnice vraćene u nacrt još "
+"uvijek aktivne ili ne"
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__product_uom_id
@@ -211,7 +214,7 @@ msgstr "Jedinica mjere"
 msgid ""
 "Unit of Measure (Unit of Measure) is the unit of measurement for the "
 "inventory control"
-msgstr ""
+msgstr "Jedinica mjere je jedinica mjere za kontrolu inventure"
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__version
@@ -231,25 +234,30 @@ msgid ""
 " operation type. That allows to define stock rules which trigger different "
 "manufacturing orders with different BoMs."
 msgstr ""
+"Kada nabavka ima rutu 'proizvodnje' sa postavljenim tipom operacije, pokušat"
+" će kreirati proizvodni nalog za taj proizvod koristeći sastavnicu istog "
+"tipa operacije. To omogućava definiranje pravila zaliha koja pokreću "
+"različite proizvodne naloge sa različitim sastavnicama."
 
 #. module: mrp_bom_version
 #: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
 msgid "You are going to create a new version of this BoM. Are you sure?"
 msgstr "Kreirat ćete novu verziju ove sastavnice. Da li ste sigurni?"
 
 #. module: mrp_bom_version
 #: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
 msgid ""
 "You are going to historize an BoM. Doing, not be able to unlock it unless "
 "you make a copy. Are you sure you want to proceed?"
 msgstr ""
+"Arhivirat ćete sastavnicu. Radeći to, nećete moći je otključati osim ako ne "
+"napravite kopiju. Da li ste sigurni da želite nastaviti?"
 
 #. module: mrp_bom_version
 #: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
-#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
 msgid ""
 "You will activate the BoM, then you won't be able to edit it after this. Are"
 " you sure you want to proceed?"
 msgstr ""
+"Aktivirat ćete sastavnicu, tada je nećete moći uređivati nakon toga. Da li "
+"ste sigurni da želite nastaviti?"

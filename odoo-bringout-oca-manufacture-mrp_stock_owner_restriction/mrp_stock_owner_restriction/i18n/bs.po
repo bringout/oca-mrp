@@ -26,7 +26,8 @@ msgstr "[PREVOD: Owner Restriction]"
 #. module: mrp_stock_owner_restriction
 #: model:ir.model.fields,help:mrp_stock_owner_restriction.field_mrp_production__owner_id
 msgid "Produced products will be assigned to this owner."
-msgstr "[PREVOD POTREBAN: Produced products will be assigned to this owner....]"
+msgstr ""
+"[PREVOD POTREBAN: Produced products will be assigned to this owner....]"
 
 #. module: mrp_stock_owner_restriction
 #: model:ir.model,name:mrp_stock_owner_restriction.model_stock_move_line

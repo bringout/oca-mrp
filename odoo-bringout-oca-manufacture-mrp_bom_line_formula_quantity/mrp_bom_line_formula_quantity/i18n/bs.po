@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: mrp_bom_line_formula_quantity
 #: model:ir.model,name:mrp_bom_line_formula_quantity.model_mrp_bom_line
 msgid "Bill of Material Line"
@@ -31,12 +32,23 @@ msgid ""
 "- production: the production order being created,\n"
 "The computed quantity must be assigned to the `quantity` variable."
 msgstr ""
+"Formula koja se evaluira prilikom generiranja količine za liniju proizvodnog naloga.\n"
+"Dostupne su sljedeće vrijednosti:\n"
+"- bom_line: trenutna linija sastavnice,\n"
+"- operation: operacija gdje se komponente troše za trenutnu liniju sastavnice,\n"
+"- product: Proizvod trenutne linije sastavnice,\n"
+"- product_uom: Mjerna jedinica proizvoda trenutne linije sastavnice,\n"
+"- product_uom_qty: količina linije proizvodnog naloga,\n"
+"- production: proizvodni nalog koji se kreira,\n"
+"Izračunata količina mora biti dodijeljena varijabli `quantity`."
 
+# taken from hr.po
 #. module: mrp_bom_line_formula_quantity
 #: model:ir.model,name:mrp_bom_line_formula_quantity.model_mrp_production
 msgid "Production Order"
 msgstr "Proizvodni nalog"
 
+# taken from hr.po
 #. module: mrp_bom_line_formula_quantity
 #: model:ir.model.fields,field_description:mrp_bom_line_formula_quantity.field_mrp_bom_line__quantity_formula
 msgid "Quantity Formula"

@@ -30,25 +30,28 @@ msgstr "Završni sat"
 
 #. module: hr_timesheet_begin_end
 #. odoo-python
-#: code:addons/hr_timesheet_begin_end/models/account_analytic_line.py:0
+#: code:addons/hr_timesheet_begin_end/models/account_analytic_line.py
 #, python-format
 msgid "Lines can't overlap:\n"
 msgstr "Linije se ne mogu preklapati:\\\n"
 
 #. module: hr_timesheet_begin_end
 #. odoo-python
-#: code:addons/hr_timesheet_begin_end/models/account_analytic_line.py:0
+#: code:addons/hr_timesheet_begin_end/models/account_analytic_line.py
 #, python-format
 msgid ""
 "The beginning hour (%(html_start)s) must precede the ending hour "
 "(%(html_stop)s)."
 msgstr ""
+"Početni sat (%(html_start)s) mora prethoditi završnom satu (%(html_stop)s)."
 
 #. module: hr_timesheet_begin_end
 #. odoo-python
-#: code:addons/hr_timesheet_begin_end/models/account_analytic_line.py:0
+#: code:addons/hr_timesheet_begin_end/models/account_analytic_line.py
 #, python-format
 msgid ""
 "The duration (%(html_unit_amount)s) must be equal to the difference between "
 "the hours (%(html_hours)s)."
 msgstr ""
+"Trajanje (%(html_unit_amount)s) mora biti jednako razlici između sati "
+"(%(html_hours)s)."

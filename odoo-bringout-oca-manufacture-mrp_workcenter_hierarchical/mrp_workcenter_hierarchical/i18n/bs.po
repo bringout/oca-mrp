@@ -80,19 +80,16 @@ msgstr "Nasljeđeni"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_level_1_id
-#: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_mrp_workcenter_search
 msgid "Parent Level 1"
 msgstr "Roditeljski nivo 1"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_level_2_id
-#: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_mrp_workcenter_search
 msgid "Parent Level 2"
 msgstr "Roditeljski nivo 2"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_level_3_id
-#: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_mrp_workcenter_search
 msgid "Parent Level 3"
 msgstr "Roditeljski nivo 3"
 
@@ -113,7 +110,6 @@ msgstr "Zamijenite odabrane radne centre drugim"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.actions.act_window,name:mrp_workcenter_hierarchical.action_switch_workcenter
-#: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_wiz_switch_workcenter_form
 msgid "Switch Workcenter"
 msgstr "Prebaci radni centar"
 
@@ -128,15 +124,19 @@ msgid ""
 "The parent level on workcenters will be empty if case of  there are no parent/great parent or more.\n"
 "                                On the contrary, by default, the parent level are always set, allowing a view by workorder grouped by top parent workcenter"
 msgstr ""
+"Roditeljski nivo radnih centara će biti prazan u slučaju da nema roditelje/praroditelje ili više.\n"
+"                                Na suprotno, zadano, roditeljski nivoi su uvijek postavljeni, omogućavajući prikaz radnih naloga grupisanih po glavnom radnom centru"
 
 #. module: mrp_workcenter_hierarchical
 #. odoo-python
-#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py:0
+#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py
 #, python-format
 msgid ""
 "The present workcenter of the workorders does not belong to any group of "
 "workcenter. It can't be switched"
 msgstr ""
+"Trenutni radni centar radnih naloga ne pripada nijednoj grupi radnih "
+"centara. Ne može se prebaciti"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model,name:mrp_workcenter_hierarchical.model_mrp_workcenter
@@ -150,25 +150,27 @@ msgstr "Radni Centar"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_res_company__workcenter_parent_level_empty
-#: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_res_config_settings__workcenter_parent_level_empty
 msgid "Workcenter Parent Level Empty"
 msgstr "Roditeljski nivo radnog centra prazan"
 
 #. module: mrp_workcenter_hierarchical
 #. odoo-python
-#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py:0
+#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py
 #, python-format
 msgid "You can not change the workcenter of an in progress or done operation"
-msgstr "Ne možete promijeniti radni centar operacije koja je u toku ili završena"
+msgstr ""
+"Ne možete promijeniti radni centar operacije koja je u toku ili završena"
 
 #. module: mrp_workcenter_hierarchical
 #. odoo-python
-#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py:0
+#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py
 #, python-format
 msgid ""
 "You can only change the workcenter of workorders belonging to the same "
 "workcenter"
 msgstr ""
+"Možete promijeniti samo radni centar radnih naloga koji pripadaju istom "
+"radnom centru"
 
 #. module: mrp_workcenter_hierarchical
 #: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_wiz_switch_workcenter_form

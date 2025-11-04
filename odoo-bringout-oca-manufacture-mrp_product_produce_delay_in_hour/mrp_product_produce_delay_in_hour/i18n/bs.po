@@ -15,19 +15,23 @@ msgstr ""
 
 #. module: mrp_product_produce_delay_in_hour
 #: model:ir.model.fields,help:mrp_product_produce_delay_in_hour.field_product_product__produce_delay
-#: model:ir.model.fields,help:mrp_product_produce_delay_in_hour.field_product_template__produce_delay
 msgid ""
 "Average lead time in days to manufacture this product. In the case of multi-"
 "level BOM, the manufacturing lead times of the components will be added. In "
 "case the product is subcontracted, this can be used to determine the date at"
 " which components should be sent to the subcontractor."
 msgstr ""
+"Prosječno vrijeme proizvodnje u danima za ovaj proizvod. U slučaju "
+"višeslojne sastavnice, dodaju se vremena proizvodnje komponenti. Ako se "
+"proizvod podugovara, ovo se može koristiti za određivanje datuma kada "
+"komponente treba poslati podugovaraču."
 
 #. module: mrp_product_produce_delay_in_hour
 #: model:ir.model.fields,help:mrp_product_produce_delay_in_hour.field_product_product__produce_delay_in_hour
-#: model:ir.model.fields,help:mrp_product_produce_delay_in_hour.field_product_template__produce_delay_in_hour
 msgid "Average lead time in hours to manufacture this Product."
-msgstr "[PREVOD POTREBAN: Average lead time in hours to manufacture this Product....]"
+msgstr ""
+"[PREVOD POTREBAN: Average lead time in hours to manufacture this "
+"Product....]"
 
 #. module: mrp_product_produce_delay_in_hour
 #: model_terms:ir.ui.view,arch_db:mrp_product_produce_delay_in_hour.view_mrp_product_produce_delay_in_hour
@@ -36,13 +40,11 @@ msgstr "Pripremno vrijeme proizvodnje"
 
 #. module: mrp_product_produce_delay_in_hour
 #: model:ir.model.fields,field_description:mrp_product_produce_delay_in_hour.field_product_product__produce_delay
-#: model:ir.model.fields,field_description:mrp_product_produce_delay_in_hour.field_product_template__produce_delay
 msgid "Manufacturing Lead Time"
 msgstr "Vrijeme vođenja proizvodnje"
 
 #. module: mrp_product_produce_delay_in_hour
 #: model:ir.model.fields,field_description:mrp_product_produce_delay_in_hour.field_product_product__produce_delay_in_hour
-#: model:ir.model.fields,field_description:mrp_product_produce_delay_in_hour.field_product_template__produce_delay_in_hour
 msgid "Produce Delay In Hour"
 msgstr "[PREVOD POTREBAN: Produce Delay In Hour...]"
 

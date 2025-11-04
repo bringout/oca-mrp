@@ -20,47 +20,59 @@ msgid ""
 "specific.\" role=\"img\" aria-label=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Ove vrijednosti su specifične"
+" za svaku tvrtku.\" role=\"img\" aria-label=\"Ove vrijednosti su specifične "
+"za svaku tvrtku.\" groups=\"base.group_multi_company\"/>"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #: model:ir.model,name:mrp_default_workorder_time.model_res_company
 msgid "Companies"
 msgstr "Tvrtke"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #: model:ir.model,name:mrp_default_workorder_time.model_res_config_settings
 msgid "Config Settings"
 msgstr "Konfiguracijske postavke"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #. odoo-python
-#: code:addons/mrp_default_workorder_time/models/workorder.py:0
+#: code:addons/mrp_default_workorder_time/models/workorder.py
 #, python-format
 msgid ""
 "Fully Productive Time is not configured on system, please contact with your "
 "administrator"
 msgstr ""
+"Potpuno produktivno vrijeme nije postavljeno u sustavu, molimo kontaktirajte"
+" administratora"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #: model_terms:ir.ui.view,arch_db:mrp_default_workorder_time.res_config_settings_view_form
 msgid ""
 "If time recorded on workorder is not between this percentages, projected "
 "time will be used instead"
 msgstr ""
+"Ako ubilježeno vrijeme na radnom nalogu nije između ovih postotaka, "
+"projektno vrijeme će biti korišteno"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #: model:ir.model.fields,field_description:mrp_default_workorder_time.field_res_company__maximum_order_time_threshold
-#: model:ir.model.fields,field_description:mrp_default_workorder_time.field_res_config_settings__maximum_order_time_threshold
 msgid "Maximum order time threshold(%)"
 msgstr "Prag maksimalnog vremena naloga(%)"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #: model_terms:ir.ui.view,arch_db:mrp_default_workorder_time.res_config_settings_view_form
 msgid "Maximum:"
 msgstr "Maksimum:"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #: model:ir.model.fields,field_description:mrp_default_workorder_time.field_res_company__minimum_order_time_threshold
-#: model:ir.model.fields,field_description:mrp_default_workorder_time.field_res_config_settings__minimum_order_time_threshold
 msgid "Minimum order time threshold(%)"
 msgstr "Prag minimalnog vremena naloga (%)"
 
@@ -69,27 +81,32 @@ msgstr "Prag minimalnog vremena naloga (%)"
 msgid "Minimum:"
 msgstr "Minimum:"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #: model_terms:ir.ui.view,arch_db:mrp_default_workorder_time.res_config_settings_view_form
 msgid "Record standard projected order time"
 msgstr "Zabilježi standardno projecirano vrijeme naloga"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #: model:ir.model.fields,field_description:mrp_default_workorder_time.field_res_company__use_projected_time_work_orders
-#: model:ir.model.fields,field_description:mrp_default_workorder_time.field_res_config_settings__use_projected_time_work_orders
 msgid "Use projected time work orders?"
 msgstr "Koristi projecirano vrijeme za radne naloge?"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #: model:ir.model,name:mrp_default_workorder_time.model_mrp_workorder
 msgid "Work Order"
 msgstr "Radni nalog"
 
+# taken from hr.po
 #. module: mrp_default_workorder_time
 #. odoo-python
-#: code:addons/mrp_default_workorder_time/models/workorder.py:0
+#: code:addons/mrp_default_workorder_time/models/workorder.py
 #, python-format
 msgid ""
 "You should plan orders to set default production time on work orders, please"
 " check"
 msgstr ""
+"Trebate planirati naloge za postavljanje vremena proizvodnje na radnim "
+"nalozima, molimo provjerite"

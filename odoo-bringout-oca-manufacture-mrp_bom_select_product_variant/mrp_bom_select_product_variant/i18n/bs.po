@@ -23,9 +23,10 @@ msgstr "Sastavnica"
 msgid ""
 "If a product variant is defined the BOM is available only for this product."
 msgstr ""
+"Ako je varijanta proizvoda definisana sastavnica je dostupna samo za ovu "
+"varijantu proizvoda."
 
 #. module: mrp_bom_select_product_variant
 #: model:ir.model.fields,field_description:mrp_bom_select_product_variant.field_mrp_bom__product_id
-#: model_terms:ir.ui.view,arch_db:mrp_bom_select_product_variant.view_mrp_bom_search
 msgid "Product Variant"
 msgstr "Varijanta proizvoda"

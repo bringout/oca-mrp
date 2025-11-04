@@ -30,7 +30,7 @@ msgstr "Vremenski listovi"
 
 #. module: hr_timesheet_sheet_policy_department_manager
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_policy_department_manager/models/hr_timesheet_sheet.py:0
+#: code:addons/hr_timesheet_sheet_policy_department_manager/models/hr_timesheet_sheet.py
 #, python-format
 msgid "Only a Department's Manager can review the sheet."
 msgstr "Samo menadžer odjela može pregledati list."

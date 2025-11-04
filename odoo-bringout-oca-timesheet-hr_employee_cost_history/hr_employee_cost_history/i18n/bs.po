@@ -35,7 +35,6 @@ msgstr "Promijeni cijenu timesheet-a od ovog datuma nadalje."
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__comment
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__comment
 msgid "Comment"
 msgstr "Komentar"
 
@@ -46,38 +45,31 @@ msgstr "Trošak"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__create_uid
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__create_date
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__currency_id
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__currency_id
 msgid "Currency"
 msgstr "Valuta"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__display_name
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: hr_employee_cost_history
 #: model:ir.model,name:hr_employee_cost_history.model_hr_employee
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__employee_id
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__employee_id
 msgid "Employee"
 msgstr "Zaposleni"
 
 #. module: hr_employee_cost_history
 #: model:ir.actions.act_window,name:hr_employee_cost_history.hr_employee_timesheet_cost_action
-#: model:ir.model,name:hr_employee_cost_history.model_hr_employee_timesheet_cost_history
 msgid "Employee Timesheet Cost History"
 msgstr "Povijest cijena timesheet-a zaposlenika"
 
@@ -93,31 +85,26 @@ msgstr "Od datuma"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__hourly_cost
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__hourly_cost
 msgid "Hourly Cost"
 msgstr "Trošak po satu rada"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__id
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__id
 msgid "ID"
 msgstr "ID"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history____last_update
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__write_uid
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__write_date
-#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -143,6 +130,5 @@ msgstr "Ažuriraj"
 
 #. module: hr_employee_cost_history
 #: model:ir.actions.act_window,name:hr_employee_cost_history.action_hr_employee_timesheet_cost_wizard
-#: model_terms:ir.ui.view,arch_db:hr_employee_cost_history.hr_employee_timesheet_cost_wizard_view_form
 msgid "Update Timesheet Cost"
 msgstr "Ažuriraj cijenu timesheet-a"

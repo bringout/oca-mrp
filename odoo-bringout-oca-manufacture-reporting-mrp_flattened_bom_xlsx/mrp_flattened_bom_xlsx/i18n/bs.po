@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: mrp_flattened_bom_xlsx
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py
 #, python-format
 msgid "BOM Name"
 msgstr "Naziv sastavnice"
@@ -32,7 +32,7 @@ msgstr "Izvezi strukturu spološtene sastavnice u Excel"
 
 #. module: mrp_flattened_bom_xlsx
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Flattened BOM"
 msgstr "Sploštena sastavnica"
@@ -44,35 +44,35 @@ msgstr "XLSX spološtena sastavnica"
 
 #. module: mrp_flattened_bom_xlsx
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Product Name"
 msgstr "Naziv artikla"
 
 #. module: mrp_flattened_bom_xlsx
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Product Reference"
 msgstr "Referenca proizvoda"
 
 #. module: mrp_flattened_bom_xlsx
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Quantity"
 msgstr "Količina"
 
 #. module: mrp_flattened_bom_xlsx
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Reference"
 msgstr "Referenca"
 
 #. module: mrp_flattened_bom_xlsx
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py:0
+#: code:addons/mrp_flattened_bom_xlsx/report/flattened_bom_xlsx.py
 #, python-format
 msgid "Unit of Measure"
 msgstr "Jedinica mjere"

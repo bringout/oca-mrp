@@ -29,6 +29,8 @@ msgid ""
 "Allow the same product to be used as both a component and a finished product\n"
 "                            in manufacturing orders."
 msgstr ""
+"[PREVOD POTREBAN: Allow the same product to be used as both a component and "
+"a ...]"
 
 #. module: mrp_production_allow_recursive
 #: model:ir.model,name:mrp_production_allow_recursive.model_res_company

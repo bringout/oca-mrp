@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: event_project
 #: model:ir.model,name:event_project.model_event_event
-#: model_terms:ir.ui.view,arch_db:event_project.view_task_search_form
 msgid "Event"
 msgstr "Dogadaj"
 
@@ -25,6 +24,8 @@ msgid ""
 "Keep track of the progress of your tasks from creation to completion.<br>\n"
 "                Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
+"Pratite napredak vaših zadataka od kreiranja do završetka.<br>\n"
+"                Efikasno sarađujte ćaskanjem u realnom vremenu ili putem emaila."
 
 #. module: event_project
 #: model_terms:ir.actions.act_window,help:event_project.act_event_task_list
@@ -38,19 +39,17 @@ msgstr "Projekat"
 
 #. module: event_project
 #: model:ir.model.fields,help:event_project.field_event_event__project_id
-#: model:ir.model.fields,help:event_project.field_event_session__project_id
 msgid "Project end date will be updated with event start date."
-msgstr "Datum završetka projekta će biti ažuriran sa početnim datumom događaja."
+msgstr ""
+"Datum završetka projekta će biti ažuriran sa početnim datumom događaja."
 
 #. module: event_project
 #: model:ir.model.fields,field_description:event_project.field_project_project__event_id
-#: model:ir.model.fields,field_description:event_project.field_project_task__event_id
 msgid "Related event"
 msgstr "Povezani događaj"
 
 #. module: event_project
 #: model:ir.model.fields,field_description:event_project.field_event_event__project_id
-#: model:ir.model.fields,field_description:event_project.field_event_session__project_id
 msgid "Related project"
 msgstr "Povezani projekt"
 
@@ -61,14 +60,10 @@ msgstr "Zadatak"
 
 #. module: event_project
 #: model:ir.model.fields,field_description:event_project.field_event_event__count_tasks
-#: model:ir.model.fields,field_description:event_project.field_event_session__count_tasks
 msgid "Task number"
 msgstr "Broj zadatka"
 
 #. module: event_project
 #: model:ir.actions.act_window,name:event_project.act_event_task_list
-#: model:ir.model.fields,field_description:event_project.field_event_event__task_ids
-#: model:ir.model.fields,field_description:event_project.field_event_session__task_ids
-#: model_terms:ir.ui.view,arch_db:event_project.view_event_form
 msgid "Tasks"
 msgstr "Zadaci"

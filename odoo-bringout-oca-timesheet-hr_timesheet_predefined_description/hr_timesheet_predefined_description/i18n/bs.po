@@ -75,6 +75,5 @@ msgstr "Predefinirani opis za radne listove"
 
 #. module: hr_timesheet_predefined_description
 #: model:ir.actions.act_window,name:hr_timesheet_predefined_description.action_timesheet_predefined_description
-#: model:ir.ui.menu,name:hr_timesheet_predefined_description.menu_timesheet_predefined_description
 msgid "Predefined Descriptions"
 msgstr "Predefinirani opisi"

@@ -35,18 +35,22 @@ msgstr "Količina"
 
 #. module: event_registration_multi_qty
 #. odoo-python
-#: code:addons/event_registration_multi_qty/models/event.py:0
+#: code:addons/event_registration_multi_qty/models/event.py
 #, python-format
 msgid ""
 "You can not add quantities if you not active the option \"Allow multiple "
 "attendees per registration\" in event"
 msgstr ""
+"Ne možete dodati količine ako ne aktivirate opciju \"Dozvoliti više učesnika"
+" po registraciji\" u događaju"
 
 #. module: event_registration_multi_qty
 #. odoo-python
-#: code:addons/event_registration_multi_qty/models/event.py:0
+#: code:addons/event_registration_multi_qty/models/event.py
 #, python-format
 msgid ""
 "You can not disable this option if there are registrations with quantities "
 "greater than one."
 msgstr ""
+"Ne možete onemogućiti ovu opciju ako postoje registracije sa količinama "
+"većim od jedan."

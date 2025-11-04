@@ -26,6 +26,9 @@ msgid ""
 "* Ignore other sources for products with estimates: When there are estimates entered for product and they are in a present or future period, all other sources of demand are ignored for those products.\n"
 "* Ignore other sources during periods with estimates: When you create demand estimates for a period and product, other sources of demand will be ignored during that period for those products."
 msgstr ""
+"Definiraj strategiju za praćenje u MRP više nivoa kada postoji koegzistencija potražnje iz procjena potražnje i drugih izvora.\n"
+"* Uvijek razmotri sve izvore: ništa nije isključeno ili ignorisano.\n"
+"* Ignoriši druge izvore za p"
 
 #. module: mrp_multi_level_estimate
 #: model:ir.model.fields,field_description:mrp_multi_level_estimate.field_mrp_area__estimate_demand_and_other_sources_strat
@@ -45,12 +48,14 @@ msgstr "Dani grupiranja procjena moraju biti veći ili jednaki nuli."
 #. module: mrp_multi_level_estimate
 #: model:ir.model.fields.selection,name:mrp_multi_level_estimate.selection__mrp_area__estimate_demand_and_other_sources_strat__ignore_overlapping
 msgid "Ignore other sources during periods with estimates"
-msgstr "[PREVOD POTREBAN: Ignore other sources during periods with estimates...]"
+msgstr ""
+"[PREVOD POTREBAN: Ignore other sources during periods with estimates...]"
 
 #. module: mrp_multi_level_estimate
 #: model:ir.model.fields.selection,name:mrp_multi_level_estimate.selection__mrp_area__estimate_demand_and_other_sources_strat__ignore_others_if_estimates
 msgid "Ignore other sources for products with estimates"
-msgstr "[PREVOD POTREBAN: Ignore other sources for products with estimates...]"
+msgstr ""
+"[PREVOD POTREBAN: Ignore other sources for products with estimates...]"
 
 #. module: mrp_multi_level_estimate
 #: model:ir.model,name:mrp_multi_level_estimate.model_mrp_area
@@ -75,3 +80,5 @@ msgid ""
 "not be greater, in that caseonly grouping until the total length of the date"
 " range will be done."
 msgstr ""
+"[PREVOD POTREBAN: The days to group your estimates as demand for the MRP.It "
+"ca...]"

@@ -25,7 +25,6 @@ msgstr "Oznaka sastavnice"
 
 #. module: mrp_bom_tag
 #: model:ir.actions.act_window,name:mrp_bom_tag.action_bom_tag_2_mrp_bom
-#: model:ir.model,name:mrp_bom_tag.model_mrp_bom
 msgid "Bill of Material"
 msgstr "Sastavnica"
 
@@ -41,7 +40,6 @@ msgstr "Oznaka sastavnice"
 
 #. module: mrp_bom_tag
 #: model:ir.actions.act_window,name:mrp_bom_tag.action_bom_tag
-#: model:ir.ui.menu,name:mrp_bom_tag.menu_bom_tag
 msgid "BoM Tags"
 msgstr "Oznake sastavnica"
 
@@ -58,7 +56,8 @@ msgstr "Podkategorije"
 #. module: mrp_bom_tag
 #: model:ir.model.fields,help:mrp_bom_tag.field_mrp_bom__bom_tag_ids
 msgid "Choose or create your tags for your BoM and set its color."
-msgstr "Izaberite ili kreirajte oznake za vašu sastavnicu i postavite njenu boju."
+msgstr ""
+"Izaberite ili kreirajte oznake za vašu sastavnicu i postavite njenu boju."
 
 #. module: mrp_bom_tag
 #: model:ir.model.fields,field_description:mrp_bom_tag.field_mrp_bom_tag__color
@@ -120,6 +119,8 @@ msgstr "Naziv:"
 msgid ""
 "Number of BoMs under this BoM tag (not considering children categories)"
 msgstr ""
+"Broj sastavnica pod ovom oznakom sastavnice (ne uzimajući u obzir podređene "
+"kategorije)"
 
 #. module: mrp_bom_tag
 #: model:ir.model.fields,field_description:mrp_bom_tag.field_mrp_bom_tag__parent_id
@@ -133,6 +134,5 @@ msgstr "Putanja nadređenih"
 
 #. module: mrp_bom_tag
 #: model:ir.model.fields,field_description:mrp_bom_tag.field_mrp_bom__bom_tag_ids
-#: model_terms:ir.ui.view,arch_db:mrp_bom_tag.view_bom_tag_search
 msgid "Tags"
 msgstr "Oznake"

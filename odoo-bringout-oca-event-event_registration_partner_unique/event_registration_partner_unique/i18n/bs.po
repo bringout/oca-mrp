@@ -15,14 +15,15 @@ msgstr ""
 
 #. module: event_registration_partner_unique
 #: model:ir.model.fields,help:event_registration_partner_unique.field_event_event__forbid_duplicates
-#: model:ir.model.fields,help:event_registration_partner_unique.field_event_session__forbid_duplicates
 msgid ""
 "Check this to disallow duplicate attendees in this event's registrations"
 msgstr ""
+"Označite ovo da ne dozvolite duplikate učesnika u registracijama ovog "
+"događaja"
 
 #. module: event_registration_partner_unique
 #. odoo-python
-#: code:addons/event_registration_partner_unique/models/event.py:0
+#: code:addons/event_registration_partner_unique/models/event.py
 #, python-format
 msgid "Duplicated partners found in event {0}: {1}."
 msgstr "Duplirani partneri pronađeni u događaju {0}: {1}."
@@ -39,6 +40,5 @@ msgstr "Registracija događaja"
 
 #. module: event_registration_partner_unique
 #: model:ir.model.fields,field_description:event_registration_partner_unique.field_event_event__forbid_duplicates
-#: model:ir.model.fields,field_description:event_registration_partner_unique.field_event_session__forbid_duplicates
 msgid "Forbid Duplicates"
 msgstr "Zabrani duplikate"

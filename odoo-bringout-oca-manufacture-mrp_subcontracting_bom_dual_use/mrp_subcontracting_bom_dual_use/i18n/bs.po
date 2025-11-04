@@ -20,7 +20,6 @@ msgstr "Dozvoli u redovnoj proizvodnji"
 
 #. module: mrp_subcontracting_bom_dual_use
 #: model:ir.model,name:mrp_subcontracting_bom_dual_use.model_mrp_bom
-#: model:ir.model.fields,field_description:mrp_subcontracting_bom_dual_use.field_mrp_production__bom_id
 msgid "Bill of Material"
 msgstr "Sastavnica"
 
@@ -30,6 +29,8 @@ msgid ""
 "Bill of Materials allow you to define the list of required components to "
 "make a finished product."
 msgstr ""
+"Sastavnica (BOM) vam omogućava da definirate listu potrebnih komponenti za "
+"izradu gotovog proizvoda."
 
 #. module: mrp_subcontracting_bom_dual_use
 #: model:ir.model,name:mrp_subcontracting_bom_dual_use.model_mrp_production

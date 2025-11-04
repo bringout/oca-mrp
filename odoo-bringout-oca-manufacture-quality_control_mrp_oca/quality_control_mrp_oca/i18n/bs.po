@@ -30,12 +30,13 @@ msgstr "Inspekcije vezane za ovu proizvodnju."
 
 #. module: quality_control_mrp_oca
 #: model:ir.model.fields,field_description:quality_control_mrp_oca.field_qc_inspection__production_id
-#: model_terms:ir.ui.view,arch_db:quality_control_mrp_oca.qc_inspection_search_view_production
 msgid "Production"
 msgstr "Proizvodnja"
 
+# taken from hr.po
 #. module: quality_control_mrp_oca
 #: model:ir.model,name:quality_control_mrp_oca.model_mrp_production
+#, fuzzy
 msgid "Production Order"
 msgstr "Proizvodni nalog"
 
@@ -46,7 +47,6 @@ msgstr "Proizvodnja završena"
 
 #. module: quality_control_mrp_oca
 #: model:ir.model.fields,field_description:quality_control_mrp_oca.field_qc_inspection_line__production_id
-#: model_terms:ir.ui.view,arch_db:quality_control_mrp_oca.qc_inspection_line_search_production_view
 msgid "Production order"
 msgstr "Proizvodni nalog"
 

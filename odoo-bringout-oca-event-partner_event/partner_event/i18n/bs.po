@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: partner_event
 #: model:ir.model.fields,field_description:partner_event.field_res_partner__registration_count
-#: model:ir.model.fields,field_description:partner_event.field_res_users__registration_count
 msgid "Attendances"
 msgstr "Prisutnosti"
 
@@ -51,7 +50,6 @@ msgstr "Broj događaja sa potvrđenim registracijama"
 
 #. module: partner_event
 #: model:ir.model.fields,field_description:partner_event.field_event_event__create_partner
-#: model:ir.model.fields,field_description:partner_event.field_event_session__create_partner
 msgid "Create Partners in registration"
 msgstr "Kreiraj partnere u registraciji"
 
@@ -77,7 +75,6 @@ msgstr "Prikazani naziv"
 
 #. module: partner_event
 #: model:ir.model,name:partner_event.model_event_event
-#: model:ir.model.fields,field_description:partner_event.field_res_partner_register_event__event
 msgid "Event"
 msgstr "Dogadaj"
 
@@ -88,7 +85,6 @@ msgstr "Registracija događaja"
 
 #. module: partner_event
 #: model:ir.model.fields,field_description:partner_event.field_res_partner__event_registration_ids
-#: model:ir.model.fields,field_description:partner_event.field_res_users__event_registration_ids
 msgid "Event registrations"
 msgstr "Registracije događaja"
 

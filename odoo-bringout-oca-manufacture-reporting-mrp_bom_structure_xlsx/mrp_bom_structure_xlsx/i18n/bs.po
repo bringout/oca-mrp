@@ -15,14 +15,14 @@ msgstr ""
 
 #. module: mrp_bom_structure_xlsx
 #. odoo-python
-#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py
 #, python-format
 msgid "BOM Name"
 msgstr "Naziv sastavnice"
 
 #. module: mrp_bom_structure_xlsx
 #. odoo-python
-#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py
 #, python-format
 msgid "BOM Structure"
 msgstr "Struktura sastavnice"
@@ -39,42 +39,42 @@ msgstr "Izvezi strukturu sastavnice u Excel"
 
 #. module: mrp_bom_structure_xlsx
 #. odoo-python
-#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py
 #, python-format
 msgid "Level"
 msgstr "Nivo"
 
 #. module: mrp_bom_structure_xlsx
 #. odoo-python
-#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py
 #, python-format
 msgid "Product Name"
 msgstr "Naziv artikla"
 
 #. module: mrp_bom_structure_xlsx
 #. odoo-python
-#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py
 #, python-format
 msgid "Product Reference"
 msgstr "Referenca proizvoda"
 
 #. module: mrp_bom_structure_xlsx
 #. odoo-python
-#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py
 #, python-format
 msgid "Quantity"
 msgstr "Količina"
 
 #. module: mrp_bom_structure_xlsx
 #. odoo-python
-#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py
 #, python-format
 msgid "Reference"
 msgstr "Referenca"
 
 #. module: mrp_bom_structure_xlsx
 #. odoo-python
-#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py
 #, python-format
 msgid "Unit of Measure"
 msgstr "Jedinica mjere"

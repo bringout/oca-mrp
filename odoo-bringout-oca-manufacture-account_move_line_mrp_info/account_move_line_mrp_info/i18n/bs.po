@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: account_move_line_mrp_info
 #: model:ir.model.fields,field_description:account_move_line_mrp_info.field_mrp_production__account_move_line_ids
-#: model:ir.model.fields,field_description:account_move_line_mrp_info.field_mrp_unbuild__account_move_line_ids
 msgid "Account Move Line"
 msgstr "ID-ovi stavaka temeljnica"
 
@@ -26,14 +25,11 @@ msgstr "Stavka žurnala"
 
 #. module: account_move_line_mrp_info
 #: model:ir.actions.act_window,name:account_move_line_mrp_info.action_view_journal_items
-#: model_terms:ir.ui.view,arch_db:account_move_line_mrp_info.mrp_production_form_view
-#: model_terms:ir.ui.view,arch_db:account_move_line_mrp_info.mrp_unbuild_form_view
 msgid "Journal Items"
 msgstr "Žurnal (stavke)"
 
 #. module: account_move_line_mrp_info
 #: model:ir.model.fields,field_description:account_move_line_mrp_info.field_account_move_line__mrp_production_id
-#: model_terms:ir.ui.view,arch_db:account_move_line_mrp_info.view_account_move_line_filter
 msgid "Manufacturing Order"
 msgstr "Radni nalog proizvodnje"
 
@@ -49,6 +45,5 @@ msgstr "Još nema stavke dnevnika"
 
 #. module: account_move_line_mrp_info
 #: model:ir.model,name:account_move_line_mrp_info.model_mrp_unbuild
-#: model:ir.model.fields,field_description:account_move_line_mrp_info.field_account_move_line__unbuild_id
 msgid "Unbuild Order"
 msgstr "Nalog rastavljanja"

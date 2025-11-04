@@ -25,11 +25,12 @@ msgstr "Dogadaj"
 
 #. module: website_event_require_login
 #: model:ir.model.fields,help:website_event_require_login.field_event_event__website_require_login
-#: model:ir.model.fields,help:website_event_require_login.field_event_session__website_require_login
 msgid ""
 "If set, a user must be logged in to be able to register attendees from the "
 "website."
 msgstr ""
+"Ako je postavljeno, korisnik mora biti prijavljen da bi mogao registrovati "
+"polaznike sa web stranice."
 
 #. module: website_event_require_login
 #: model_terms:ir.ui.view,arch_db:website_event_require_login.modal_attendees_registration_login_required
@@ -43,7 +44,6 @@ msgstr "Potrebno je prijaviti se"
 
 #. module: website_event_require_login
 #: model:ir.model.fields,field_description:website_event_require_login.field_event_event__website_require_login
-#: model:ir.model.fields,field_description:website_event_require_login.field_event_session__website_require_login
 msgid "Require login for website registrations"
 msgstr "Zahtjevaj prijavu za web registracije"
 

@@ -75,16 +75,14 @@ msgstr "Proizvod ima druge sastavnice"
 
 #. module: mrp_bom_hierarchy
 #. odoo-python
-#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
-#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
+#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py
 #, python-format
 msgid "This operator is not supported"
 msgstr "Ovaj operator nije podržan"
 
 #. module: mrp_bom_hierarchy
 #. odoo-python
-#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
-#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
+#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py
 #, python-format
 msgid "Value should be True or False (not %s)"
 msgstr "Vrijednost treba biti True ili False (ne %s)"
@@ -101,9 +99,11 @@ msgstr "Pogledaj ostale sastavnice proizvoda"
 
 #. module: mrp_bom_hierarchy
 #. odoo-python
-#: code:addons/mrp_bom_hierarchy/model/mrp_bom_line.py:0
+#: code:addons/mrp_bom_hierarchy/model/mrp_bom_line.py
 #, python-format
 msgid ""
 "You should provide either a product or a product template to search a BoM "
 "Line"
 msgstr ""
+"Trebate pružiti ili proizvod ili template proizvoda za pretraživanje linije "
+"sastavnice"
