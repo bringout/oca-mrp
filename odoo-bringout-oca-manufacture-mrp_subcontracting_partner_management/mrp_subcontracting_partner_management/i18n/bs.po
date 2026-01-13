@@ -47,7 +47,7 @@ msgstr "Pravilo obnove zalihe za partnera"
 #. module: mrp_subcontracting_partner_management
 #: model:ir.model,name:mrp_subcontracting_partner_management.model_stock_picking_type
 msgid "Picking Type"
-msgstr "Vrsta dokumenta"
+msgstr "Vrsta skladišnog kretanja"
 
 # taken from hr.po
 #. module: mrp_subcontracting_partner_management

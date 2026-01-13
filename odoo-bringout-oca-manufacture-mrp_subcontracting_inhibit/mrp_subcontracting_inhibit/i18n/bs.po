@@ -31,7 +31,7 @@ msgstr "Varijanta proizvoda"
 #. module: mrp_subcontracting_inhibit
 #: model:ir.model,name:mrp_subcontracting_inhibit.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: mrp_subcontracting_inhibit
 #: model:ir.model,name:mrp_subcontracting_inhibit.model_stock_move

@@ -34,7 +34,7 @@ msgstr "Tvrtke"
 #. module: mrp_default_workorder_time
 #: model:ir.model,name:mrp_default_workorder_time.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Konfiguracijske postavke"
 
 # taken from hr.po
 #. module: mrp_default_workorder_time

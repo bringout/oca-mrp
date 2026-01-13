@@ -37,7 +37,7 @@ msgstr "Kompanije"
 #. module: hr_timesheet_task_required
 #: model:ir.model,name:hr_timesheet_task_required.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: hr_timesheet_task_required
 #: model:ir.model.fields,field_description:hr_timesheet_task_required.field_account_analytic_line__is_task_required

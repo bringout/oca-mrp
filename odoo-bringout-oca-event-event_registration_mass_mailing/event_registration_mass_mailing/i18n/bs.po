@@ -56,17 +56,17 @@ msgstr "ID"
 #. module: event_registration_mass_mailing
 #: model:ir.model.fields,field_description:event_registration_mass_mailing.field_event_registration_mail_list_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: event_registration_mass_mailing
 #: model:ir.model.fields,field_description:event_registration_mass_mailing.field_event_registration_mail_list_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: event_registration_mass_mailing
 #: model:ir.model.fields,field_description:event_registration_mass_mailing.field_event_registration_mail_list_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: event_registration_mass_mailing
 #: model:ir.model.fields,field_description:event_registration_mass_mailing.field_event_registration_mail_list_wizard__mail_list

@@ -63,7 +63,7 @@ msgstr ""
 #. module: mrp_product_characterisation
 #: model:ir.model,name:mrp_product_characterisation.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: mrp_product_characterisation
 #: model:ir.model,name:mrp_product_characterisation.model_product_product

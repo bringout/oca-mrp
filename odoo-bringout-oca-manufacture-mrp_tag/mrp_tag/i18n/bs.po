@@ -51,17 +51,17 @@ msgstr "ID"
 #. module: mrp_tag
 #: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: mrp_tag
 #: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: mrp_tag
 #: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: mrp_tag
 #: model:ir.model,name:mrp_tag.model_mrp_tag

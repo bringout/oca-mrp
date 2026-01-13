@@ -31,7 +31,7 @@ msgstr "Manufactured Orders"
 #. module: product_mrp_info
 #: model:ir.model,name:product_mrp_info.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: product_mrp_info
 #: model:ir.model,name:product_mrp_info.model_product_product

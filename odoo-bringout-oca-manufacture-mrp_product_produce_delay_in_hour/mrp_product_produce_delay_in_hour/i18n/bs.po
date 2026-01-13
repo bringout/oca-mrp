@@ -51,7 +51,7 @@ msgstr "[PREVOD POTREBAN: Produce Delay In Hour...]"
 #. module: mrp_product_produce_delay_in_hour
 #: model:ir.model,name:mrp_product_produce_delay_in_hour.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: mrp_product_produce_delay_in_hour
 #: model_terms:ir.ui.view,arch_db:mrp_product_produce_delay_in_hour.view_mrp_product_produce_delay_in_hour

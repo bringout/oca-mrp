@@ -53,7 +53,7 @@ msgstr "Zadana jedinica mjere"
 #. module: mrp_bom_component_menu
 #: model_terms:ir.ui.view,arch_db:mrp_bom_component_menu.mrp_bom_line_view_filter
 msgid "Group By..."
-msgstr "Grupiši po..."
+msgstr "Grupiraj po.."
 
 # taken from hr.po
 #. module: mrp_bom_component_menu

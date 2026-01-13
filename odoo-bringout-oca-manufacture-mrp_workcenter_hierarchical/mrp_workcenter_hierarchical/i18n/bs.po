@@ -36,7 +36,7 @@ msgstr "Kompanije"
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model,name:mrp_workcenter_hierarchical.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__create_uid
@@ -61,17 +61,17 @@ msgstr "ID"
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_id

@@ -131,7 +131,7 @@ msgstr ""
 #. module: mrp_lot_number_propagation
 #: model:ir.model,name:mrp_lot_number_propagation.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: mrp_lot_number_propagation
 #: model:ir.model,name:mrp_lot_number_propagation.model_product_product

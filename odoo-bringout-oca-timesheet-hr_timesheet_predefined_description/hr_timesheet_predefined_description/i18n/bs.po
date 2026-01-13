@@ -21,7 +21,7 @@ msgstr "Analitička stavka"
 #. module: hr_timesheet_predefined_description
 #: model:ir.model.fields,field_description:hr_timesheet_predefined_description.field_timesheet_predefined_description__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: hr_timesheet_predefined_description
 #: model:ir.model.fields,field_description:hr_timesheet_predefined_description.field_timesheet_predefined_description__create_uid
@@ -51,17 +51,17 @@ msgstr "ID"
 #. module: hr_timesheet_predefined_description
 #: model:ir.model.fields,field_description:hr_timesheet_predefined_description.field_timesheet_predefined_description____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: hr_timesheet_predefined_description
 #: model:ir.model.fields,field_description:hr_timesheet_predefined_description.field_timesheet_predefined_description__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: hr_timesheet_predefined_description
 #: model:ir.model.fields,field_description:hr_timesheet_predefined_description.field_timesheet_predefined_description__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: hr_timesheet_predefined_description
 #: model:ir.model.fields,field_description:hr_timesheet_predefined_description.field_account_analytic_line__predefined_description_id
