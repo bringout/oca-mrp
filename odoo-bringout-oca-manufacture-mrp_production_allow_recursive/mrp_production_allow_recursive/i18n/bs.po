@@ -40,7 +40,7 @@ msgstr "Kompanije"
 #. module: mrp_production_allow_recursive
 #: model:ir.model,name:mrp_production_allow_recursive.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: mrp_production_allow_recursive
 #: model:ir.model,name:mrp_production_allow_recursive.model_mrp_production

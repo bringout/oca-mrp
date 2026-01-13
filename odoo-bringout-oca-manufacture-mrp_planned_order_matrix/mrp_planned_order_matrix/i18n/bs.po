@@ -76,17 +76,17 @@ msgstr "Stavke"
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: mrp_planned_order_matrix
 #. odoo-python
@@ -135,7 +135,7 @@ msgstr "[PREVOD: Prepare]"
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet_line__value_y
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__product_mrp_area_ids
@@ -145,7 +145,7 @@ msgstr "[PREVOD: Product Parameters]"
 #. module: mrp_planned_order_matrix
 #: model_terms:ir.ui.view,arch_db:mrp_planned_order_matrix.mrp_planned_order_wizard_view_form
 msgid "Products"
-msgstr "Artikli"
+msgstr "Proizvodi"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet_line__product_qty

@@ -64,7 +64,7 @@ msgstr "Kompanije"
 #. module: hr_timesheet_sheet_autodraft
 #: model:ir.model,name:hr_timesheet_sheet_autodraft.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: hr_timesheet_sheet_autodraft
 #: model:ir.model.fields,field_description:hr_timesheet_sheet_autodraft.field_res_company__timesheet_sheets_autodraft

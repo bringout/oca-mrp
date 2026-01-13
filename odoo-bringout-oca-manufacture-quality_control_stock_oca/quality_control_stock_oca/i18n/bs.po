@@ -70,13 +70,13 @@ msgstr "Lot/Serijski broj"
 #. module: quality_control_stock_oca
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_qc_inspection__picking_id
 msgid "Picking"
-msgstr "Skladišno kretanje"
+msgstr "Skladišnice"
 
 # taken from hr.po
 #. module: quality_control_stock_oca
 #: model:ir.model,name:quality_control_stock_oca.model_stock_picking_type
 msgid "Picking Type"
-msgstr "Tip kretanja"
+msgstr "Vrsta dokumenta"
 
 # taken from hr.po
 #. module: quality_control_stock_oca

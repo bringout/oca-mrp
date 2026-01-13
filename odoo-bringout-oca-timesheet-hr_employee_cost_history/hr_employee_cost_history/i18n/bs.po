@@ -96,17 +96,17 @@ msgstr "ID"
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__starting_date

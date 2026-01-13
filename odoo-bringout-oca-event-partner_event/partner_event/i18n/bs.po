@@ -96,17 +96,17 @@ msgstr "ID"
 #. module: partner_event
 #: model:ir.model.fields,field_description:partner_event.field_res_partner_register_event____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: partner_event
 #: model:ir.model.fields,field_description:partner_event.field_res_partner_register_event__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: partner_event
 #: model:ir.model.fields,field_description:partner_event.field_res_partner_register_event__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: partner_event
 #: model_terms:ir.ui.view,arch_db:partner_event.view_res_partner_filter

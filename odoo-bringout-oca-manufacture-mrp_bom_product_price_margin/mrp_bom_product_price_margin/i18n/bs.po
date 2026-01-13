@@ -144,7 +144,7 @@ msgstr "Cijena po kojoj se proizvod prodaje kupcima."
 #. module: mrp_bom_product_price_margin
 #: model:ir.model,name:mrp_bom_product_price_margin.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: mrp_bom_product_price_margin
 #: model:ir.model.fields,field_description:mrp_bom_product_price_margin.field_mrp_bom__product_sale_price

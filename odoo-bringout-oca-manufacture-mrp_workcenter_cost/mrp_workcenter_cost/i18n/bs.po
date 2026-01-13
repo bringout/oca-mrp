@@ -32,7 +32,7 @@ msgstr "Efektivno"
 #. module: mrp_workcenter_cost
 #: model:ir.model,name:mrp_workcenter_cost.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: mrp_workcenter_cost
 #: model:ir.model,name:mrp_workcenter_cost.model_mrp_production

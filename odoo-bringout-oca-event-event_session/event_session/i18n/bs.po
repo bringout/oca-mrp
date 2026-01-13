@@ -938,7 +938,7 @@ msgstr ""
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna akcija"
+msgstr "Potrebna radnja"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__active
@@ -953,7 +953,7 @@ msgstr "Aktivnosti"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija iznimke aktivnosti"
+msgstr "Dekoracija izuzetka aktivnosti"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__activity_state
@@ -1074,7 +1074,7 @@ msgstr "Meni zajednice"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: event_session
 #: model_terms:ir.ui.view,arch_db:event_session.view_event_session_kanban
@@ -1328,12 +1328,12 @@ msgstr ""
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__message_follower_ids
 msgid "Followers"
-msgstr "Pratioci"
+msgstr "Pratitelji"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratitelji (partneri)"
 
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__activity_type_icon
@@ -1395,7 +1395,7 @@ msgstr "Globalni status komunikacije"
 #. module: event_session
 #: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
 msgid "Group By"
-msgstr "Grupiši po"
+msgstr "Grupiši po..."
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__has_message
@@ -1531,17 +1531,17 @@ msgstr "Zadnji"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: event_session
 #: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
@@ -1606,7 +1606,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__message_ids
 msgid "Messages"
-msgstr "Poruke"
+msgstr "Nepročitane poruke"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_wizard_event_session__mon
@@ -1961,7 +1961,7 @@ msgstr "Započni"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_event__date_begin
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__date_begin_located
@@ -2241,7 +2241,7 @@ msgstr "Website Meni"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Nepročitane poruke"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__website_url

@@ -71,17 +71,17 @@ msgstr "ID"
 #. module: hr_timesheet_time_type
 #: model:ir.model.fields,field_description:hr_timesheet_time_type.field_project_time_type____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: hr_timesheet_time_type
 #: model:ir.model.fields,field_description:hr_timesheet_time_type.field_project_time_type__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: hr_timesheet_time_type
 #: model:ir.model.fields,field_description:hr_timesheet_time_type.field_project_time_type__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: hr_timesheet_time_type
 #: model:ir.model.fields,field_description:hr_timesheet_time_type.field_project_time_type__name

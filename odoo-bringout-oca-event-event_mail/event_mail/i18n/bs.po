@@ -40,7 +40,7 @@ msgstr "Kompanije"
 #. module: event_mail
 #: model:ir.model,name:event_mail.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__create_uid
@@ -100,17 +100,17 @@ msgstr "Razdoblje"
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__mail_registration_ids

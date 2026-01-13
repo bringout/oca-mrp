@@ -55,9 +55,7 @@ msgstr "Sastavnica: Izvještaj trenutnih zaliha XLSX"
 #. module: mrp_bom_current_stock
 #: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.mrp_bom_current_stock_view_form
 msgid "Cancel"
-msgstr ""
-"Inventarsko vrednovanje nekih proizvoda %s je automatizovano. Možete "
-"ažurirati njihov trošak samo iz forme proizvoda."
+msgstr "Otkaži"
 
 #. module: mrp_bom_current_stock
 #: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.mrp_bom_current_stock_view_form2
@@ -107,17 +105,17 @@ msgstr "ID"
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: mrp_bom_current_stock
 #. odoo-python
@@ -185,7 +183,7 @@ msgstr "Isprintaj PDF"
 #. module: mrp_bom_current_stock
 #: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.report_mrpbom_current_stock_pdf
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: mrp_bom_current_stock
 #: model:ir.model.fields,field_description:mrp_bom_current_stock.field_mrp_bom_current_stock_line__product_qty

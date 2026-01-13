@@ -281,17 +281,17 @@ msgstr "ID"
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_group__name
@@ -333,7 +333,7 @@ msgstr "Sekvenca"
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__date_from
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__task_ids

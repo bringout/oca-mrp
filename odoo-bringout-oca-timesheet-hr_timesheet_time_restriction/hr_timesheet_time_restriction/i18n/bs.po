@@ -33,7 +33,7 @@ msgstr "Auto-omogući ograničenje radnih listova"
 #. module: hr_timesheet_time_restriction
 #: model:ir.model,name:hr_timesheet_time_restriction.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
