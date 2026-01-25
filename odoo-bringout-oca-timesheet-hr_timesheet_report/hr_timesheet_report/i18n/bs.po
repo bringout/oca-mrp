@@ -18,7 +18,7 @@ msgstr ""
 #: code:addons/hr_timesheet_report/report/hr_timesheet_report.py
 #, python-format
 msgid "\"%(report_name)s\" report with \"%(report_type)s\" type not found"
-msgstr "\"%s\" izvještaj sa \"%s\" tipom nije pronađen"
+msgstr "\"%(report_name)s\" report with \"%(report_type)s\" type not found"
 
 #. module: hr_timesheet_report
 #. odoo-python

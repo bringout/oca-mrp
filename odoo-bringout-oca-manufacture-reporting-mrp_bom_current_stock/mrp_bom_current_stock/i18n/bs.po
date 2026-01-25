@@ -55,9 +55,7 @@ msgstr "Sastavnica: Izvještaj trenutnih zaliha XLSX"
 #. module: mrp_bom_current_stock
 #: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.mrp_bom_current_stock_view_form
 msgid "Cancel"
-msgstr ""
-"Inventarsko vrednovanje nekih proizvoda %s je automatizovano. Možete "
-"ažurirati njihov trošak samo iz forme proizvoda."
+msgstr "Cancel"
 
 #. module: mrp_bom_current_stock
 #: model_terms:ir.ui.view,arch_db:mrp_bom_current_stock.mrp_bom_current_stock_view_form2
