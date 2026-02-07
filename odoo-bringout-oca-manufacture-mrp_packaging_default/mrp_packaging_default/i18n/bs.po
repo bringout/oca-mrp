@@ -26,7 +26,7 @@ msgstr "Pakovanje"
 #. module: mrp_packaging_default
 #: model:ir.model.fields,field_description:mrp_packaging_default.field_mrp_bom_line__product_packaging_qty
 msgid "Packaging Qty."
-msgstr "[PREVOD: Packaging Qty.]"
+msgstr ""
 
 #. module: mrp_packaging_default
 #: model:ir.model,name:mrp_packaging_default.model_mrp_production

@@ -15,6 +15,8 @@
                     type="object"
                     class="oe_stat_button"
                     string="Return to Draft"
+                    confirm="Are you absolutely sure you want to return this manufacturing order to draft?"
+                    groups="mrp.group_mrp_manager"
                     attrs="{'invisible': [('state', 'not in', ['confirmed', 'cancel'])]}"
                 >
                 </button>

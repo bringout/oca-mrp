@@ -16,12 +16,12 @@ msgstr ""
 #. module: mrp_order_report_lot
 #: model_terms:ir.ui.view,arch_db:mrp_order_report_lot.report_mrp_production_components
 msgid "Lot / SN"
-msgstr "[PREVOD: Lot / SN]"
+msgstr ""
 
 #. module: mrp_order_report_lot
 #: model_terms:ir.ui.view,arch_db:mrp_order_report_lot.report_mrp_production_components
 msgid "Lot missing"
-msgstr "[PREVOD: Lot missing]"
+msgstr ""
 
 #. module: mrp_order_report_lot
 #: model:ir.model,name:mrp_order_report_lot.model_stock_move

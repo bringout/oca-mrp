@@ -9,6 +9,10 @@ class MrpProduction(models.Model):
     _inherit = "mrp.production"
 
     def action_return_to_draft(self):
+        if not self.env.user.has_group("mrp.group_mrp_manager"):
+            raise UserError(
+                _("Only Manufacturing Managers can return orders to draft.")
+            )
         self._check_company()
         for rec in self:
             if rec.state not in ["confirmed", "cancel"]:

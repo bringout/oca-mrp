@@ -16,7 +16,7 @@ msgstr ""
 #. module: mrp_multi_level_estimate
 #: model:ir.model.fields.selection,name:mrp_multi_level_estimate.selection__mrp_area__estimate_demand_and_other_sources_strat__all
 msgid "Always consider all sources"
-msgstr "[PREVOD POTREBAN: Always consider all sources...]"
+msgstr ""
 
 #. module: mrp_multi_level_estimate
 #: model:ir.model.fields,help:mrp_multi_level_estimate.field_mrp_area__estimate_demand_and_other_sources_strat
@@ -49,13 +49,11 @@ msgstr "Dani grupiranja procjena moraju biti veći ili jednaki nuli."
 #: model:ir.model.fields.selection,name:mrp_multi_level_estimate.selection__mrp_area__estimate_demand_and_other_sources_strat__ignore_overlapping
 msgid "Ignore other sources during periods with estimates"
 msgstr ""
-"[PREVOD POTREBAN: Ignore other sources during periods with estimates...]"
 
 #. module: mrp_multi_level_estimate
 #: model:ir.model.fields.selection,name:mrp_multi_level_estimate.selection__mrp_area__estimate_demand_and_other_sources_strat__ignore_others_if_estimates
 msgid "Ignore other sources for products with estimates"
 msgstr ""
-"[PREVOD POTREBAN: Ignore other sources for products with estimates...]"
 
 #. module: mrp_multi_level_estimate
 #: model:ir.model,name:mrp_multi_level_estimate.model_mrp_area
@@ -80,5 +78,3 @@ msgid ""
 "not be greater, in that caseonly grouping until the total length of the date"
 " range will be done."
 msgstr ""
-"[PREVOD POTREBAN: The days to group your estimates as demand for the MRP.It "
-"ca...]"

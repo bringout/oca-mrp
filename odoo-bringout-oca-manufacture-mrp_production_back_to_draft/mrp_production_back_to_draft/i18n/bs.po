@@ -18,8 +18,7 @@ msgstr ""
 #: code:addons/mrp_production_back_to_draft/models/mrp_production.py
 #, python-format
 msgid "Could not set the production order back to draft"
-msgstr ""
-"[PREVOD POTREBAN: Could not set the production order back to draft...]"
+msgstr "Nije moguće vratiti proizvodni nalog u pripremu"
 
 #. module: mrp_production_back_to_draft
 #: model:ir.model,name:mrp_production_back_to_draft.model_mrp_production
@@ -29,7 +28,7 @@ msgstr "Proizvodni nalog"
 #. module: mrp_production_back_to_draft
 #: model_terms:ir.ui.view,arch_db:mrp_production_back_to_draft.mrp_production_form_view_return_to_draft
 msgid "Return to Draft"
-msgstr "[PREVOD: Return to Draft]"
+msgstr "Vrati u pripremu"
 
 #. module: mrp_production_back_to_draft
 #. odoo-python
@@ -39,5 +38,21 @@ msgid ""
 "You cannot return to draft the following MO: %s. Only confirmed or cancelled"
 " MO can be returned to draft."
 msgstr ""
-"[PREVOD POTREBAN: You cannot return to draft the following MO: %s. Only "
-"confir...]"
+"Ne možete vratiti u pripremu sljedeće radne naloge: %s. Samo potvrđeni ili "
+"otkazani radni nalozi mogu biti vraćeni u pripremu."
+
+#. module: mrp_production_back_to_draft
+#: model_terms:ir.ui.view,arch_db:mrp_production_back_to_draft.mrp_production_form_view_return_to_draft
+msgid ""
+"Are you absolutely sure you want to return this manufacturing order to"
+" draft?"
+msgstr ""
+"Da li ste potpuno sigurni da želite vratiti ovaj proizvodni nalog u"
+" pripremu?"
+
+#. module: mrp_production_back_to_draft
+#. odoo-python
+#: code:addons/mrp_production_back_to_draft/models/mrp_production.py
+#, python-format
+msgid "Only Manufacturing Managers can return orders to draft."
+msgstr "Samo menadžeri proizvodnje mogu vratiti naloge u pripremu."

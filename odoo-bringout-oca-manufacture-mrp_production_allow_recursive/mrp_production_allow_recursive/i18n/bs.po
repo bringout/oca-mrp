@@ -16,12 +16,12 @@ msgstr ""
 #. module: mrp_production_allow_recursive
 #: model:ir.model.fields,field_description:mrp_production_allow_recursive.field_res_company__allow_same_product_component_finish
 msgid "Allow Same Product Component Finish"
-msgstr "[PREVOD POTREBAN: Allow Same Product Component Finish...]"
+msgstr ""
 
 #. module: mrp_production_allow_recursive
 #: model:ir.model.fields,field_description:mrp_production_allow_recursive.field_res_config_settings__allow_same_product_component_finish
 msgid "Allow Same Product for Component and Finish"
-msgstr "[PREVOD POTREBAN: Allow Same Product for Component and Finish...]"
+msgstr ""
 
 #. module: mrp_production_allow_recursive
 #: model_terms:ir.ui.view,arch_db:mrp_production_allow_recursive.view_stock_config_settings
@@ -29,8 +29,6 @@ msgid ""
 "Allow the same product to be used as both a component and a finished product\n"
 "                            in manufacturing orders."
 msgstr ""
-"[PREVOD POTREBAN: Allow the same product to be used as both a component and "
-"a ...]"
 
 #. module: mrp_production_allow_recursive
 #: model:ir.model,name:mrp_production_allow_recursive.model_res_company

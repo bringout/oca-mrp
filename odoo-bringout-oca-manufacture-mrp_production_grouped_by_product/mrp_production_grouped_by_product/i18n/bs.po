@@ -16,12 +16,12 @@ msgstr ""
 #. module: mrp_production_grouped_by_product
 #: model:ir.model.fields,field_description:mrp_production_grouped_by_product.field_stock_picking_type__mo_grouping_interval
 msgid "MO grouping interval (days)"
-msgstr "[PREVOD POTREBAN: MO grouping interval (days)...]"
+msgstr ""
 
 #. module: mrp_production_grouped_by_product
 #: model:ir.model.fields,field_description:mrp_production_grouped_by_product.field_stock_picking_type__mo_grouping_max_hour
 msgid "MO grouping max. hour (UTC)"
-msgstr "[PREVOD POTREBAN: MO grouping max. hour (UTC)...]"
+msgstr ""
 
 #. module: mrp_production_grouped_by_product
 #: model:ir.model,name:mrp_production_grouped_by_product.model_stock_picking_type
@@ -50,16 +50,12 @@ msgid ""
 " inside the same interval period, and thus being grouped on the same MO. "
 "IMPORTANT: The hour should be expressed in UTC."
 msgstr ""
-"[PREVOD POTREBAN: The maximum hour (between 0 and 23) for considering new "
-"manu...]"
 
 #. module: mrp_production_grouped_by_product
 #: model:ir.model.fields,help:mrp_production_grouped_by_product.field_stock_picking_type__mo_grouping_interval
 msgid ""
 "The number of days for grouping together on the same manufacturing order."
 msgstr ""
-"[PREVOD POTREBAN: The number of days for grouping together on the same "
-"manufac...]"
 
 #. module: mrp_production_grouped_by_product
 #. odoo-python
@@ -67,7 +63,6 @@ msgstr ""
 #, python-format
 msgid "You have to enter a positive value for interval."
 msgstr ""
-"[PREVOD POTREBAN: You have to enter a positive value for interval....]"
 
 #. module: mrp_production_grouped_by_product
 #. odoo-python
@@ -75,4 +70,3 @@ msgstr ""
 #, python-format
 msgid "You have to enter a valid hour between 0 and 23."
 msgstr ""
-"[PREVOD POTREBAN: You have to enter a valid hour between 0 and 23....]"

@@ -16,4 +16,4 @@ msgstr ""
 #. module: mrp_order_report_lot_barcode
 #: model_terms:ir.ui.view,arch_db:mrp_order_report_lot_barcode.mrp_order_report_product_barcode
 msgid "<strong>Lot Barcode</strong>"
-msgstr "[PREVOD POTREBAN: <strong>Lot Barcode</strong>...]"
+msgstr ""

@@ -21,13 +21,12 @@ msgstr "Dodijeli vlasnika"
 #. module: mrp_stock_owner_restriction
 #: model:ir.model.fields,field_description:mrp_stock_owner_restriction.field_mrp_production__owner_restriction
 msgid "Owner Restriction"
-msgstr "[PREVOD: Owner Restriction]"
+msgstr ""
 
 #. module: mrp_stock_owner_restriction
 #: model:ir.model.fields,help:mrp_stock_owner_restriction.field_mrp_production__owner_id
 msgid "Produced products will be assigned to this owner."
 msgstr ""
-"[PREVOD POTREBAN: Produced products will be assigned to this owner....]"
 
 #. module: mrp_stock_owner_restriction
 #: model:ir.model,name:mrp_stock_owner_restriction.model_stock_move_line
