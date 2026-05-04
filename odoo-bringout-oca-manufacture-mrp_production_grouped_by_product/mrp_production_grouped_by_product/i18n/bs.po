@@ -59,14 +59,14 @@ msgstr ""
 
 #. module: mrp_production_grouped_by_product
 #. odoo-python
-#: code:addons/mrp_production_grouped_by_product/models/stock_picking_type.py
+#: code:addons/mrp_production_grouped_by_product/models/stock_picking_type.py:0
 #, python-format
 msgid "You have to enter a positive value for interval."
 msgstr ""
 
 #. module: mrp_production_grouped_by_product
 #. odoo-python
-#: code:addons/mrp_production_grouped_by_product/models/stock_picking_type.py
+#: code:addons/mrp_production_grouped_by_product/models/stock_picking_type.py:0
 #, python-format
 msgid "You have to enter a valid hour between 0 and 23."
 msgstr ""

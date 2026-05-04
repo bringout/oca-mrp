@@ -61,7 +61,7 @@ msgstr "Datum do"
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__id
@@ -76,7 +76,7 @@ msgstr "Stavke"
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__write_uid
@@ -90,7 +90,7 @@ msgstr "Zadnje ažurirano"
 
 #. module: mrp_planned_order_matrix
 #. odoo-python
-#: code:addons/mrp_planned_order_matrix/wizards/mrp_planned_order_wizard.py
+#: code:addons/mrp_planned_order_matrix/wizards/mrp_planned_order_wizard.py:0
 #, python-format
 msgid "MPS Sheet"
 msgstr ""
@@ -118,11 +118,11 @@ msgstr ""
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet_line__value_x
 msgid "Period"
-msgstr "Period"
+msgstr ""
 
 #. module: mrp_planned_order_matrix
 #. odoo-python
-#: code:addons/mrp_planned_order_matrix/wizards/mrp_planned_order_wizard.py
+#: code:addons/mrp_planned_order_matrix/wizards/mrp_planned_order_wizard.py:0
 #, python-format
 msgid "Planned Orders"
 msgstr ""
@@ -135,7 +135,7 @@ msgstr ""
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet_line__value_y
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__product_mrp_area_ids
@@ -145,7 +145,7 @@ msgstr ""
 #. module: mrp_planned_order_matrix
 #: model_terms:ir.ui.view,arch_db:mrp_planned_order_matrix.mrp_planned_order_wizard_view_form
 msgid "Products"
-msgstr "Artikli"
+msgstr "Proizvodi"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet_line__product_qty
@@ -159,14 +159,14 @@ msgstr ""
 
 #. module: mrp_planned_order_matrix
 #. odoo-python
-#: code:addons/mrp_planned_order_matrix/wizards/mrp_planned_order_wizard.py
+#: code:addons/mrp_planned_order_matrix/wizards/mrp_planned_order_wizard.py:0
 #, python-format
 msgid "The start date cannot be later than the end date."
 msgstr ""
 
 #. module: mrp_planned_order_matrix
 #. odoo-python
-#: code:addons/mrp_planned_order_matrix/wizards/mrp_planned_order_wizard.py
+#: code:addons/mrp_planned_order_matrix/wizards/mrp_planned_order_wizard.py:0
 #, python-format
 msgid "There are no date ranges created."
 msgstr ""
@@ -178,7 +178,7 @@ msgstr "Ovjeri"
 
 #. module: mrp_planned_order_matrix
 #. odoo-python
-#: code:addons/mrp_planned_order_matrix/wizards/mrp_planned_order_wizard.py
+#: code:addons/mrp_planned_order_matrix/wizards/mrp_planned_order_wizard.py:0
 #, python-format
 msgid "You must select at least one Product MRP parameter."
 msgstr ""

@@ -29,7 +29,7 @@ msgstr "Da li je podugovarano?"
 
 #. module: mrp_unbuild_subcontracting
 #. odoo-python
-#: code:addons/mrp_unbuild_subcontracting/models/stock_picking.py
+#: code:addons/mrp_unbuild_subcontracting/models/stock_picking.py:0
 #, python-format
 msgid ""
 "It's not possible to create the subcontracting unbuild order\n"
@@ -60,7 +60,7 @@ msgstr "Podugovarane demontaže"
 
 #. module: mrp_unbuild_subcontracting
 #. odoo-python
-#: code:addons/mrp_unbuild_subcontracting/models/stock_move.py
+#: code:addons/mrp_unbuild_subcontracting/models/stock_move.py:0
 #, python-format
 msgid "To subcontract, use a planned transfer."
 msgstr "Za podugovaranje, koristite planiran transfer"

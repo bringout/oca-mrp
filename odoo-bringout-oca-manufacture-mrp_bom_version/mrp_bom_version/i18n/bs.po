@@ -53,7 +53,7 @@ msgstr "Nusproizvodi"
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: mrp_bom_version
 #: model:ir.model,name:mrp_bom_version.model_res_config_settings
@@ -79,7 +79,7 @@ msgstr ""
 #. module: mrp_bom_version
 #: model:ir.model.fields.selection,name:mrp_bom_version.selection__mrp_bom__state__draft
 msgid "Draft"
-msgstr "U pripremi"
+msgstr "Nacrt"
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__consumption
@@ -152,7 +152,7 @@ msgstr "Prethodna sastavnica"
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__product_tmpl_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__product_id
@@ -172,12 +172,12 @@ msgstr "Referenca"
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__state
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,help:mrp_bom_version.field_res_config_settings__group_mrp_bom_version

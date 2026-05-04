@@ -21,7 +21,7 @@ msgstr "Proizvodni nalog"
 #. module: mrp_workorder_sequence
 #: model:ir.model.fields,field_description:mrp_workorder_sequence.field_mrp_workorder__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: mrp_workorder_sequence
 #: model:ir.model,name:mrp_workorder_sequence.model_mrp_workorder

@@ -16,7 +16,7 @@ msgstr ""
 #. module: mrp_bom_tracking
 #: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_line_template
 msgid "-&gt;"
-msgstr "-&gt;"
+msgstr ""
 
 # taken from hr.po
 #. module: mrp_bom_tracking

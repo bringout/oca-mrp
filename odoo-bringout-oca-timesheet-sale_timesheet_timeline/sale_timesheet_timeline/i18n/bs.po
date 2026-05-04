@@ -41,12 +41,12 @@ msgstr "Planiranje"
 #. module: sale_timesheet_timeline
 #: model:ir.model,name:sale_timesheet_timeline.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_timesheet_timeline
 #: model:ir.model,name:sale_timesheet_timeline.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_timesheet_timeline
 #: model:ir.actions.act_window,name:sale_timesheet_timeline.action_sale_order_line_timeline

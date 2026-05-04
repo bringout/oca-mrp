@@ -55,7 +55,7 @@ msgstr "List"
 
 #. module: hr_timesheet_sheet_attendance
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_attendance/models/hr_timesheet_sheet.py
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid ""
 "The timesheet cannot be validated as it does not contain an equal number of "
@@ -86,7 +86,7 @@ msgstr "Ukupno prisustvo"
 
 #. module: hr_timesheet_sheet_attendance
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py:0
 #, python-format
 msgid ""
 "You can not enter an attendance date outside the current timesheet dates."
@@ -95,7 +95,7 @@ msgstr ""
 
 #. module: hr_timesheet_sheet_attendance
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py:0
 #, python-format
 msgid ""
 "You can not enter an attendance in a submitted timesheet. Ask your manager "
@@ -106,7 +106,7 @@ msgstr ""
 
 #. module: hr_timesheet_sheet_attendance
 #. odoo-python
-#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py:0
 #, python-format
 msgid "You cannot modify an entry in a confirmed timesheet"
 msgstr "Ne možete modificirati unos u potvrđenom listu radnih listova"

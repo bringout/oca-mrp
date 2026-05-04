@@ -26,7 +26,7 @@ msgstr "Otkaži"
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__child_ids
 msgid "Children"
-msgstr "Podređeni"
+msgstr "Dijete"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model,name:mrp_workcenter_hierarchical.model_res_company
@@ -51,7 +51,7 @@ msgstr "Kreirano"
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__id
@@ -61,7 +61,7 @@ msgstr "ID"
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__write_uid
@@ -76,7 +76,7 @@ msgstr "Zadnje ažurirano"
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_id
 msgid "Parent"
-msgstr "Nasljeđeni"
+msgstr "Nadređeno"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_level_1_id
@@ -129,7 +129,7 @@ msgstr ""
 
 #. module: mrp_workcenter_hierarchical
 #. odoo-python
-#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py
+#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py:0
 #, python-format
 msgid ""
 "The present workcenter of the workorders does not belong to any group of "
@@ -155,7 +155,7 @@ msgstr "Roditeljski nivo radnog centra prazan"
 
 #. module: mrp_workcenter_hierarchical
 #. odoo-python
-#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py
+#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py:0
 #, python-format
 msgid "You can not change the workcenter of an in progress or done operation"
 msgstr ""
@@ -163,7 +163,7 @@ msgstr ""
 
 #. module: mrp_workcenter_hierarchical
 #. odoo-python
-#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py
+#: code:addons/mrp_workcenter_hierarchical/wizards/switch_workcenter.py:0
 #, python-format
 msgid ""
 "You can only change the workcenter of workorders belonging to the same "

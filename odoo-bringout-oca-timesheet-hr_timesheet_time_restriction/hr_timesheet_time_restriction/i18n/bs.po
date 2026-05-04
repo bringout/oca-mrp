@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py
+#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py:0
 #, python-format
 msgid "Allowed days must be a non-negative integer."
 msgstr "Dozvoljeni dani moraju biti ne-negativan cijeli broj."
@@ -37,7 +37,7 @@ msgstr "Postavke"
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py
+#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py:0
 #, python-format
 msgid "Invalid date value for timesheet record."
 msgstr "Neispravna vrijednost datuma za zapis radnog lista."
@@ -63,14 +63,14 @@ msgstr "Projekat"
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/res_config_settings.py
+#: code:addons/hr_timesheet_time_restriction/models/res_config_settings.py:0
 #, python-format
 msgid "The day of the timesheet restriction must not be negative."
 msgstr "Dan ograničenja radnih listova ne smije biti negativan."
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/project_project.py
+#: code:addons/hr_timesheet_time_restriction/models/project_project.py:0
 #, python-format
 msgid "The number of days for timesheet restriction must not be negative."
 msgstr "Broj dana za ograničenje radnih listova ne smije biti negativan."
@@ -107,7 +107,7 @@ msgstr "Koristi ograničenje radnih listova"
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/res_config_settings.py
+#: code:addons/hr_timesheet_time_restriction/models/res_config_settings.py:0
 #, python-format
 msgid "Warning!"
 msgstr "Upozorenje!"
@@ -123,14 +123,14 @@ msgstr ""
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py
+#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py:0
 #, python-format
 msgid "You cannot set a timesheet for a date different from current date."
 msgstr "Ne možete postaviti radni list za datum različit od trenutnog datuma."
 
 #. module: hr_timesheet_time_restriction
 #. odoo-python
-#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py
+#: code:addons/hr_timesheet_time_restriction/models/account_analytic_line.py:0
 #, python-format
 msgid "You cannot set a timesheet more than %(days)s days from current date."
 msgstr ""

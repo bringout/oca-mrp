@@ -55,7 +55,7 @@ msgstr "Kreirano"
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__sequence
@@ -100,7 +100,7 @@ msgstr "Razdoblje"
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__write_uid
@@ -155,7 +155,7 @@ msgstr "Opcije pošte"
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_template__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__scheduled_date

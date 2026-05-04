@@ -15,21 +15,21 @@ msgstr ""
 
 #. module: hr_timesheet_report
 #. odoo-python
-#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py
+#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py:0
 #, python-format
 msgid "\"%(report_name)s\" report with \"%(report_type)s\" type not found"
-msgstr "\"%(report_name)s\" report with \"%(report_type)s\" type not found"
+msgstr ""
 
 #. module: hr_timesheet_report
 #. odoo-python
-#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py
+#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py:0
 #, python-format
 msgid "\"%s\" report type is not supported"
 msgstr "\"%s\" tip izvještaja nije podržan"
 
 #. module: hr_timesheet_report
 #. odoo-python
-#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py
+#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py:0
 #, python-format
 msgid "%s not set"
 msgstr "%s nije postavljeno"
@@ -66,14 +66,14 @@ msgstr "Analitička stavka"
 
 #. module: hr_timesheet_report
 #. odoo-python
-#: code:addons/hr_timesheet_report/wizards/hr_timesheet_report_wizard.py
+#: code:addons/hr_timesheet_report/wizards/hr_timesheet_report_wizard.py:0
 #, python-format
 msgid "At least one Details field must be specified!"
 msgstr "Najmanje jedno polje Detalja mora biti specificirano!"
 
 #. module: hr_timesheet_report
 #. odoo-python
-#: code:addons/hr_timesheet_report/wizards/hr_timesheet_report_wizard.py
+#: code:addons/hr_timesheet_report/wizards/hr_timesheet_report_wizard.py:0
 #, python-format
 msgid "At least one field must be listed in Details Fields"
 msgstr "Najmanje jedno polje mora biti navedeno u poljima Detalji"
@@ -116,7 +116,7 @@ msgstr "Polja detalja"
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__employee_category_ids
@@ -141,7 +141,7 @@ msgstr "Zaposlenici:"
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__date_to
 msgid "End Date"
-msgstr "Datum završetka"
+msgstr "Završni datum"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_group__entry_ids
@@ -281,7 +281,7 @@ msgstr "ID"
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__write_uid
@@ -296,7 +296,7 @@ msgstr "Zadnje ažurirano"
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_group__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__project_ids
@@ -315,7 +315,7 @@ msgstr "Izvještaj"
 
 #. module: hr_timesheet_report
 #. odoo-python
-#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py
+#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py:0
 #, python-format
 msgid "Report %s"
 msgstr "Izvještaj %s"
@@ -328,12 +328,12 @@ msgstr "Opseg"
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_entry__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__date_from
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__task_ids
@@ -367,7 +367,7 @@ msgstr "Naslov"
 
 #. module: hr_timesheet_report
 #. odoo-python
-#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py
+#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py:0
 #, python-format
 msgid "Total"
 msgstr "Ukupno"
@@ -414,7 +414,7 @@ msgstr "do"
 
 #. module: hr_timesheet_report
 #. odoo-python
-#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py
+#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py:0
 #, python-format
 msgid "{l} » {r}"
-msgstr "{l} » {r}"
+msgstr ""

@@ -20,7 +20,7 @@ msgstr "Sastavnica"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Currency"
 msgstr "Valuta"
@@ -32,77 +32,77 @@ msgstr "XLSX spološtena sastavnica"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Internal Reference"
 msgstr "Interna oznaka"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Level"
 msgstr "Nivo"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Main BOM"
 msgstr "Glavna sastavnica"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Partner Name"
 msgstr "Naziv partnera"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Product Name"
 msgstr "Naziv artikla"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Quantity"
 msgstr "Količina"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Subcontracted BOM"
 msgstr "Podugovorna sastavnica"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Subcontracting Cost"
 msgstr "Trošak podugovaranja"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Subcontracting Costs"
 msgstr "Troškovi podugovaranja"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Subcontracting Unit Cost"
 msgstr "Jedinični trošak podugovaranja"
 
 #. module: mrp_flattened_bom_xlsx_subcontracting_cost
 #. odoo-python
-#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py
+#: code:addons/mrp_flattened_bom_xlsx_subcontracting_cost/report/flattened_bom_xlsx.py:0
 #, python-format
 msgid "Unit of Measure"
 msgstr "Jedinica mjere"

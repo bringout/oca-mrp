@@ -66,7 +66,7 @@ msgstr "Postavi zadatke na radnom listu kao obavezno polje"
 
 #. module: hr_timesheet_task_required
 #. odoo-python
-#: code:addons/hr_timesheet_task_required/models/account_analytic_line.py
+#: code:addons/hr_timesheet_task_required/models/account_analytic_line.py:0
 #, python-format
 msgid "You must specify a task for timesheet lines."
 msgstr "Morate specificirati zadatak za linije radnih listova."

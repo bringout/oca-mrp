@@ -43,7 +43,7 @@ msgstr "Iznos budžeta"
 
 #. module: sale_timesheet_budget
 #. odoo-python
-#: code:addons/sale_timesheet_budget/models/project_project.py
+#: code:addons/sale_timesheet_budget/models/project_project.py:0
 #, python-format
 msgid "Budgets"
 msgstr "Budžeti"
@@ -71,7 +71,7 @@ msgstr "Datum"
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget__id
@@ -81,7 +81,7 @@ msgstr "ID"
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget__write_uid

@@ -61,7 +61,7 @@ msgstr "Valuta"
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: hr_employee_cost_history
 #: model:ir.model,name:hr_employee_cost_history.model_hr_employee
@@ -96,7 +96,7 @@ msgstr "ID"
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: hr_employee_cost_history
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__write_uid

@@ -36,9 +36,9 @@ msgstr "Količina"
 #. module: event_sale_registration_multi_qty
 #: model:ir.model,name:event_sale_registration_multi_qty.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: event_sale_registration_multi_qty
 #: model:ir.model,name:event_sale_registration_multi_qty.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

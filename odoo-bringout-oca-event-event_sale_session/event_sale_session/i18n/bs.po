@@ -101,7 +101,7 @@ msgstr "Izvještaj analize prodaje"
 #. module: event_sale_session
 #: model:ir.model,name:event_sale_session.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: event_sale_session
 #: model:ir.model.fields,field_description:event_sale_session.field_event_event_configurator__event_session_id

@@ -47,7 +47,7 @@ msgstr "Nenaplatno"
 
 #. module: sale_timesheet_line_exclude
 #. odoo-python
-#: code:addons/sale_timesheet_line_exclude/models/account_analytic_line.py
+#: code:addons/sale_timesheet_line_exclude/models/account_analytic_line.py:0
 #, python-format
 msgid ""
 "You can not modify timesheets in a way that would affect invoices since "

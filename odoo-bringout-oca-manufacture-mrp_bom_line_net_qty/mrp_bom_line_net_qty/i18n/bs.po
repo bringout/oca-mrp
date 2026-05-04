@@ -16,7 +16,7 @@ msgstr ""
 #. module: mrp_bom_line_net_qty
 #: model_terms:ir.ui.view,arch_db:mrp_bom_line_net_qty.view_mrp_bom_form
 msgid "&gt;"
-msgstr "&gt;"
+msgstr ""
 
 #. module: mrp_bom_line_net_qty
 #: model:ir.model,name:mrp_bom_line_net_qty.model_mrp_bom_line
@@ -50,7 +50,7 @@ msgstr "Količina nakon procesa"
 
 #. module: mrp_bom_line_net_qty
 #. odoo-python
-#: code:addons/mrp_bom_line_net_qty/models/mrp_bom_line.py
+#: code:addons/mrp_bom_line_net_qty/models/mrp_bom_line.py:0
 #, python-format
 msgid ""
 "Setting gross quantity with 100% loss makes no sense.\n"

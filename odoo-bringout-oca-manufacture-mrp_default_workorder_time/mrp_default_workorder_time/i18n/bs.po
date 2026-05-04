@@ -39,7 +39,7 @@ msgstr "Konfiguracijske postavke"
 # taken from hr.po
 #. module: mrp_default_workorder_time
 #. odoo-python
-#: code:addons/mrp_default_workorder_time/models/workorder.py
+#: code:addons/mrp_default_workorder_time/models/workorder.py:0
 #, python-format
 msgid ""
 "Fully Productive Time is not configured on system, please contact with your "
@@ -79,7 +79,7 @@ msgstr "Prag minimalnog vremena naloga (%)"
 #. module: mrp_default_workorder_time
 #: model_terms:ir.ui.view,arch_db:mrp_default_workorder_time.res_config_settings_view_form
 msgid "Minimum:"
-msgstr "Minimum:"
+msgstr ""
 
 # taken from hr.po
 #. module: mrp_default_workorder_time
@@ -102,7 +102,7 @@ msgstr "Radni nalog"
 # taken from hr.po
 #. module: mrp_default_workorder_time
 #. odoo-python
-#: code:addons/mrp_default_workorder_time/models/workorder.py
+#: code:addons/mrp_default_workorder_time/models/workorder.py:0
 #, python-format
 msgid ""
 "You should plan orders to set default production time on work orders, please"

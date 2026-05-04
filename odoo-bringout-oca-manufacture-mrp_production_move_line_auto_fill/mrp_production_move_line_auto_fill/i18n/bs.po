@@ -30,7 +30,7 @@ msgstr ""
 
 #. module: mrp_production_move_line_auto_fill
 #. odoo-python
-#: code:addons/mrp_production_move_line_auto_fill/models/mrp_production.py
+#: code:addons/mrp_production_move_line_auto_fill/models/mrp_production.py:0
 #, python-format
 msgid ""
 "Filling the operations automatically is not possible. Perhaps the "

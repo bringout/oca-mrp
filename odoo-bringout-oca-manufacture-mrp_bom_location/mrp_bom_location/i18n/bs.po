@@ -34,7 +34,7 @@ msgstr "Stavka sastavnica"
 # taken from hr.po
 #. module: mrp_bom_location
 #. odoo-javascript
-#: code:addons/mrp_bom_location/static/src/xml/mrp_bom_overview_location.xml
+#: code:addons/mrp_bom_location/static/src/xml/mrp_bom_overview_location.xml:0
 #, python-format
 msgid "Location"
 msgstr "Lokacija"

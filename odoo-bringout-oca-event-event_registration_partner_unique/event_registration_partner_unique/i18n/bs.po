@@ -23,7 +23,7 @@ msgstr ""
 
 #. module: event_registration_partner_unique
 #. odoo-python
-#: code:addons/event_registration_partner_unique/models/event.py
+#: code:addons/event_registration_partner_unique/models/event.py:0
 #, python-format
 msgid "Duplicated partners found in event {0}: {1}."
 msgstr "Duplirani partneri pronađeni u događaju {0}: {1}."

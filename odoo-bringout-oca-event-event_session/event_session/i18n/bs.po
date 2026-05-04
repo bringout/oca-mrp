@@ -20,7 +20,7 @@ msgstr "# Poslano"
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/models/event_session.py
+#: code:addons/event_session/models/event_session.py:0
 #, python-format
 msgid "- \"%(event_name)s\": Missing %(nb_too_many)i seats."
 msgstr "- \"%(event_name)s\": Nedostaje %(nb_too_many)i mjesta."
@@ -77,8 +77,6 @@ msgid ""
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
 "title=\"Arrow\"/>"
 msgstr ""
-"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
-"title=\"Arrow\"/>"
 
 #. module: event_session
 #: model_terms:ir.ui.view,arch_db:event_session.view_event_session_kanban
@@ -943,7 +941,7 @@ msgstr "Potrebna akcija"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__activity_ids
@@ -953,7 +951,7 @@ msgstr "Aktivnosti"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija iznimke aktivnosti"
+msgstr "Dekoracija izuzetka aktivnosti"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__activity_state
@@ -1074,7 +1072,7 @@ msgstr "Meni zajednice"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: event_session
 #: model_terms:ir.ui.view,arch_db:event_session.view_event_session_kanban
@@ -1149,7 +1147,7 @@ msgstr "Opis"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__date_tz
@@ -1173,7 +1171,7 @@ msgstr "Trajanje"
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/wizards/wizard_event_session.py
+#: code:addons/event_session/wizards/wizard_event_session.py:0
 #, python-format
 msgid "Duration is required."
 msgstr "Trajanje je obavezno."
@@ -1191,7 +1189,7 @@ msgstr "Uredi sesije"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_event__date_end
 msgid "End Date"
-msgstr "Datum završetka"
+msgstr "Završni datum"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__date_end_located
@@ -1333,7 +1331,7 @@ msgstr "Pratioci"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratioci (partneri)"
 
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__activity_type_icon
@@ -1415,17 +1413,17 @@ msgstr "Ikona"
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Ikona za prikaz iznimki."
+msgstr "Ikona za označavanje izuzetne aktivnosti."
 
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+msgstr "Ako je označeno, nove poruke zahtijevaju vašu pažnju."
 
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr "Ako je označeno, neke poruke imaju grešku pri dostavi."
 
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__start_sale_datetime
@@ -1471,7 +1469,7 @@ msgstr "Je završeno"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__message_is_follower
 msgid "Is Follower"
-msgstr "Pratilac"
+msgstr "Je pratilac"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__is_one_day
@@ -1531,7 +1529,7 @@ msgstr "Zadnji"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session__write_uid
@@ -1581,7 +1579,7 @@ msgstr "Planer predloška pošte"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Glavna zakačka"
+msgstr "Glavni prilog"
 
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_event__use_sessions
@@ -1601,7 +1599,7 @@ msgstr "Maksimalno mjesta"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr "Greška dostave poruke"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__message_ids
@@ -1636,7 +1634,7 @@ msgstr "Film"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Rok za moju aktivnost"
+msgstr "Rok moje aktivnosti"
 
 #. module: event_session
 #: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
@@ -1646,12 +1644,12 @@ msgstr "Moji događaji"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Krajnji rok za sljedeću aktivnost"
+msgstr "Rok sljedeće aktivnosti"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__activity_summary
 msgid "Next Activity Summary"
-msgstr "Pregled sljedeće aktivnosti"
+msgstr "Sažetak sljedeće aktivnosti"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__activity_type_id
@@ -1670,7 +1668,7 @@ msgstr "Još nema podataka o sesijama!"
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/models/event_registration.py
+#: code:addons/event_session/models/event_registration.py:0
 #, python-format
 msgid "No more seats available for this session."
 msgstr "Nema više dostupnih mjesta za ovu sesiju."
@@ -1708,12 +1706,12 @@ msgstr "Broj grešaka"
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju aktivnost"
+msgstr "Broj poruka koje zahtijevaju akciju"
 
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr "Broj poruka sa greškom pri dostavi"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__seats_available_unexpected
@@ -1961,7 +1959,7 @@ msgstr "Započni"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_event__date_begin
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__date_begin_located
@@ -1986,8 +1984,8 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baziran na aktivnostima\n"
-"Zakašnjelo: Rok je već prošao\n"
+"Status na osnovu aktivnosti\n"
+"Isteklo: Rok je već prošao\n"
 "Danas: Datum aktivnosti je danas\n"
 "Planirano: Buduće aktivnosti."
 
@@ -2023,7 +2021,7 @@ msgstr "!"
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/models/event_session.py
+#: code:addons/event_session/models/event_session.py:0
 #, python-format
 msgid "The closing date cannot be earlier than the beginning date."
 msgstr "Datum zatvaranja ne može biti prije početnog datuma."
@@ -2035,14 +2033,14 @@ msgstr "Kompletan URL za pristup dokumentu putem website-a."
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/wizards/wizard_event_session.py
+#: code:addons/event_session/wizards/wizard_event_session.py:0
 #, python-format
 msgid "The interval cannot be negative."
 msgstr "Interval ne može biti negativan."
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/models/event_session_timeslot.py
+#: code:addons/event_session/models/event_session_timeslot.py:0
 #, python-format
 msgid "The timeslot has to be defined in HH:MM format"
 msgstr "Vremenski slot mora biti definisan u HH:MM formatu"
@@ -2059,7 +2057,7 @@ msgstr "Pozorište"
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/models/event_session.py
+#: code:addons/event_session/models/event_session.py:0
 #, python-format
 msgid "There are not enough seats available for:"
 msgstr "Nema dovoljno dostupnih mjesta za:"
@@ -2081,7 +2079,7 @@ msgstr "Ova informacija će biti ispisana na vašim kartama."
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/models/event_session.py
+#: code:addons/event_session/models/event_session.py:0
 #, python-format
 msgid "This operator is not supported"
 msgstr "Ovaj operator nije podržan"
@@ -2154,7 +2152,7 @@ msgstr "Utorak"
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Vrsta aktivnosti iznimke na zapisu."
+msgstr "Tip izuzetne aktivnosti na zapisu."
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__seats_unconfirmed
@@ -2199,7 +2197,7 @@ msgstr ""
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/models/event_session.py
+#: code:addons/event_session/models/event_session.py:0
 #, python-format
 msgid "Value should be True or False (not %s)"
 msgstr "Vrijednost treba biti True ili False (ne %s)"
@@ -2241,7 +2239,7 @@ msgstr "Website Meni"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Poruke web stranice"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__website_url
@@ -2251,7 +2249,7 @@ msgstr "URL web stranice"
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__website_message_ids
 msgid "Website communication history"
-msgstr "Povijest komunikacije Web stranice"
+msgstr "Historija komunikacije web stranice"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__website_meta_description
@@ -2319,7 +2317,7 @@ msgstr "Čarobnjak za lako kreiranje sesija"
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/models/event_event.py
+#: code:addons/event_session/models/event_event.py:0
 #, python-format
 msgid "You can't enable/disable sessions on events with registrations."
 msgstr ""
@@ -2327,14 +2325,14 @@ msgstr ""
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/models/event_session.py
+#: code:addons/event_session/models/event_session.py:0
 #, python-format
 msgid "You cannot use session_update when writing on recordsets"
 msgstr "Ne možete koristiti session_update kada pišete na recordsetove"
 
 #. module: event_session
 #. odoo-python
-#: code:addons/event_session/wizards/wizard_event_session.py
+#: code:addons/event_session/wizards/wizard_event_session.py:0
 #, python-format
 msgid "You have to choose at least one day in the week"
 msgstr "Morate odabrati barem jedan dan u tjednu"
@@ -2361,4 +2359,4 @@ msgstr ""
 #. module: event_session
 #: model:mail.template,subject:event_session.event_session_reminder
 msgid "{{ object.session_id.name }}: {{ object.get_date_range_str() }}"
-msgstr "{{ object.session_id.name }}: {{ object.get_date_range_str() }}"
+msgstr ""
