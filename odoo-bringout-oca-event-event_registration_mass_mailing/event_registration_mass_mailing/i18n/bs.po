@@ -41,7 +41,7 @@ msgstr "Kreirano"
 #. module: event_registration_mass_mailing
 #: model:ir.model.fields,field_description:event_registration_mass_mailing.field_event_registration_mail_list_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: event_registration_mass_mailing
 #: model:ir.model.fields,field_description:event_registration_mass_mailing.field_event_registration_mail_list_wizard__event_registrations
@@ -56,17 +56,17 @@ msgstr "ID"
 #. module: event_registration_mass_mailing
 #: model:ir.model.fields,field_description:event_registration_mass_mailing.field_event_registration_mail_list_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: event_registration_mass_mailing
 #: model:ir.model.fields,field_description:event_registration_mass_mailing.field_event_registration_mail_list_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: event_registration_mass_mailing
 #: model:ir.model.fields,field_description:event_registration_mass_mailing.field_event_registration_mail_list_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: event_registration_mass_mailing
 #: model:ir.model.fields,field_description:event_registration_mass_mailing.field_event_registration_mail_list_wizard__mail_list

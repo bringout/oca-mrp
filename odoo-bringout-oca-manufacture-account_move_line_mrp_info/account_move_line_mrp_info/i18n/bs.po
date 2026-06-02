@@ -21,12 +21,12 @@ msgstr "ID-ovi stavaka temeljnica"
 #. module: account_move_line_mrp_info
 #: model:ir.model,name:account_move_line_mrp_info.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_move_line_mrp_info
 #: model:ir.actions.act_window,name:account_move_line_mrp_info.action_view_journal_items
 msgid "Journal Items"
-msgstr "Žurnal (stavke)"
+msgstr "Stavke dnevnika"
 
 #. module: account_move_line_mrp_info
 #: model:ir.model.fields,field_description:account_move_line_mrp_info.field_account_move_line__mrp_production_id

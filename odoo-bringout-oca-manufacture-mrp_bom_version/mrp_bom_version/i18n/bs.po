@@ -58,7 +58,7 @@ msgstr "Kompanija"
 #. module: mrp_bom_version
 #: model:ir.model,name:mrp_bom_version.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: mrp_bom_version
 #: model:ir.model.fields,help:mrp_bom_version.field_mrp_bom__consumption

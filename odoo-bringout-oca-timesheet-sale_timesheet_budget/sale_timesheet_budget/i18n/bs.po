@@ -71,7 +71,7 @@ msgstr "Datum"
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget__id
@@ -81,17 +81,17 @@ msgstr "ID"
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: sale_timesheet_budget
 #: model:ir.model.fields,field_description:sale_timesheet_budget.field_project_project_budget__price_unit

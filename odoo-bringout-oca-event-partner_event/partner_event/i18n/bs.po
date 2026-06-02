@@ -36,7 +36,7 @@ msgstr "Zakazao"
 #. module: partner_event
 #: model_terms:ir.ui.view,arch_db:partner_event.res_partner_register_event_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: partner_event
 #: model:ir.model,name:partner_event.model_res_partner
@@ -71,7 +71,7 @@ msgstr "Kreirano"
 #. module: partner_event
 #: model:ir.model.fields,field_description:partner_event.field_res_partner_register_event__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: partner_event
 #: model:ir.model,name:partner_event.model_event_event
@@ -96,17 +96,17 @@ msgstr "ID"
 #. module: partner_event
 #: model:ir.model.fields,field_description:partner_event.field_res_partner_register_event____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: partner_event
 #: model:ir.model.fields,field_description:partner_event.field_res_partner_register_event__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: partner_event
 #: model:ir.model.fields,field_description:partner_event.field_res_partner_register_event__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: partner_event
 #: model_terms:ir.ui.view,arch_db:partner_event.view_res_partner_filter

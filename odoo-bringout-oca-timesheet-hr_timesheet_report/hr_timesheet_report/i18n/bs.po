@@ -81,7 +81,7 @@ msgstr "Najmanje jedno polje mora biti navedeno u poljima Detalji"
 #. module: hr_timesheet_report
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_report.hr_timesheet_report_wizard_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_field_entry__cell_classes
@@ -116,7 +116,7 @@ msgstr "Polja detalja"
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__employee_category_ids
@@ -281,17 +281,17 @@ msgstr "ID"
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_group__name
@@ -385,7 +385,7 @@ msgstr "Tip"
 #. module: hr_timesheet_report
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_report.hr_timesheet_report_wizard_form
 msgid "View"
-msgstr "Pregled"
+msgstr "Prikaz"
 
 #. module: hr_timesheet_report
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard_field__wizard_id

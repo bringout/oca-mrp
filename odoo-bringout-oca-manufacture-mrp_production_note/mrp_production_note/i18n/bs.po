@@ -17,7 +17,7 @@ msgstr ""
 #. module: mrp_production_note
 #: model:ir.model.fields,field_description:mrp_production_note.field_mrp_production__notes
 msgid "Notes"
-msgstr "Bilješke"
+msgstr "Napomene"
 
 # taken from hr.po
 #. module: mrp_production_note

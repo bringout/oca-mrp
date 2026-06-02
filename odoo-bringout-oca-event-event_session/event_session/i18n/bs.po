@@ -1052,7 +1052,7 @@ msgstr "Može objaviti"
 #. module: event_session
 #: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__session_update
@@ -1147,7 +1147,7 @@ msgstr "Opis"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__date_tz
@@ -1529,17 +1529,17 @@ msgstr "Zadnji"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: event_session
 #: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search

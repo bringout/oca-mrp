@@ -23,4 +23,4 @@ msgstr "Sastavnica"
 #. module: mrp_bom_note
 #: model:ir.model.fields,field_description:mrp_bom_note.field_mrp_bom__notes
 msgid "Notes"
-msgstr "Bilješke"
+msgstr "Napomene"

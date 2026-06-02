@@ -41,7 +41,7 @@ msgstr "Kreirano"
 #. module: mrp_tag
 #: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: mrp_tag
 #: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag__id
@@ -51,17 +51,17 @@ msgstr "ID"
 #. module: mrp_tag
 #: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: mrp_tag
 #: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: mrp_tag
 #: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: mrp_tag
 #: model:ir.model,name:mrp_tag.model_mrp_tag

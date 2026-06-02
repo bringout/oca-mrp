@@ -16,7 +16,7 @@ msgstr ""
 #. module: mrp_planned_order_matrix
 #: model_terms:ir.ui.view,arch_db:mrp_planned_order_matrix.mrp_planned_order_wizard_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.actions.act_window,name:mrp_planned_order_matrix.action_mrp_planned_order_wizard
@@ -61,7 +61,7 @@ msgstr "Datum do"
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__id
@@ -76,17 +76,17 @@ msgstr "Stavke"
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: mrp_planned_order_matrix
 #. odoo-python
@@ -174,7 +174,7 @@ msgstr ""
 #. module: mrp_planned_order_matrix
 #: model_terms:ir.ui.view,arch_db:mrp_planned_order_matrix.stock_mrp_planned_order_sheet_view_form
 msgid "Validate"
-msgstr "Ovjeri"
+msgstr "Potvrdi"
 
 #. module: mrp_planned_order_matrix
 #. odoo-python
